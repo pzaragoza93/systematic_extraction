@@ -1,0 +1,873 @@
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415
+
+   
+1.
+
+A. Balalaie
+A. Heydarnoori
+P. Jamshidi
+"Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture"
+IEEE Software
+vol. 33
+no. 3
+pp. 42-52
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+2.
+
+N. Dragoni
+B. Meyer
+M. Mazzara et al.
+"Microservices: Yesterday Today and Tomorrow" in Present and Ulterior Software Engineering
+Springer
+pp. 195-216
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+3.
+
+C. Pahl
+P. Jamshidi
+"Microservices: A Systematic Mapping Study"
+Proc. 6th Int'l Conf. Cloud Computing and Services Science (CLOSER 16)
+vol. 1
+pp. 137-146
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+4.
+
+M.C. MacKenzie et al.
+Reference Model for Service Oriented Architecture 1.0
+OASIS
+Oct. 2006.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+5.
+
+N. Kratzke
+P.-C. Quint
+"Understanding Cloud-Native Applications after 10 Years of Cloud Computing—a Systematic Mapping Study"
+J. Systems and Software
+pp. 1-16
+Apr. 2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+6.
+
+D.L. Parnas
+"On the Criteria to Be Used in Decomposing Systems into Modules"
+Comm. ACM
+vol. 15
+no. 12
+pp. 1053-1058
+1972.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+7.
+
+M.E. Conway
+"How Do Committees Invent?"
+Datamation
+vol. 14
+no. 4
+pp. 28-31
+1968.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+8.
+
+Z. Yan et al.
+"Business Process Modeling: Classifications and Perspectives"
+Proc. 1st Int'l Working Conf. Business Process and Services Computing (BPSC 07)
+pp. 222-227
+2007.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+9.
+
+A. MacEachern
+How Are International Exchange Rates Set?
+Investo-pedia
+[online] Available: www.investopedia.com/ask/answers/forex/how-forex-exchange-rates-set.asp.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+10.
+
+N. Dragoni et al.
+"Microservices: How to Make Your Application Scale" in Perspectives of System Informatics
+Springer
+pp. 95-104
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+11.
+
+C. Guidi
+B. Meyer
+M. Mazzara et al.
+"Microservices: A Language-Based Approach" in Present and Ulterior Software Engineering
+Springer
+pp. 217-225
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+12.
+
+K. Mikhail et al.
+"Domain Objects and Microservices for Systems Development: A Roadmap"
+Proc. 5th Int'l Conf. Software Eng. for Defence Applications
+pp. 97-107
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354415    
+13.
+
+A. Bucchiarone et al.
+"A Context-Aware Framework for Dynamic Composition of Process Fragments in the Internet of Services"
+J. Internet Services and Applications
+vol. 8
+no. 1
+pp. 6:1-6:23
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278
+
+   
+1.
+
+B. Familiar
+"What Is a Microservice?" in Microservices IoT and Azure ed
+Springer
+pp. 9-19
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+2.
+
+S. Newman
+"O'Reilly Media Inc"
+Building Microservices
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+3.
+
+J. Lewis
+M. Fowler
+"Microservices"
+Recuperado de
+2014
+[online] Available: http://martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+4.
+
+C. Richardson
+"Microservices: Decomposing applications for deployability and scalability"
+InfoQ
+2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+5.
+
+J. Lewis
+M. Fowler
+Microservices - a definition of this new architectural term
+2014
+[online] Available: https://martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+6.
+
+M. Fowler
+M. Foemmel
+"Continuous integration"
+Thought-Works)
+pp. 122
+2006.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+7.
+
+F. Montesi
+J. Weber
+Circuit Breakers Discovery and API Gateways in Microservices
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+8.
+
+M. Soni
+"End to End Automation on Cloud with Build Pipeline: The Case for DevOps in Insurance Industry Continuous Integration Continuous Testing and Continuous Delivery"
+2015 IEEE International Conference on Cloud Computing in Emerging Markets (CCEM)
+pp. 85-89
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+9.
+
+H. Kang
+M. Le
+S. Tao
+"Container and Microservice Driven Design for Cloud Infrastructure DevOps"
+2016 IEEE International Conference on Cloud Engineering (IC2E)
+pp. 202-211
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8027278    
+10.
+
+E. Evans
+Domain-driven design: tackling complexity in the heart of software
+Addison-Wesley Professional
+2004.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428
+
+   
+1.
+
+M. Mazzara
+R. Mustafin
+L. Safina
+I. Lanese
+Towards microser-vices and beyond
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+2.
+
+S. Hassan
+R. Bahsoon
+"Microservices and their design trade-offs: A self-adaptive roadmap"
+2016 IEEE International Conference on Services Computing (SCC)
+pp. 813-818
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+3.
+
+J. Lewis
+M. Fowler
+"Microservices: a definition of this new architectural term"
+MartinFowler. com
+vol. 25
+2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+4.
+
+N. Dragoni
+S. Giallorenzo
+A. L. Lafuente
+M. Mazzara
+F. Montesi
+R. Mustafin
+L. Safina
+"Microservices: yesterday today and tomorrow" in Present and Ulterior Software Engineering
+Springer
+pp. 195-216
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+5.
+
+S. Newman
+Building microservices: designing fine-grained systems
+O'Reilly Media
+Inc.
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+6.
+
+N. Dmitry
+S.-S. Manfred
+"On micro-services architecture"
+International Journal of Open Information Technologies
+vol. 2
+no. 9
+2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+7.
+
+A. Levcovitz
+R. Terra
+M. T. Valente
+Towards a technique for extracting microservices from monolithic enterprise systems
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+8.
+
+M. Gysel
+L. Kölbener
+W. Giersche
+O. Zimmermann
+"Service cutter: A systematic approach to service decomposition"
+European Conference on Service-Oriented and Cloud Computing
+pp. 185-200
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+9.
+
+G. Mazlami
+J. Cito
+P. Leitner
+"Extraction of microservices from monolithic software architectures"
+International Conference on Web Services (ICWS)
+pp. 524-531
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+10.
+
+Z. Cong
+A. Fernandez
+H. Billhardt
+M. Lujak
+"Service discovery acceleration with hierarchical clustering"
+Information Systems Frontiers
+vol. 17
+no. 4
+pp. 799-808
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+11.
+
+M. J. Amiri
+S. Parsa
+A. M. Lajevardi
+"Multifaceted service identification: process requirement and data"
+Computer Science and Information Systems
+vol. 13
+no. 2
+pp. 335-358
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+12.
+
+M. Alrifai
+D. Skoutas
+T. Risse
+"Selecting skyline services for qos-based web service composition"
+Proceedings of the 19th international conference on World wide web
+pp. 11-20
+2010.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+13.
+
+M. Weske
+"Business process management architectures" in Business Process Management
+Springer
+pp. 333-371
+2012.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+14.
+
+B. P. Model
+"Notation (bpmn) version 2. 0" in OMG Specification Object Management Group
+pp. 22-31
+2011.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+15.
+
+M. J. Amiri
+M. Koupaee
+"Data-driven business process similarity"
+IET Software
+vol. 11
+no. 6
+pp. 309-318
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8456428    
+16.
+
+B. Mitchell
+M. Traverso
+S. Mancoridis
+"An architecture for distributing the computation of software clustering algorithms"
+Proceedings of Working IEEE/IFIP Conference on Software Architecture
+pp. 181-190
+2011.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7742277
+
+   
+1.
+
+D.S. Linthicum
+Cloud Computing and SOA Convergence in Your Enterprise: A Step-by-Step Guide
+Addison-Wesley
+2009.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7742277    
+2.
+
+D. Linthicum
+"From Containers to Microservices: How to Modernize Legacy Applications"
+Jan. 2016
+[online] Available: http://techbeacon.com/containers-microservices-how-modernize-legacy-applications.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422
+
+   
+1.
+
+J. Lewis
+M. Fowler
+Microservices
+2014
+[online] Available: martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+2.
+
+W. Hasselbring
+G. Steinacker
+"Microservice Architectures for Scalability Agility and Reliability in E-Commerce"
+Proc. IEEE Int'l Conf. Software Architecture Workshops (ICSAW 17)
+pp. 243-246
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+3.
+
+M. Stine
+Migrating to Cloud-Native Application Architectures
+O'Reilly
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+4.
+
+W. Hasselbring et al.
+"The Dublo Architecture Pattern for Smooth Migration of Business Information Systems"
+Proc. 26th Int'l Conf. Software Eng. (ICSE 04)
+pp. 117-126
+2004.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+5.
+
+M. Fowler
+Tolerant Reader
+May 2011
+[online] Available: martinfowler.com/bliki/TolerantReader.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+6.
+
+M. Nygard
+Release It! Design and Deploy Production-Ready Software
+Pragmatic Bookshelf
+2007.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+7.
+
+L. Bass
+I. Weber
+L. Zhu
+DevOps: A Software Architect's Perspective
+Addison-Wesley
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+8.
+
+S Newman
+Building Microservices
+O'Reilly
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+9.
+
+M. Richards
+Microservices AntiPatterns and Pitfalls
+O'Reilly
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+10.
+
+G. Steinacker
+On Monoliths and Microservices
+2015
+[online] Available: dev.otto.de/2015/09/30/on-monoliths-and-microservices.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+11.
+
+A. Balalaie
+A. Heydarnoori
+P. Jamshidi
+"Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture"
+IEEE Software
+vol. 33
+no. 3
+pp. 42-52
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+12.
+
+B. Familiar
+Microservices IoT and Azure: Leveraging DevOps and Microservice Architecture to Deliver SaaS Solutions
+Apress
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8354422    
+13.
+
+J. Carnell
+Spring Microservices in Action Manning
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946
+
+   
+1.
+
+P. Yugopuspito
+R.A. Herwansyah
+D. Krisnadi
+Sutrisno
+F. Panduwinata
+"Performance notification in a reservation-based parking system"
+Int. Seminar on Intelligent Technology and Its Applicationss (ISITIA)
+pp. 429-434
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+2.
+
+P. Yugopuspito
+F. Panduwinata Sutrisno
+J. Pangaribuan
+"Toward service oriented design for reservation-based parking"
+Int. Conf. on Information and Communication Technology Convergence (ICTC)
+pp. 201-205
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+3.
+
+K. Brown
+Refactoring to microservices Part 1: What to consider when migrating from a monolith
+April 2016
+[online] Available: https://www.ibm.com/developerworks/cloud/library/cl-refactor-microservices-bluemix-trs-1/.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+4.
+
+J. Gordon
+Case Study: Refactoring a Monolith Into A Cloud-Native Application
+August 2015
+[online] Available: https://content.pivotal.io/blog/case-study-refactoring-a-monolith-into-a-cloud-native-app-part-l.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+5.
+
+M. Rahman
+J. Gao
+A reusable automated acceptance testing architecture for microservices in behavior-driven development
+[online] Available: 10.1109/SOSE.2015.55.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+6.
+
+G. Granchelli
+M. Cardaerlli
+P. Di Francesco
+I. Malavolta
+L. Iovino
+A. Di Salle
+"Towards recovering the software architecture of microservice-based system"
+First Int. Workshop on Architecting with MicroServices (AMS)
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+7.
+
+R.H. Steinegger
+P. Giessler
+B. Hippchen
+S. Abeck
+"Overview of domain-driven design approach to build microservice-based applications"
+The Thrid Int. Conf. on Advances and Trends in Software Engineering
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+8.
+
+"How to Draw SoaML Diagram"
+Visual Paradigm
+Sep. 2013
+[online] Available: http://visual-paradigm.com/tutorials/soaml-tutorial.jsp.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+9.
+
+J. Lewis
+M. Fowler
+Microservices
+March 2014
+[online] Available: http://martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+10.
+
+N. Alshuqayran
+N. Ali
+R. Evans
+"A systematic mapping study in microservice architecture"
+IEEE 9th Int. Conf. on Service-Oriented Computing and Applications
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+11.
+
+K. Indrasiri
+Microservices in practice: from architecture to deployment
+Feb 2016
+[online] Available: https://dzone.com/articles/microservices-in-practice-1.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8359946    
+12.
+
+G. Toffetti
+S. Brunner
+M. Blochlinger
+F. Dudouet
+A. Edmonds
+"An architecture for self-managing microservices"
+AIMC15
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733
+
+   
+1.
+
+M. Chauhan
+M. Babar
+"Towards Process Support for Migrating Applications to Cloud Computing"
+Proc. of 2012 International Conference on Cloud and Service Computing
+pp. 80-87
+2012.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+2.
+
+W. Abderrahim
+Z. Choukair
+"A Framework Architecture Based Model for Cloud Computing Adaptive Migration"
+Proc. of 2014 Global Information Infrastructure and Networking Symposium (GIIS)
+pp. 1-6
+Sep. 2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+3.
+
+A. Gunka et al.
+"Moving An Application to The Cloud: An Evolutionary Approach"
+Proc. of 2013 International Workshop on Multi-Cloud Applications and Federated Clouds
+pp. 35-42
+2013.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+4.
+
+S. Zardari
+R. Bahsoon
+"Cloud Adoption: A Goal-Oriented Requirements Engineering Approach"
+Proc. of 2nd International Workshop on Software Engineering for Cloud Computing
+pp. 29-35
+2011.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+5.
+
+R. Zota
+A. Fratila
+"Toward The Selection of An Enterprise Architecture Model for A Cloud Environment"
+Proc. of 11 th RoE duN et International Conference IEEE Computer Society
+pp. 149-154
+2013.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+6.
+
+W. Hasselbring
+"Microservices for Scalability: Keynote Talk Abstract"
+Proc. of 7th International Conference on Performance Engineering
+pp. 133-134
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+7.
+
+G. Toffetti et al.
+"An Architecture for Self-Managing Microservices"
+Proc. of 1 st International Workshop on Automated Incident Management in Cloud
+pp. 19-24
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+8.
+
+N. Viennot et al.
+"Synapse: A Microservices Architecture for Heterogeneous Database Web Applications"
+Proc. of 10th European Conference on Computer Systems
+no. 21
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=7539733    
+9.
+
+P. Fisher
+Cloud Computing: Assessing Azure Amazon EC 2 Google App Engine and Hadoop for IT Decision Making and Developer Career Growth
+Springer-Verlag
+2011.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254
+
+   
+1.
+
+T. Erl
+SOA principles of service design
+Prentice Hall
+2007.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+2.
+
+Jing-Jing Guo
+Jian-Feng Ma
+Xin-Xin Guo
+Xing-Hua Li
+Jun-Wei Zhang
+Tao Zhang
+"Trust-based service composition and selection in service oriented architecture" in Peer-to-Peer Netw. Appl
+Springer
+August 2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+3.
+
+Philipp Offermann
+Martin Hoffmann
+Udo Bub
+"Benefits of SOA: Evaluation of an implemented scenario against alternative architectures"
+Enterprise Distributed Object Computing Conference Workshops 2009
+2009. 13th.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+4.
+
+J. Lewis
+M. Fowler
+Microservices
+[online] Available: https://martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+5.
+
+S. Newman
+Building Microservices
+O'Reilly Media
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+6.
+
+I.W. Len Bass
+L. Zhu
+DevOps: A Software Architect's Perspective.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+7.
+
+Mengjian Chen
+"Information Technology and Applications Research and Implementation on Enterprise Application Integration Platform"
+2009. IFITA '09. International Forum
+May 2009.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+8.
+
+Antonia Lopes
+Rogerio De Lemos
+"Microservices in a Small Development Organization"
+Software Architecture: 11th European Conference
+pp. 208-215
+September 11–15
+2017.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+9.
+
+Paolo Di Francesco
+"Architecting Microservices"
+2017 IEEE International Conference on Software Architecture Workshops.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+10.
+
+Z. Xiao
+I. Wijegunaratne
+X. Qiang
+"Reflections on SOA and Microservices"
+Enterprise Systems (ES) 2016 4th International Conference.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+11.
+
+Tasneem Salah
+M.Jamal Zemerly
+Chan Yeob Yeun
+Mahmoud Ai-Qutayri
+Yousof Ai-Hammadi
+"The Evolution of Distributed Systems Towards Microservices Architecture"
+Internet Technology and Secured Transactions (ICITST) 2016 11th International Conference.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+12.
+
+Yale Yu
+Haydn Silveira
+Max Sundaram
+"A Microservice Based Reference Architecture Model in the Context of Enterprise Architecture"
+Advanced Information Management Communicates Electronic and Automation Control Conference (IMCEC)
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8400254    
+13.
+
+M. Villamizar
+O. Garcés
+H. Castro
+M. Verano
+L. Salamanca
+R. Casallas
+S. Gil
+"Evaluating the Monolithic and the Microservice Architecture Pattern to Deploy Web Applications in the Cloud"
+Computing Colombian Conference (10CCC)
+2015 10th.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820
+
+   
+1.
+
+"What is Microservices Architecture"
+[online] Available: https://smartbear.com/learn/api-design/what-are-microservices/.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+2.
+
+D. Merkel
+"Docker: lightweight linux containers for consistent development and deployment"
+Linux Journal
+vol. 2014
+no. 239
+pp. 2
+2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+3.
+
+M. Villamizar
+O. Garces
+H. Castro
+M. Verano
+L. Salamanca
+R. Casallas
+S. Gil
+"Evaluating the monolithic and the microservice architecture pattern to deploy web applications in the cloud" in Computing Colombian Conference.
+IEEE
+pp. 583-590
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+4.
+
+J. Lewis
+M. Fowler
+"Microservices: a definition of this new architectural term"
+2014
+[online] Available: http://martinfowler.com/articles/microservices.html.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+5.
+
+R. Mazo
+C. Salinesi
+D. Diaz et al.
+"Transforming attribute and cloneenabled feature models into constraint programs over finite domains"
+Proc. International Conference on Evaluation of Novel Approaches to Software Engineering (ENASE'11)
+Jun. 2011.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+6.
+
+P. Marinescu
+P. Hosek
+C. Cadar
+"Covrig: A framework for the analysis of code test and coverage evolution in real software" in Proceedings of the 2014
+ACM
+pp. 93-104
+2014.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+7.
+
+W. Felter et al.
+"An Updated Performance Comparison of Virtual Machines and Linux Containers"
+Proc. IEEE Int'l Symp. Performance Analysis of Systems and Software (ISPASS)
+pp. 171-172
+2015.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+8.
+
+Docker built-in orchestration ready for production: Docker 1.12 goes ga.
+July 2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+9.
+
+M. Natu et al.
+"Holistic Performance Monitoring of Hybrid Clouds: Complexities and Future Directions"
+IEEE Cloud Computing
+vol. 3
+no. 1
+pp. 72-81
+2016.
+https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=8463820    
+10.
+
+G. Cretella
+B. Di Martino
+"A semantic engine for portin applications to the cloud and among clouds"
+Software: Practice and Experience
+vol. 45
+no. 12
+2015.

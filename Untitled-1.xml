@@ -1,0 +1,26 @@
+<pdf>
+  <reference>[10]comparesthedevelopmentandclouddeploy- mentofanenterpriseapplicationbasedonamono- lithicapproachandamicroservicearchitecture.Their
+approachcontainscommonelementstoourapplied process.Theyemploymoderntechnologiesforsepa- ratemicroservices,e.g.,JavainthebackendandJS
+inthefrontend.Contrarytotheirresults,wedidnot faceanyofthementionedproblemsduringthemigra- tion,likefailuresortimeouts.</reference>
+  <reference>Accordingto[5],RESTfulservicescanimprovesys- tem exibility,scalability,andperformanceincom- parisontoSOAP-basedwebservices.Additionally,
+REST-basedservicesareeasiertoconsumeandcom- pose,basedonwell-de(nedstandardsandheteroge- neousoperations.Theyprovideanapproachtomi-
+grateSOAP-basedtoRESTfulservices.Unfortu- nately,theirapproachisnotapplicableforus,since ourprojectisbasedonGWTinsteadofSOAP.</reference>
+  <reference>In[4],the authors present a survey of various approachestomovefromlegacysystemstowards aService-Oriented-Architecture(SOA)environment.
+Basically,theydistinguishbetweenfourdi(erentcat- egories{ replacement, wrapping, redevelopment,and migration.While Replacement isself-explanatory, wrapping
+employsanewinterfaceforexistingcom- ponentstomakethemaccessibleinformofservices. Redevelopment employsreverseandreengineeringap-
+proachestoaddnecessaryfunctionalitytothelegacy system.Finally,a migration movesalegacysystemto themore exibleenvironment.Thus,theoriginalsys-
+tem'sdataandfunctionalitycanbepreserved.Based onthetypeoflegacysystem,toolsupport,andfur- thercriteria,adi(erenttechniqueorstrategiescan
+beemployed.Unfortunately,theirpresentmigration andredevelopmentstrategiesarenotadaptablefor ourprocess,sincethesefocusonSOAenvironments insteadofmicroservices.
+5Conclusions Inthispaper,wereportonourmodernizationpro- cessofExplorVizfromamonolithictowardsami- croservicearchitecture.Wepointedoutencountered
+problemsduringourdevelopmentsince2012,espe- ciallythoserelatedtothearchitectureunderneath oursoftware.Consequently,wedescribed ExplorViz
+Legacy,thepreviousversionofouropensourcere- searchproject,andpresentedsolutionstoaddressthe existingproblems.Afterwards,werevealedourmod-
+ernizedsoftwaresystemandemphasizedtheobtained bene(ts.Eventhoughourmodernizationprocessis stillinprogress,wewerealreadyabletoemployami-
+croservicearchitectureinordertoeasemaintainabil- ityononehand,andextensibilityontheotherhand. Finally,wewouldliketodelineatesomeofouropen questions:</reference>
+</pdf>
+
+<?xml version="1.0"?>
+<pdf>
+  <reference>,2014,pp.9-16.</reference>
+  <reference>engineering ,vol.30,no.2,pp.126-139,2004.</reference>
+  <reference>Technology ,vol.43,no.14,pp.833-839,2001.</reference>
+</pdf>
