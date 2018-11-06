@@ -16,8 +16,14 @@ keywords = ["monolith" , "monolithic" , "legacy" , "reverse" , "redevelopment" ,
 "transform" , "transformation" , "extraction" , "extracting" , "extract" , "identification" , "identifying" , "moving" , "move" ,
 "re-architecture" , "re-architecturing", "rearchitecture" , "rearchitecturing" , "rewriting" , "re-writing" , "rewrite" , "re-write"]
 
-# Settings
-verbose = False
+################### Settings ###################
+verbose			= False
+# Scraping and saving references extracted from the initial filtered databases
+SAVE_IEEE		= False # /xpl/dwnldReferences is not disallowed on the robots.txt list therefore is may be used.
+SAVE_ACM		= False # must be set to false because ACM does not allow scrapping: User-agent: * Disallow: /
+SAVE_Springer	= True  # User-agent: * Allow: /chapter/
+SAVE_ISI		= False # must be set to false because ACM does not allow scrapping: User-agent: * Disallow: /
+
 
 # Functions
 def verbosity_print(string):
@@ -38,6 +44,8 @@ for filename in onlyfiles:
 		count = 0
 		init_papers = []
 		reader = csv.reader(csvfile, delimiter=',', quotechar='|')
+		if (str(filename) == "SPRINGERreferences.txt"):
+			reader = csv.reader(csvfile, delimiter='|', quotechar='|')
 		for row in reader:
 			#print(row[0])
 			init_papers.append(row)
@@ -59,7 +67,10 @@ for filename in onlyfiles:
 			for keyword in keywords:
 				test = False
 				if keyword in lower_ele:
+					element.append(filename)
 					final_papers.append(element)
+					if (str(filename) == "SPRINGERreferences.txt"):
+						print(element)
 					verbosity_print("adding : " + element[0])
 					count = count + 1
 					break
@@ -75,7 +86,7 @@ for element in final_papers:
 # Summary: Paper names and total count of papers extracted.
 print("Final cut")
 for element in final_papers:
-	print(element[0])
+	verbosity_print(element[0])
 print("Number of documents found: " + str(len(final_papers)))
 
 # element[15]
@@ -84,8 +95,8 @@ print("Number of documents found: " + str(len(final_papers)))
 
 IEEE_links = []
 for element in final_papers:
-	if len(element)>15 and ("https://ieeexplore.ieee.org/stamp/stamp.jsp?" in element[15]):
-		#print("ieeexplore article number: "+ element[15].split('?arnumber=', -1)[1])
+	if len(element)>15 and ("https://ieeexplore.ieee.org/stamp/stamp.jsp?" in element[15]) and SAVE_IEEE:
+		# /xpl/dwnldReferences is not disallowed on the robots.txt list.
 		url = "https://ieeexplore.ieee.org/xpl/dwnldReferences?arnumber=" + element[15].split('?arnumber=', -1)[1]
 		print(url)
 		page = requests.get(url)
@@ -96,14 +107,46 @@ for element in final_papers:
 		references = tree.xpath('//body/text()')
 		references = references[0].encode('utf-8').replace("\t","").rstrip().split("\n\n\n\n")
 		print(len(references))
-		text_file = open("IEEEreferences.txt", "a")
-		for elmt in references:
-			print(re.match("\"(.*?)\"",elmt.replace("\n ", ""),0))
-			text_file.write(url)
-			text_file.write(elmt.replace("\n ", "") + "\n")
-			#text_file.write("##############################################################################################################")
-		text_file.close()
-		
+		if(SAVE_IEEE):
+			text_file = open("IEEEreferences.txt", "a")
+			for elmt in references:
+				#print(re.match("\"(.*?)\"",elmt.replace("\n ", ""),0))
+				text_file.write(url)
+				text_file.write(elmt.replace("\n ", "") + "\n")
+				#text_file.write("##############################################################################################################")
+			text_file.close()
+
+ACM_links = []
+for element in final_papers:
+	if len(element)>2 and  ("ACM" in element[len(element)-1] and SAVE_ACM):
+		url = "https://dl.acm.org/citation.cfm?id=" + str(element[1]) + "&preflayout=flat"
+		print(url)
+		headers = {'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/39.0.2171.95 Safari/537.36'}
+		page = requests.get(url,  headers=headers)
+		tree = html.fromstring(page.content)
+		print page.text
+		references = tree.xpath('//html/body/div/div/div/table[1]/tbody/tr/td[3]')
+		print(references[0])
+		break
+		#//html/body/div/div/div/following-sibling::h1/a[@name="references"]
+
+
+Springer_link = []
+text_file = open("./init_data/SPRINGERreferences.txt", 'w')
+for element in final_papers:
+	if len(element)>8 and  ("link.springer.com" in element[8]) and SAVE_Springer:
+		print(element[8])
+		url = element[8].replace("http://","https://").replace('"',"")
+		print url
+		page = requests.get(url)
+		tree = html.fromstring(page.content)
+		references = tree.xpath('//body/div/main/div/div/article/div/section[@id="Bib1"]/div/ol/li/div[2]')
+		print(len(references))
+		if(SAVE_Springer):
+			#text_file.write(url)
+			for elmt in references:
+				text_file.write(elmt.text.encode('utf-8') + "\n")
+text_file.close()
 
 #//body/text()[following-sibling::br]
 #.split('\n\n\n')[0]

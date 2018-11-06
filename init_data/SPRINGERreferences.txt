@@ -1,0 +1,104 @@
+Newman, S.: Building Microservices, Designing Fine-Grained Systems, 1st edn. O’Reilly Media Inc., Sebastopol (2015)
+Lewis, J., Fowler, M.: Microservices a Definition of this New Term, March 2014. 
+Gallidabino, A., Pautasso, C., Ilvonen, V., Mikkonen, T., Systä, K., Voutilainen, J.-P., Taivalsaari, A.: On the architecture of liquid software: technology alternatives and design space. In: Proceedings of the 2016 13th Working IEEE/IFIP Conference on Software Architecture, pp. 122–127. IEEE (2016)
+Richardson, C.: Microservices—Pattern: Microservice Architecture, March 2014. 
+Thones, J.: Microservices. IEEE Softw. 
+Villamizar, M., Garcés, O., Castro, H., Verano, M., Salamanca, L., Casallas, R., Gil, S.: Evaluating the monolithic and the microservice architecture pattern to deploy Web applications in the cloud. In: Proceedings of CCC 2015, pp. 583–590 (2015)
+Munns, C.: I Love APIs 2015: Microservices at Amazon, October 2015. 
+Mauro, T.: Nginx—Adopting Microservices at Neflix: Lessons for Architectural Design, February 2015. 
+Ihde, S.: InfoQ: From a Monotlith to Microservices + REST: the Evolution of LinkedIn’s Service Architecture, March 2015. 
+Calcado, P.: SoundCloud: Building Products at SoundCloud - Part 1: Dealing with the Monolith, June 2014. 
+Richardson, C.: Microservices—Pattern: Monolithic Architecture, March 2017. 
+Tilkov, S.: Don’t Start with a Monolith When Your Goal is a Microservice Architecture, June 2015. 
+Feathers, M.: Working Effectively with Legacy Code. Prentice-Hall, Upper Saddle River (2004)
+Balalaie, A., Heydarnoori, A., Jamshidi, P.: Microservices architecture enables DevOps: migration to a cloud-native architecture. IEEE Softw. 
+Conway, M.E.: How do committees invent. Datamation 
+Fowler, M.: Microservice Premium, May 2015. 
+Richardson, C.: Microservices—Pattern: Database per Service, March 2016. 
+Clemm, J.: A Brief History of Scaling LinkedIn, July 2015. 
+Balalaie, A., Heydarnoori, A., Jamshidi, P.: Migrating to cloud-native architectures using microservices: an experience report. In: Celesti, A., Leitner, P. (eds.) ESOCC 2015. CCIS, vol. 567, pp. 201–215. Springer, Cham (2016). 
+Montesi, F., Weber, J.: Circuit breakers, discovery, and API gateways in microservices. arXiv preprint 
+Netflix Inc.: 
+Fowler, M.: 
+Hasselbring, W.: Microservices for scalability: keynote talk abstract. In: Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering, pp. 133–134. ACM, March 2016
+Richardson, C.: 
+Newman, S.: 
+Mauro, T.: 
+Nordberg, M.E.: Managing code ownership. IEEE Softw. 
+Bass, L., Weber, I., Zhu, L.: DevOps: A Software Architect’s Perspective. Addison-Wesley Professional, Boston (2015)
+Wettinger, J., Andrikopoulos, V., Leymann, F.: Enabling DevOps collaboration and continuous delivery using diverse application environments. In: Debruyne, C., Panetto, H., Meersman, R., Dillon, T., Weichhart, G., An, Y., Ardagna, C.A. (eds.) OTM 2015. LNCS, vol. 9415, pp. 348–358. Springer, Cham (2015). 
+Stubbs, J., Moreira, W., Dooley, R.: Distributed systems of microservices using docker and serfnode. In: 2015 7th International Workshop on Science Gateways (IWSG), pp. 34–39. IEEE, June 2015
+Merkel, D.: Docker: lightweight linux containers for consistent development and deployment. Linux J. 
+Kubernetes: 
+Mesos: 
+Richards, M.: Microservices Antipatterns and Pitfalls, 1st edn. O’Reilly Media Inc., Sebastopol (2016)
+IBM: Rational Statemate. 
+Visial Paradigm: How to generate code from state machine diagram. 
+Krause, L.: Microservices: Patterns and Applications: Designing Fine-Grained Services by Applying Patterns (2015)
+Richardson, C.: Refactoring a Monolith into Microservices. 
+Alagarasan, V.: Seven Microservices Anti-patterns. 
+Gill, A.: Finite State Machines. Introduction to the Theory of Finite-State Machines. McGraw-Hill, New York (1962)
+Harel, D.: A visual formalism for complex systems. Sci. Comput. Program. 231–274 (1987)
+Object Management Group (OMG): OMG Unified Modeling Language (OMG UML), version 2.5, document formal/2015-03-01 (2015)
+Liu, S., et al.: A formal semantics for complete UML state machines with communications. In: Johnsen, E.B., Petre, L. (eds.) Integrated Formal Methods, IFM 2013. Lecture Notes in Computer Science, vol. 7940. Springer, Heidelberg (2013)
+Microsoft Developer Network: State Machine Workflows. 
+Rozenburg, G., Engelfriet, J.: Elementary net systems. In: Reisig, W., Rozenberg, G. (eds.) Lectures on Petri Nets I: Basic Models – Advances in Petri Nets. Lecture Notes in Computer Science, vol. 1491, pp. 12–121. Springer (1998)
+Newman, S.: Building Microservices: Designing Fine-Grained Systems, 1st edn. O’Reilly Media, Sebastopol (2015)
+Richardson, C.: 
+Amundsen, M., McLarty, M., Mitra, R., Nadareishvili, I.: Microservice Architecture - Aligning Principles, Practices, and Culture. O’Reilly Media, Sebastopol (2016)
+Lewis, J., Fowler, M.: Microservices - a definition of this new architectural term. 
+Morris, B.: How big is a microservice? 
+Wolf, O.: Introduction into Microservices. 
+Bruns, R., Dunkel, J.: Event-Driven Architecture - Softwarearchitektur für ereignisgesteuerte Geschäftsprozesse. Xpert.press, Sringer (2010)
+Fowler, M.: Event logs, State Flows, Microservices…. How do these relate? 
+Hohpe, G., Woolf, B.: Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions, 1st edn. Addison-Wesley, Boston (2003)
+Tikhonova, T., Willemse, T.: Documenting and designing QVTo model transformations through mathematics. In: Lorenz, P., Cardoso, J., Maciaszek, L., van Sinderen, M. (eds.) Software Technologies ICSOFT 2015, pp. 344–359. Springer (2015)
+OMG (Object Management Group): MOF Query/View/Transformation (QVT). Vers. 1.3, doc. formal/16-06-03 (2016)
+OMG (Object Management Group): MOF Model to Text Transformation Language (MOFM2T). Vers. 1.0, doc. formal/2008-01-16 (2008)
+Fowler, M.: CQRS. 
+Netflix Conductor: A microservices orchestrator. 
+Rücker, B.: Why service collaboration needs choreography AND orchestration. 
+Webster, C.: From APIs to Microservices: Workflow Orchestration and Choreography Across Healthcare Organizations (2016)
+Belguidoum, M., Dagnat, F.: Dependency management in software component deployment. Electr. Notes Theor. Comput. Sci. 
+Chef: 
+Docker: 
+ENTICE consortium: Entice project website. 
+Gabbrielli, M., Giallorenzo, S., Guidi, C., Mauro, J., Montesi, F.: Self-reconfiguring microservices. In: Ábrahám, E., Bonsangue, M., Johnsen, E.B. (eds.) Theory and Practice of Formal Methods, pp. 194–210. Springer, Heidelberg (2016)
+Geer, D.: The OS faces a brave new world. Computer 
+Image Factory: 
+Namiot, D., Sneps-Sneppe, M.: On micro-services architecture. Int. J. Open Inf. Technol. 
+Packer: 
+Puppet: 
+SAS: rBuilder. 
+Tihfon, G.M., Kim, J., Kim, K.J.: A new virtualized environment for application deployment based on Docker and AWS. In: Kim, K., Joukov, N. (eds.) ICISA 2016. LNEE, vol. 376, pp. 1339–1349. Springer, Heidelberg (2016)
+Toffetti, G., Brunner, S., Blöchlinger, M., Dudouet, F., Edmonds, A.: An architecture for self-managing microservices. In: Proceedings of the 1st International Workshop on Automated Incident Management in Cloud, pp. 19–24. ACM (2015)
+Hassan, S., Bahsoon, R.: Microservices and their design trade-offs: a self-adaptive roadmap. In: IEEE International Conference on Services Computing (SCC), pp. 813–818. IEEE (2016)
+Fowler, M.: Monolith first (2015). 
+Lewis, J., Fowler, M.: Microservices: a definition of this new architectural term (2014). 
+Balalaie, A., Heydarnoori, A., Jamshidi, P.: Microservices architecture enables devops: migration to a cloud-native architecture. IEEE Softw. 
+Garriga, M.: Towards a microservices taxonomy. In: Microservices: Science and Engineering Workshop, Co-located with Software Engineering and Formal Methods (SEFM), Trento, Italy (2017, accepted for publication)
+Richards, M.: Microservices vs. service-oriented architecture. (2015)
+Wilde, N., Gonen, B., El-Sheikh, E., Zimmermann, A.: Approaches to the evolution of SOA systems. In: El-Sheikh, E., Zimmermann, A., Jain, L.C. (eds.) Emerging Trends in the Evolution of Service-Oriented and Enterprise Architectures. ISRL, vol. 111, pp. 5–21. Springer, Cham (2016). doi:
+Richardson, C.: Microservices architecture (2014). 
+George, F.: Challenges in implementing microservices (2015). 
+Zimmermann, O.: Do microservices pass the same old architecture test? Or: Soa is not dead-long live (micro-) services. In: Microservices Workshop at SATURN Conference, SEI (2015)
+Browning, T.R.: Applying the design structure matrix to system decomposition and integration problems: a review and new directions. IEEE Trans. Eng. Manag. 
+Kuhn, A., Ducasse, S., Gorba, T.: Semantic clustering: identifying topics in source code. Inf. Softw. Technol. 
+Chen, L.: Continuous delivery: overcoming adoption challenges. J. Syst. Softw. 
+Pautasso, C., Zimmermann, O., Leymann, F.: Restful web services vs. “Big” web services: making the right architectural decision. In: 17th International Conference on World Wide Web, pp. 805–814. ACM Press (2008)
+OpenAPI Consortium: The OpenAPI Initiative (OAI) (2016). 
+Kolb, P.: Experiments on the difference between semantic similarity and relatedness. In: Proceedings of the 17th Nordic Conference on Computational Linguistics - NODALIDA 2009. Link University Electronic Press, May 2009
+Evans, E.: Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley Professional, Reading (2004)
+Renzis, A.D., Garriga, M., Flores, A., Cechich, A., Mateos, C., Zunino, A.: A domain independent readability metric for web service descriptions. Comput. Stand. Interfaces 
+Kuhn, H.W.: The Hungarian method for the assignment problem. Naval Res. Logistic Q. 
+Gysel, M., Kölbener, L., Giersche, W., Zimmermann, O.: Service Cutter: a systematic approach to service decomposition. In: Aiello, M., Johnsen, E.B., Dustdar, S., Georgievski, I. (eds.) ESOCC 2016. LNCS, vol. 9846, pp. 185–200. Springer, Cham (2016). doi:
+Levcovitz, A., Terra, R., Valente, M.T.: Towards a technique for extracting microservices from monolithic enterprise systems. In: 3rd Brazilian Workshop on Software Visualization, Evolution and Maintenance (VEM), pp. 97–104 (2015)
+Nayak, R., Lee, B.: Web service discovery with additional semantics and clustering. In: IEEE/WIC/ACM International Conference on Web Intelligence, pp. 555–558. IEEE, Silicon Valley (2007)
+Cong, Z., Fernandez, A., Billhardt, H., Lujak, M.: Service discovery acceleration with hierarchical clustering. Inf. Syst. Front. 
+Alrifai, M., Skoutas, D., Risse, T.: Selecting skyline services for QoS-based web service composition. In: Proceedings of the 19th International Conference on World Wide Web, pp. 11–20. ACM (2010)
+Murtagh, F., Legendre, P.: Ward’s hierarchical agglomerative clustering method: which algorithms implement ward’s criterion? J. Classif. 
+Bogner, J., Zimmermann, A.: Towards integrating microservices with adaptable enterprise architecture. In: 2016 IEEE 20th International Enterprise Distributed Object Computing Workshop (EDOCW), pp. 1–6, September 2016
+Zimmermann, A., Sandkuhl, K., Pretz, M., Falkenthal, M., Jugel, D., Wissotzki, M.: Towards an integrated service-oriented reference enterprise architecture. In: Proceedings of the 2013 International Workshop on Ecosystem Architectures, pp. 26–30. ACM (2013)
+Balalaie, A., Heydarnoori, A., Jamshidi, P.: Migrating to cloud-native architectures using microservices: an experience report. In: Celesti, A., Leitner, P. (eds.) ESOCC Workshops 2015. CCIS, vol. 567, pp. 201–215. Springer, Cham (2016). doi:
+Toffetti, G., Brunner, S., Blöchlinger, M., Spillner, J., Bohnert, T.M.: Self-managing cloud-native applications: design, implementation, and experience. Future Gener. Comput. Syst. 
+Baresi, L., Guinea, S., Leva, A., Quattrocchi, G.: A discrete-time feedback controller for containerized cloud applications. In: Proceedings of the 2016 24th ACM SIGSOFT International Symposium on Foundations of Software Engineering, FSE 2016, pp. 217–228. ACM, New York (2016)

@@ -1,0 +1,91 @@
+"Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture"
+"Microservices: Yesterday Today and Tomorrow" in Present and Ulterior Software Engineering
+"Microservices: A Systematic Mapping Study"
+Reference Model for Service Oriented Architecture 1.0
+"Understanding Cloud-Native Applications after 10 Years of Cloud Computing—a Systematic Mapping Study"
+"On the Criteria to Be Used in Decomposing Systems into Modules"
+"How Do Committees Invent?"
+"Business Process Modeling: Classifications and Perspectives"
+How Are International Exchange Rates Set?
+"Microservices: How to Make Your Application Scale" in Perspectives of System Informatics
+"Microservices: A Language-Based Approach" in Present and Ulterior Software Engineering
+"Domain Objects and Microservices for Systems Development: A Roadmap"
+"A Context-Aware Framework for Dynamic Composition of Process Fragments in the Internet of Services"
+"What Is a Microservice?" in Microservices IoT and Azure ed
+Building Microservices
+"Microservices"
+"Microservices: Decomposing applications for deployability and scalability"
+Microservices - a definition of this new architectural term
+"Continuous integration"
+Circuit Breakers Discovery and API Gateways in Microservices
+-"End to End Automation on Cloud with Build Pipeline: The Case for DevOps in Insurance Industry Continuous Integration Continuous Testing and -Continuous Delivery"
+"Container and Microservice Driven Design for Cloud Infrastructure DevOps"
+Domain-driven design: tackling complexity in the heart of software
+Towards microservices and beyond
+"Microservices and their design trade-offs: A self-adaptive roadmap"
+"Microservices: a definition of this new architectural term"
+"Microservices: yesterday today and tomorrow" in Present and Ulterior Software Engineering"
+Building microservices: designing fine-grained systems
+"On micro-services architecture"
+Towards a technique for extracting microservices from monolithic enterprise systems
+"Service cutter: A systematic approach to service decomposition"
+"Extraction of microservices from monolithic software architectures"
+"Service discovery acceleration with hierarchical clustering"
+"Multifaceted service identification: process requirement and data"
+"Selecting skyline services for qos-based web service composition"
+"Business process management architectures" in Business Process Management
+"Notation (bpmn) version 2. 0" in OMG Specification Object Management Group"
+"Data-driven business process similarity"
+"An architecture for distributing the computation of software clustering algorithms"
+Cloud Computing and SOA Convergence in Your Enterprise: A Step-by-Step Guide
+"From Containers to Microservices: How to Modernize Legacy Applications"
+Microservices
+"Microservice Architectures for Scalability Agility and Reliability in E-Commerce"
+Migrating to Cloud-Native Application Architectures
+"The Dublo Architecture Pattern for Smooth Migration of Business Information Systems"
+Release It! Design and Deploy Production-Ready Software
+DevOps: A Software Architect's Perspective
+Building Microservices
+Microservices AntiPatterns and Pitfalls
+On Monoliths and Microservices
+"Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture"
+Microservices IoT and Azure: Leveraging DevOps and Microservice Architecture to Deliver SaaS Solutions
+"Performance notification in a reservation-based parking system"
+"Toward service oriented design for reservation-based parking"
+Refactoring to microservices Part 1: What to consider when migrating from a monolith
+Case Study: Refactoring a Monolith Into A Cloud-Native Application
+A reusable automated acceptance testing architecture for microservices in behavior-driven development
+"Towards recovering the software architecture of microservice-based system"
+"Overview of domain-driven design approach to build microservice-based applications"
+"How to Draw SoaML Diagram"
+"A systematic mapping study in microservice architecture"
+Microservices in practice: from architecture to deployment
+"An architecture for self-managing microservices"
+"Towards Process Support for Migrating Applications to Cloud Computing"
+"A Framework Architecture Based Model for Cloud Computing Adaptive Migration"
+"Moving An Application to The Cloud: An Evolutionary Approach"
+"Cloud Adoption: A Goal-Oriented Requirements Engineering Approach"
+"Toward The Selection of An Enterprise Architecture Model for A Cloud Environment"
+"Microservices for Scalability: Keynote Talk Abstract"
+"An Architecture for Self-Managing Microservices"
+"Synapse: A Microservices Architecture for Heterogeneous Database Web Applications"
+Cloud Computing: Assessing Azure Amazon EC 2 Google App Engine and Hadoop for IT Decision Making and Developer Career Growth
+SOA principles of service design
+"Trust-based service composition and selection in service oriented architecture" in Peer-to-Peer Netw. Appl
+"Benefits of SOA: Evaluation of an implemented scenario against alternative architectures"
+"Information Technology and Applications Research and Implementation on Enterprise Application Integration Platform"
+"Microservices in a Small Development Organization"
+"Architecting Microservices"
+"Reflections on SOA and Microservices"
+"The Evolution of Distributed Systems Towards Microservices Architecture"
+"A Microservice Based Reference Architecture Model in the Context of Enterprise Architecture"
+"Evaluating the Monolithic and the Microservice Architecture Pattern to Deploy Web Applications in the Cloud"
+"What is Microservices Architecture"
+"Docker: lightweight linux containers for consistent development and deployment"
+"Evaluating the monolithic and the microservice architecture pattern to deploy web applications in the cloud"
+"Microservices: a definition of this new architectural term"
+"Transforming attribute and cloneenabled feature models into constraint programs over finite domains"
+"Covrig: A framework for the analysis of code test and coverage evolution in real software"
+"An Updated Performance Comparison of Virtual Machines and Linux Containers"
+"Holistic Performance Monitoring of Hybrid Clouds: Complexities and Future Directions"
+"A semantic engine for portin applications to the cloud and among clouds"
