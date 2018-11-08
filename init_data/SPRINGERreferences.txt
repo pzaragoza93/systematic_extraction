@@ -72,6 +72,45 @@ Puppet:
 SAS: rBuilder. 
 Tihfon, G.M., Kim, J., Kim, K.J.: A new virtualized environment for application deployment based on Docker and AWS. In: Kim, K., Joukov, N. (eds.) ICISA 2016. LNEE, vol. 376, pp. 1339–1349. Springer, Heidelberg (2016)
 Toffetti, G., Brunner, S., Blöchlinger, M., Dudouet, F., Edmonds, A.: An architecture for self-managing microservices. In: Proceedings of the 1st International Workshop on Automated Incident Management in Cloud, pp. 19–24. ACM (2015)
+Abbott, R.J.: Program design by informal english descriptions. Commun. ACM 
+Baresi, L., Garriga, M., De Renzis, A.: Microservices identification through interface analysis. In: De Paoli, F., Schulte, S., Broch Johnsen, E. (eds.) ESOCC 2017. LNCS, vol. 10465, pp. 19–33. Springer, Cham (2017). 
+Chen, X., He, J., Liu, Z., Zhan, N.: A model of component-based programming. In: Arbab, F., Sirjani, M. (eds.) FSEN 2007. LNCS, vol. 4767, pp. 191–206. Springer, Heidelberg (2007). 
+Chen, Z., et al.: Refinement and verification in component-based model-driven design. Sci. Comput. Program. 
+Cockburn, A.: Writing Effective Use Cases. Addison-Wesley, Boston (2000)
+de la Torre, C., et al.: .NET Microservices: Architecture for Containerized .NET Applications. Microsoft (2017)
+De Santis, S., et al.: Evolve the Monolith to Microservices with Java and Node. IBM Redbooks, Armonk (2016)
+Doval, D., Mancoridis, S., Mitchell, B.S.: Automatic clustering of software systems using a genetic algorithm. In: STEP, pp. 73–81. IEEE (1999)
+Dragoni, N., et al.: Microservices: yesterday, today, and tomorrow. Present and Ulterior Software Engineering, pp. 195–216. Springer, Cham (2017). 
+Evans, E.: Domain Driven Design: Tackling Complexity in the Heart of Business Software. Addison-Wesley, Boston (2004)
+Faitelson, D., Tyszberowicz, S.: Improving design decomposition. Form. Asp. Comput. 
+Fowler, M.: MonolithFirst (2015). 
+Francesco, P.D., et al.: Research on architecting microservices: trends, focus, and potential for industrial adoption. In: ICSA, pp. 21–30. IEEE (2017)
+Hassan, M., Zhao, W., Yang, J.: Provisioning web services from resource constrained mobile devices. In: IEEE CLOUD, pp. 490–497 (2010)
+Hassan, S., Bahsoon, R.: Microservices and their design trade-offs: a self-adaptive roadmap. In: SCC, pp. 813–818. IEEE (2016)
+Hassan, S., et al.: Microservice ambients: an architectural meta-modelling approach for microservice granularity. In: ICSA, pp. 1–10. IEEE (2017)
+Hasselbring, W., Steinacker, G.: Microservice architectures for scalability, agility and reliability in E-Commerce. In: ICSA Workshops, pp. 243–246. IEEE (2017)
+Heinrich, R., et al.: A platform for empirical research on information system evolution. In: SEKE, pp. 415–420 (2015)
+Heinrich, R., et al.: The CoCoME platform for collaborative empirical research on information system evolution. Technical report 2016:2, KIT, Germany (2016)
+Heinrich, R., et al.: Performance engineering for microservices: research challenges and directions. In: Companion Proceedings of ICPE, pp. 223–226 (2017)
+Jacobson, I., et al.: Object-Oriented Software Engineering - A Use Case Driven Approach. Addison-Wesley, Boston (1992)
+Larman, C.: Applying UML and Patterns, 3rd edn. Prentice Hall, Upper Saddle River (2004)
+Lehman, M.M.: On understanding laws, evolution, and conservation in the large-program life cycle. J. Syst. Softw. 
+Lewis, J., Fowler, M.: Microservices. 
+Li, X., Liu, Z., Schäf, M., Yin, L.: AutoPA: automatic prototyping from requirements. In: Margaria, T., Steffen, B. (eds.) ISoLA 2010. LNCS, vol. 6415, pp. 609–624. Springer, Heidelberg (2010). 
+Mancoridis, S., et al.: Bunch: a clustering tool for the recovery and maintenance of software system structures. In: ICSM, pp. 50–59. IEEE Computer Society (1999)
+Martin, R.C.: Agile Software Development: Principles, Patterns, and Practices. Prentice Hall, Upper Saddle River (2003)
+Namiot, D., Sneps-Sneppe, M.: On micro-services architecture. J. Open Inf. Technol. 
+Newman, S.: Building Microservices. O’Reilly, Sebastopol (2015)
+North, S.C.: Drawing graphs with NEATO. User Manual (2004)
+Raman, A., Tyszberowicz, S.S.: The EasyCRC tool. In: ICSEA, pp. 52–57. IEEE (2007)
+Rausch, A., Reussner, R., Mirandola, R., Plášil, F. (eds.): The Common Component Modeling Example: Comparing Software Component Models. LNCS, vol. 5153. Springer, Heidelberg (2008). 
+Reussner, R.H., et al.: Modeling and Simulating Software Architectures - The Palladio Approach. MIT Press, Cambridge (2016)
+Richardson, C.: Microservices from design to deployment (2016). 
+Rostami, K., Stammel, J., Heinrich, R., Reussner, R.: Architecture-based assessment and planning of change requests. In: QoSA, pp. 21–30 (2015)
+Sommer, N.: Erweiterung und Wartung einer Cloud-basierten JEE-Architektur (in German), report of a practical course. Technical report, KIT, Germany (2017)
+Vogels, W.: Eventually consistent. Commun. ACM 
+Yanaga, E.: Migrating to Microservice Databases: From Relational Monolith to Distributed Data. O’Reilly, Sebastopol (2017). E-book
+Text analysis. 
 Hassan, S., Bahsoon, R.: Microservices and their design trade-offs: a self-adaptive roadmap. In: IEEE International Conference on Services Computing (SCC), pp. 813–818. IEEE (2016)
 Fowler, M.: Monolith first (2015). 
 Lewis, J., Fowler, M.: Microservices: a definition of this new architectural term (2014). 

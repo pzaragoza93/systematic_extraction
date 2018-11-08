@@ -1,0 +1,3439 @@
+
+<!doctype html>
+<head><script type="text/javascript">/* <![CDATA[ */_cf_loadingtexthtml="<img alt=' ' src='/cf_scripts/scripts/ajax/resources/cf/images/loading.gif'/>";
+_cf_contextpath="";
+_cf_ajaxscriptsrc="/cf_scripts/scripts/ajax";
+_cf_jsonprefix='//';
+_cf_websocket_port=0;
+_cf_flash_policy_port=0;
+_cf_clientid='E05911D99201211A04B5AB395E0D4C9B';/* ]]> */</script><script type="text/javascript" src="/cf_scripts/scripts/ajax/messages/cfmessage.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfajax.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/cfform.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/masks.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/cfformhistory.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/ckeditor/ckeditor.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfrichtexteditor.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/yui/yahoo-dom-event/yahoo-dom-event.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/yui/animation/animation-min.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/ext/ext-all.js"></script>
+<script type="text/javascript" src="/cf_scripts/scripts/ajax/package/cfwindow.js"></script>
+<link rel="stylesheet" type="text/css" href="/cf_scripts/scripts/ajax/resources/ext/css/ext-all.css" />
+<link rel="stylesheet" type="text/css" href="/cf_scripts/scripts/ajax/resources/cf/cf.css" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/dl.css" />
+<title>Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices</title>
+<style type="text/css"><!--
+    body {margin-left: 0em; margin-top: 0}
+    a:link {text-decoration: underline; 	Color: #1d4d0f;}
+    a:visited  { color: #990033; text-decoration: underline;}
+    a:hover {color: red; text-decoration: none}
+    a.dLink1:link {color:#336699}
+    a.dLink1:visited {color:#666666}
+	a.isblack:link {text-decoration: underline; 	Color: #000000;}
+    a.isblack:visited  { color: #000000; text-decoration: underline;}
+    a.isblack:hover {color: #000000; text-decoration: none}
+    h1 {font-size: 140%; margin-bottom: 0}
+	ul {margin-top: .25em; list-style-type: disc}
+	ol {margin-top: .25em;}
+	li {padding-bottom: .25em;}
+    h2 {color: white; background-color: #069; 
+        font-size: 100%; padding-left: 1em;
+		margin: 0}
+	h3 {color: black; background-color: yellow; 
+    	font-size: 100%;
+		margin: 0}
+	 h4 {color: black; background-color: #99c5e8; 
+        font-size: 100%;
+		margin: 0}
+    hr {color: #39176d;}
+    form {margin-top: 10}
+    form.xrs {margin-top: 0}
+	
+	a {text-decoration: none; }
+	
+	input {font-size: 1em;}
+	.chevron {color: #ff0000;}
+	.light-blue {color:#336699;}
+	.black {color:#000000;}
+	
+	
+	.mono-text {font-size: 14px; font-family: Consolas, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;}
+	
+	/* ### standard text styles, smallest to largest ### */
+	
+	.footer-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .75em; line-height: 1.33em;
+		text-indent: -.75 em; margin-left: 2em; margin-right: .75em;}
+		
+	.footer-copy-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em; line-height: 1.3em;
+		margin-left: .75em; margin-right: .75em;}
+		
+	.small-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; padding-bottom : 2px;
+	  	padding-top : 2px;}
+		
+	.small-link-text2 {font-size: .83em !important; 
+	}
+
+	.smallerer-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .65em;}
+	.smaller-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .75em;}		
+	.small-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em;}
+	.small-textb {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; font-weight: bold;}
+	.medium-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em;}
+	.mediumb-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1em; font-weight: bold;}
+	.large-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 1.3em;}		
+	.instr-text {font-family: Arial, Helvetica, sans-serif;
+		color:#666666; font-size: .83em;}
+		
+	.list-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#336699; font-size: .83em; line-height: 1.3em;}
+	.list-link-btext {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: .83em; line-height: 1.3em;}
+	
+	.searchbox-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;}
+	.footer-header-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold;
+		margin-left: .75em; margin-right: .75em;}
+	.medium-link-text {font-family: Arial, Helvetica, sans-serif;
+		color:#000066; font-size: 1em; font-weight: bold; line-height: 1em;
+		text-indent: -1.25em; margin-left: 2em; margin-right: .75em;}
+	
+	.text16 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 16px;}
+		
+	.text14 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 14px;}
+	
+	.text12 {font-family: Arial, Helvetica, sans-serif;
+		color:#000000; font-size: 12px;}
+		
+	.text10 {font-family: Arial, Helvetica, sans-serif;
+	    color:#000000; font-size: 12px;}
+		
+	.text9 {font-family: Arial, Helvetica, sans-serif;
+	   color:#000000; font-size: 12px;}
+	
+	.error-text {color:red;}
+	
+	.small-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: .75em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+
+	.medium-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1em; line-height: 1.2em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-copy-text {font-family: Times, Times New Roman, serif;
+		color:#000066; font-size: 1.3em; line-height: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.medium-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1em;
+		margin-left: .75em; margin-right: .75em;}
+	
+	.large-header-text {font-family: Times, Times New Roman, serif;
+		color:#ff0000; font-size: 1.5em;
+		margin-left: .75em; margin-right: .75em;}
+
+		#side {
+			width: 10px;
+			float: left;
+			margin-left: -1px;
+			padding: 2px;
+			}
+							
+		#content {
+			padding: 2px;
+			margin-left: 25px;
+			
+		        
+		        }
+	 .fulltext_lnk {border:0px;
+	 				 margin-right: 2px;
+					 vertical-align:baseline;
+	 				}
+	 
+	  .leftcoltab { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:530px;  /* for IE5/WIN */
+		  width:520px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	  .rightcoltab {
+    float: right;
+    margin: 0;
+    padding: 5px;
+    position: relative;
+    right: 50px;
+    top: 25px;
+    width: 350px;
+    z-index: 99;
+}
+	  .centercoltab {
+		  position:absolute;
+		  padding:0 0px;
+		  }
+	  .alt {
+		background: #ece9d8;
+		margin: 0;
+		padding: 1px;
+		}
+		.leftcolc { 
+	position:relative;
+	top:5px;
+	left:5px;
+	float:left;
+	width:420px;  /* for IE5/WIN */
+	width:400px; /* actual value */
+	margin:0 0 0px 0;
+	padding:5px;
+	z-index:100;
+	}
+.rightcolc {
+	position:relative;
+	top:0px;
+	right:0px;
+	float:right;
+	margin:0 0px;
+	padding:0px;
+	width:500px;
+	z-index:99;
+	}
+.centercolc {
+	position:absolute;
+	padding:0 0px;
+	}
+	
+	.leftcoltabv { 
+		  position:relative;
+		  top:5px;
+		  left:5px;
+		  float:left;
+		  width:460px;  /* for IE5/WIN */
+		  width:350px; /* actual value */
+		  margin:0 0 0px 0;
+		  padding:5px;
+		  z-index:100;
+		  }
+	.rightcoltabv {
+		position:relative;
+		top:5px;
+		right:0px;
+		float:right;
+		margin:0 0px 0 0;
+		padding:15px;
+		width:480px;
+		z-index:99;
+		}
+		
+.x-tabs-strip-wrap {
+	overflow-y: hidden !important;
+}
+  --></style>
+<script src="js/tagcanvas.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+  function loadCloud() {
+	try {
+	  TagCanvas.Start('myCanvas','tags',{
+		textColour: '#000000',
+		outlineColour: '#ff00ff',
+		reverse: true,
+		shuffleTags:true,
+		depth: 0.8,
+		maxSpeed: 0.05,
+		textHeight: 12,
+		initial: [0.000, 0.050],
+		shape: "hring",
+		lock: "x"
+	  });
+	} catch(e) {
+	  // something went wrong, hide the canvas container
+	  // document.getElementById('myCanvasContainer').style.display = 'none';
+	}
+  };
+</script>
+<script type="text/javascript" src="cfformprotect/js/cffp.js"></script>
+<script type='text/javascript' src='https://www.google.com/jsapi'></script>
+<style type="text/css"><!--
+.google-visualization-orgchart-node {
+    background-color: #FFFFFF !important;
+    border: 2px solid #AFCF40 !important;
+    cursor: default;
+    font-family: arial,helvetica;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.CandormapWidget iframe {float:right; 
+		margin:10px;
+		border: 2px solid #1B4D0E;
+		
+		}
+
+a.boxed:link {text-decoration: none !important; 	Color: #000000 !important;}
+a.boxed:visited  { color: #000000 !important; text-decoration: none !important;}
+a.boxed:hover {color: red !important; text-decoration: underline !important;}
+
+a.boxedh:link {text-decoration: none !important; 	Color: #000000 !important;}
+a.boxedh:visited  { color: #000000 !important; text-decoration: none !important;}
+a.boxedh:hover {color: red !important; text-decoration: underline !important;}		
+
+a.boxedm:link {text-decoration: none !important; 	Color: #606060 !important;}
+a.boxedm:visited  { color: #606060 !important; text-decoration: none !important;}
+a.boxedm:hover {color: red !important; text-decoration: underline !important;}		
+
+a.boxedl:link {text-decoration: none !important; 	Color: #808080   !important;}
+a.boxedl:visited  { color: 	#808080 !important; text-decoration: none !important;}
+a.boxedl:hover {color: red !important; text-decoration: underline !important;}				
+
+.google-visualization-orgchart-linebottom {
+    border-bottom: 1px solid #006699 !important;
+}
+.google-visualization-orgchart-lineleft {
+    border-left: 1px solid #006699 !important;
+}
+
+.google-visualization-orgchart-lineright {
+    border-right: 1px solid #006699 !important;
+}
+
+--></style>
+<script type="text/javascript">
+
+
+function settab() {
+    var mytabs = ColdFusion.Layout.getTabLayout('citationdetails');
+   
+ 
+  mytabs.on('tabchange', function(tabpanel,activetab) { document.cookie = 'picked=' + '2892039' + ',' + activetab.id; })
+ 
+}
+
+
+function letemknow(){
+  ColdFusion.Window.show('letemknow');
+}
+
+function letemknow2(){
+  ColdFusion.Window.show('letemknow2');
+}
+
+
+
+
+
+function testthis(){
+
+alert('test');
+}
+function loadalert(){ 
+ alert("I am in the load alert");
+ 
+}
+function loadalert2(){ 
+  alert("I am in the load alert2");
+ 
+}
+</script>
+<script type='text/javascript'>
+	  	google.load('visualization', '1', {packages:['orgchart']});
+	    google.setOnLoadCallback(drawChart);
+	  
+	  function drawChart() {
+	    var data = new google.visualization.DataTable();
+        data.addColumn('string', 'Name');
+        data.addColumn('string', 'Manager');
+        data.addColumn('string', 'ToolTip');
+  	  
+		data.addRows([
+          [{v:'0', f:'<div style="color:black; font-size:150%; font-style:normal">CCS&nbsp;for&nbsp;this&nbsp;Article</div>'}, '', ''],
+		  
+		  [{v:'10002944', f:'<div style=" font-size:150%; font-style:normal"><a class="boxedh" href="ccs/ccs.cfm?id=10002944&lid=0.10002944">General and reference</a></div>'}, '0', ''], 
+		  [{v:'10011123', f:'<div style=" font-size:150%; font-style:normal"><a class="boxedh" href="ccs/ccs.cfm?id=10011123&lid=0.10002944.10011123">Cross-computing tools and techniques</a></div>'}, '10002944', ''], 
+		  [{v:'10011674', f:'<div style=" font-size:150%; font-style:normal"><a class="boxedh" href="ccs/ccs.cfm?id=10011674&lid=0.10002944.10011123.10011674">Performance</a></div>'}, '10011123', ''] 
+        ]);
+		
+		if (document.getElementById('chart_div')) {
+       var chart = new google.visualization.OrgChart(document.getElementById('chart_div'));
+       chart.draw(data, {allowHtml:true});
+		}
+      }
+	  
+</script>
+<script type="text/javascript">
+ function expandcollapse(anchor,whichone) {
+	 var inner = document.getElementById(anchor);
+	 var theshow = "toShow" + whichone;
+ 	 var thehide = "toHide" + whichone;
+	 var span = document.getElementById(theshow);
+     span.style.display = (span.style.display=='inline')?'none':'inline';
+     var span = document.getElementById(thehide);
+     span.style.display = (span.style.display=='none')?'inline':'none';
+     inner.innerHTML = (inner.innerHTML=='collapse')?'expand':'collapse';
+    }
+
+  
+</script>
+<script type="text/javascript">
+ /* <!-- Begin
+	if(document.layers || document.all) {
+	a = 1;
+	setInterval("Jump()", 10);
+	}
+	function Jump() {
+	a = a + 1;
+	//self.moveBy((Math.random() * a * 2 - a), (Math.random() * a * 2) - a);
+	}
+//  End --> */
+</script>
+<script type="text/javascript">
+function expandWatson(divID,theConcept) { 
+			if (document.getElementById(divID).style.display == "none") {
+				document.getElementById(divID).style.display = "block";
+				document.getElementById(divID).innerHTML = theConcept + "<br />" + document.getElementById(divID).innerHTML;
+			}
+			 else {
+				 document.getElementById(divID).style.display = "none"
+			}
+		}
+</script>
+
+<script type="text/javascript">
+  function togglePatMap() {
+        var div = document.getElementById('patmap'); 
+        if (div.style.display == "none") {
+            div.style.display = "block";
+            document.getElementById("expandcollapsepmapa").src = "images/collapse.png";
+			
+			if (div.innerHTML.length == 0){
+				httpGetAsyncwID("patent.cfm?id=2892039",'patmap');
+				httpGetAsyncwID("simmap_track.cfm?id=2892039&how=live",'blackhole');
+			}
+			else {
+				httpGetAsyncwID("simmap_track.cfm?id=2892039&how=cache",'blackhole');
+			}
+			
+        }
+        else {
+            div.style.display = "none";
+            document.getElementById("expandcollapsepmapa").src = "images/expand.png";
+        }
+    }
+  
+  function toggleCO() {
+        var div = document.getElementById('codisp'); 
+        if (div.style.display == "none") {
+            div.style.display = "block";
+            document.getElementById("expandcollapsecoa").src = "images/collapse.png";
+			
+			if (div.innerHTML.length == 0){
+				/* httpGetAsyncwID("coint.cfm?id=2892039",'codisp'); */
+				/*httpGetAsyncwID("simmap_track.cfm?id=2892039&how=live",'blackhole'); */
+			}
+			else {
+				/* httpGetAsyncwID("simmap_track.cfm?id=2892039&how=cache",'blackhole'); */
+			}
+			
+        }
+        else {
+            div.style.display = "none";
+            document.getElementById("expandcollapsecoa").src = "images/expand.png";
+        }
+    }
+	
+	function httpGetAsyncwID(theUrl,theID) {
+		var xmlHttp = new XMLHttpRequest();
+		xmlHttp.onreadystatechange = function() {
+			if (xmlHttp.readyState == 4 && xmlHttp.status == 200)
+				
+				document.getElementById(theID).innerHTML=xmlHttp.responseText;
+		}
+		xmlHttp.open("GET", theUrl, true); // true for asynchronous 
+		xmlHttp.send();
+	}
+</script>
+<meta name="citation_conference" content="Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering"> <meta name="citation_publisher" content="ACM"> <meta name="citation_authors" content="Knoche, Holger"> <meta name="citation_title" content="Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices"> <meta name="citation_date" content="03/12/2016"> <meta name="citation_isbn" content="978-1-4503-4080-9"> <meta name="citation_firstpage" content="121"> <meta name="citation_lastpage" content="124"> <meta name="citation_doi" content="10.1145/2851553.2892039"> <meta name="citation_abstract_html_url" content="http://dl.acm.org/citation.cfm?id=2851553.2892039"> <meta name="citation_pdf_url" content="http://dl.acm.org/ft_gateway.cfm?id=2892039&type=pdf"> <meta name="citation_keywords" content="microservices; software modernization">
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFAJAXPROXY');
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFFORM');
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFDIV');
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFTEXTAREA');
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Event.registerOnLoad(drawChart,null,false,true);
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Ajax.importTag('CFWINDOW');
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437966=function()
+	{
+		_cf_bind_init_1864014999437967=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'letemknow-body','bindExpr':['letemknow.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1864014999437967);var _cf_window=ColdFusion.Window.create('letemknow','<div style=\'text-align:left; color:black;\'>Did you know the ACM DL App is now available?</div>','letemknow.cfm',{ modal:false, closable:true, divid:'cf_window1864014999437965', draggable:true, resizable:true, fixedcenter:false, width:600, height:275, shadow:true, callfromtag:true, minwidth:600, minheight:275, initshow:false, destroyonclose:false, x:75, y:125});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437966);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437969=function()
+	{
+		_cf_bind_init_1864014999437970=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'letemknow2-body','bindExpr':['letemknow_recomm.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1864014999437970);var _cf_window=ColdFusion.Window.create('letemknow2','<div style=\'text-align:left; color:black;\'>Did you know your Organization can subscribe to the ACM Digital Library?</div>','letemknow_recomm.cfm',{ modal:false, closable:true, divid:'cf_window1864014999437968', draggable:true, resizable:true, fixedcenter:false, width:600, height:275, shadow:true, callfromtag:true, minwidth:600, minheight:275, initshow:false, destroyonclose:false, x:70, y:175});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437969);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437972=function()
+	{
+		_cf_bind_init_1864014999437973=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'theguide-body','bindExpr':['whatisguide.cfm']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1864014999437973);var _cf_window=ColdFusion.Window.create('theguide','The ACM Guide to Computing Literature','whatisguide.cfm',{ modal:false, closable:true, divid:'cf_window1864014999437971', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, destroyonclose:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437972);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437975=function()
+	{
+		_cf_bind_init_1864014999437976=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'thetags-body','bindExpr':['showthetags.cfm?id=2892039']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1864014999437976);var _cf_window=ColdFusion.Window.create('thetags','All Tags','showthetags.cfm?id=2892039',{ modal:false, closable:true, divid:'cf_window1864014999437974', draggable:true, resizable:true, fixedcenter:true, width:500, height:300, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, destroyonclose:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437975);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437978=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theformats','Export Formats','',{ modal:false, closable:true, divid:'cf_window1864014999437977', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:250, minheight:250, initshow:false, destroyonclose:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437978);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437980=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theexplaination','','',{ modal:false, closable:true, divid:'cf_window1864014999437979', draggable:true, resizable:true, fixedcenter:false, width:600, height:600, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false, destroyonclose:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437980);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437982=function()
+	{
+		var _cf_window=ColdFusion.Window.create('theservices','','',{ modal:false, closable:true, divid:'cf_window1864014999437981', draggable:true, resizable:true, fixedcenter:false, width:500, height:300, shadow:true, bodystyle:'text-align:left', callfromtag:true, minwidth:300, minheight:250, initshow:false, destroyonclose:false});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437982);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	Ext.onReady(function(){var _cf_window_init_1864014999437984=function()
+	{
+		_cf_bind_init_1864014999437985=function()
+		{
+			ColdFusion.Bind.register([],{'bindTo':'savetobinder-body','bindExpr':['savetobinder.cfm?id=2892039']},ColdFusion.Bind.urlBindHandler,false);
+		};ColdFusion.Event.registerOnLoad(_cf_bind_init_1864014999437985);var _cf_window=ColdFusion.Window.create('savetobinder','Save to Binder','savetobinder.cfm?id=2892039',{ modal:false, closable:true, divid:'cf_window1864014999437983', draggable:true, resizable:true, fixedcenter:true, width:600, height:600, shadow:true, callfromtag:true, minwidth:300, minheight:250, initshow:false, destroyonclose:false, _cf_refreshOnShow:true});
+	};ColdFusion.Event.registerOnLoad(_cf_window_init_1864014999437984);});
+/* ]]> */</script>
+<script type="text/javascript">/* <![CDATA[ */
+	ColdFusion.Event.registerOnLoad(settab,null,false,true);
+/* ]]> */</script>
+</head>
+
+<body style="text-align:center; font-size:100%"> 
+<script type="text/javascript">
+						addthis_pub             = 'acm'; 
+						//addthis_logo            = 'http://www.addthis.com/images/yourlogo.png';
+						addthis_logo            = 'https://dl.acm.org/images/ACM_transparent.png';
+						addthis_logo_background = 'c2d5fc';
+						addthis_logo_color      = '000000';
+						addthis_brand           = 'Citation Page';
+						addthis_options         = 'favorites, email, slashdot, citeulike, digg, delicious, twitter, myspace, facebook, google, more';
+						</script>
+<script src='AC_RunActiveContent.js' type="text/javascript"></script>
+<div style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<a id="CIT"></a>
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-NFGCMX"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NFGCMX');</script>
+
+<div id="header">
+<table style="table-layout:fixed; margin-top: 5px; margin-bottom: 10px; border:0px; width:100%; border-collapse:collapse;">
+<tr style="vertical-align:top">
+<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; width:300px" class="small-link-text2"><img src="/images/ACMDL_Logo.jpg" alt="ACM DL" style="border:0px" usemap="#port" />
+</td>
+<td style="padding-left: 5px; padding-right:10px; padding-bottom:0px; vertical-align:middle;" class="small-link-text2">
+<table style="width:100%; border-collapse:collapse; padding:0px">
+<tr><td style="text-align:center">
+<table>
+<tr>
+<td style="text-align:center">
+<div style="margin:5px auto;color:#356b20;font-size:11pt;line-height:130%; height:63px;">
+Universite DeMontpellier<br />
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+<td style="padding-top: 0px; padding-left: 0px; padding-bottom:0px; text-align:right;" class="small-link-text2">
+<p style="margin-top:0px; margin-bottom:10px;">
+<a href="https://dl.acm.org/signin.cfm" class="small-link-text2" title="Sign in to personalize your Digital Library experience">SIGN IN</a>
+&nbsp;&nbsp;<a href="https://dl.acm.org/signin.cfm" class="small-link-text2" title="Sign up to personalize your Digital Library experience">SIGN UP</a>
+</p>
+<table style="padding: 5px; border-collapse:collapse; float:right">
+<tr>
+<td class="small-link-text2" style="text-align:right">
+<script type="text/javascript">
+								function encodeInput(form){
+								    	var cleanQuery = form.elements['query'].value.replace(new RegExp( "\\+", "g" ),"%2B");
+										cleanQuery = cleanQuery.replace(/#/g, "%23");
+										cleanQuery = cleanQuery.replace(/(\n)/g, " ");
+										cleanQuery = cleanQuery.trim();
+										
+										
+										var ascii = /^[ -~]+$/;
+										if( !ascii.test( cleanQuery ) ) {
+											var fixedUseQuery = "";
+											for (var i = 0, len = cleanQuery.length; i < len; i++) {
+												var str = "";
+												if( !ascii.test(cleanQuery[i]) ) {
+										 			str = "%26%23" + cleanQuery[i].charCodeAt(0) + ";";
+												} else {
+										 			str = cleanQuery[i];
+												}
+												fixedUseQuery = fixedUseQuery + str;
+											}
+											cleanQuery = fixedUseQuery;
+										}
+										
+
+										form.elements['query'].value = cleanQuery;
+								}
+							</script>
+<form name="qiksearch" action="/results.cfm" onsubmit='encodeInput(this)'>
+<span style="margin-left:0px"><label><input type="text" name="query" size="30" value="" /></label>&nbsp;
+<input style="vertical-align:top;" type="image" alt="Search" name="Go" src="/images/search_small.jpg" />
+</span>
+</form>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr><td colspan="3" class="small-link-text2" style="padding-bottom:5px; padding-top:0px; text-align:center">
+<div style="margin:0px auto;color:#356b20;line-height:10%;"> </div>
+</td>
+</tr>
+</table>
+<map name="port" id="port">
+<area shape="rect" coords="1,1,60,50" href="https://www.acm.org/" alt="ACM Home Page" />
+<area shape="rect" coords="65,1,275,68" href="https://dl.acm.org/dl.cfm" alt="ACM Digital Library Home Page" />
+</map>
+</div>
+<style>
+  .watsonCont {
+	  width:170px;
+	  
+	  color: #000000;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 1em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	 /* background-color: lightgray;*/
+  }
+  #watsonInside {
+    border-radius: 25px;
+    border: 2px solid #649134;
+	margin-top: 12px;
+	padding: 5px;
+	height: 80px;
+  }
+
+</style>
+<table style="table-layout:fixed; padding-bottom:10px; width:100%; padding:0px;">
+<tr style="vertical-align:top">
+<td style="padding-right:10px; text-align:left" class="small-link-text">
+<div id="divmain" style="border:1px solid #356b20;">
+<div class="large-text" style="text-align:left; margin-left:2px;margin-bottom:5px;">
+<h1 class="mediumb-text" style="margin-top:0px; margin-bottom:0px;">Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices</h1>
+</div>
+<table class="medium-text" style="border-collapse:collapse; padding:0px; margin-left: 2px;">
+<colgroup>
+<col style="width:540px" />
+</colgroup>
+<tr style="vertical-align:top">
+<td>
+<table style="border-collapse:collapse; padding:2px;" class="medium-text">
+<col style="width:80px;" />
+<col style="width:auto" />
+<tr style="vertical-align:top">
+<td style="white-space:nowrap">Full Text:</td>
+<td>
+<img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+<a href="https://dl.acm.org/purchase.cfm?id=2892039" title="Get this Article"><img src="img/shopping-cart16.gif" border="0" alt="Get this Article" hspace="3" />Get this Article</a>
+</td>
+</tr>
+</table>
+<table style="margin-top: 10px; border-collapse:collapse; padding:2px;" class="medium-text">
+<col style="width:80px" />
+<tr>
+<td valign="top" nowrap="nowrap">
+Author:
+</td>
+<td style="padding-right:3px;" valign="top" nowrap="nowrap">
+<a href="author_page.cfm?id=99658989731&amp;coll=DL&amp;dl=ACM&amp;trk=0" title="Author Profile Page" target="_self">Holger Knoche</a>
+</td>
+<td valign="bottom">
+<a href="inst_page.cfm?id=60012345" title="Institutional Profile Page"><small>Kiel University, Kiel, Germany</small></a>
+</td>
+</tr>
+</table>
+<table style="margin-top: 10px" border="0" class="medium-text" cellpadding="2" cellspacing="0">
+<tr>
+<td><table border="0" class="medium-text" style="margin-left:5px;" cellpadding="1" cellspacing="0">
+<tr valign="top">
+<td rowspan="20" nowrap="nowrap" align="center" style="padding-top:0px;">Published in:<br />
+<a href="http://icpe16.ewi.tudelft.nl/" title="Conference Website" target="_blank"><img style="margin-top:5px; border-width:1px; border-color:black" src="https://portalparts.acm.org/2860000/2851553/thumb/cover_thumb.jpg" height="102" width="79" alt="Cover Image" /></a><br />
+</td>
+</tr>
+<tr><td>&nbsp;</td></tr>
+<tr valign="top">
+<td nowrap="nowrap" style="padding-bottom:0px">&middot;&nbsp;Proceeding</td>
+</tr>
+<tr valign="top">
+<td style="padding-left:10px;">
+<a href="http://icpe16.ewi.tudelft.nl/" title="Conference Website" target="_self" class="link-text">ICPE '16</a> Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering
+</td>
+</tr>
+<tr valign="top">
+<td style="padding-left:10px; padding-bottom:10px"> Pages 121-124
+<br />
+<br />
+Delft, The Netherlands &mdash; March 12 - 16, 2016
+<br />
+<a href="https://www.acm.org/publications" class="small-link-text" title="ACM">ACM</a> <span class="small-link-text">New York, NY</span><span class="small-link-text">, USA</span> <span class="small-link-text"> &copy;2016</span>
+<br />
+<a href="citation.cfm?id=2851553&amp;picked=prox" target="_self" class="small-link-text">table&nbsp;of&nbsp;contents</a>
+ISBN: 978-1-4503-4080-9
+<span style="margin-left:10px;">doi&gt;<a href="https://doi.org/10.1145/2851553.2892039" target="_self" class="small-link-text">10.1145/2851553.2892039</a></span>
+</td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+<td rowspan="20">
+<table border="0" class="medium-text" cellpadding="0" cellspacing="0">
+<tr>
+<td align="center" style="padding-bottom: 5px;">
+<img src="images/apdf.jpg" title="Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices" width="60" height="90" alt="Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices" border="0" />
+</td>
+<td align="left" nowrap="nowrap">
+<img src="images/ACM_mini.jpg" style="vertical-align:middle" title="Published by ACM" alt="Published by ACM" /> 2016 Article<br />
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="baseline" style="padding-bottom:5px; padding-top:5px;">
+<img src="img/stats.jpg" alt="Bibliometrics Data" />&nbsp;
+<a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a>
+</td>
+</tr>
+<tr>
+<td class="small-text" colspan="2" valign="top" style="padding-left:30px;">
+&middot;&nbsp;Citation Count: 1<br />
+&middot;&nbsp;Downloads (cumulative): 709<br />
+&middot;&nbsp;Downloads (12 Months): 192<br />
+&middot;&nbsp;Downloads (6 Weeks): 13<br />
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<br clear="all" />
+<br clear="all" />
+</div>
+</td>
+<td style="padding-left: 5px; vertical-align:top; text-align:left; width:170px" class="small-link-text">
+<div id="divtools" style="background-color:#ece9d8; text-align:left; padding-top:5px; padding-bottom:5px; ">
+<div class="medium-text" style="margin-left:3px; margin-top:10px;"><h1 class="mediumb-text" style="margin-top:-15px;">Tools and Resources</h1></div>
+<ul title="Tools and Resources" style="list-style: none; list-style-position:outside;
+margin-left: 25px;
+padding-left: 0em;
+text-indent: 0px;
+margin-bottom: 0px;">
+<li style="list-style-image:url(img/shopping-cart16.gif);margin-top:10px;">
+<span style="margin-left:0px;">
+<a href="https://dl.acm.org/purchase.cfm?id=2892039" class="small-link-text" title="Buy this Article">Buy this Article</a>
+</span>
+</li>
+<li style="list-style-image:url(img/dllogosm.gif);margin-top:10px;"><span style="margin-left:0px;"><a href="https://dl.acm.org/reqdl.cfm" class="small-link-text" title="Recommend the ACM DL to your Organization">Recommend the ACM DL<br />to your organization</a></span></li>
+<li style="list-style-image:url(img/toc_small.gif);margin-top:10px;"><span style="margin-left:0px;">
+<span class="small-link-text">TOC Service:</span>
+<img src="images/blanks.gif" border="0" alt="Spacer Image reserves space for checkmark when TOC Service is updated" name="saved" />
+<ul style="margin-left: 0; padding-left: 0; display:inline;">
+<li style="list-style:none; display:inline"><br /><img src="img/email_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Email</a></li>
+<li style="list-style:none; display:inline"><img src="img/rss_small.gif" alt="Toc Alert via Email" border="0" hspace="3" /><a href="#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">RSS</a></li>
+</ul>
+</span>
+</li>
+<li style="list-style-image:url(img/binder.gif);margin-top:10px;"><span style="margin-left:0px;">
+<a href="citation.cfm?id=2892039&preflayout=flat#" onclick="window.alert('To use this Feature, you must login with your personal ACM Web Account.');" class="small-link-text">Save to Binder</a>
+</span></li>
+<li style="list-style-image:url(img/binder_green.gif);margin-top:10px;"><span style="margin-left:0px; margin-bottom:0px">
+<span class="small-link-text">Export Formats:</span>
+<ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+<li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=2892039&expformat=bibtex','theformats');" class="small-link-text">BibTeX</a></li>
+<li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=2892039&expformat=endnotes','theformats');" class="small-link-text">EndNote</a></li>
+<li style="list-style:disc; display:inline; margin-bottom:0px;"><a href="javascript:ColdFusion.Window.show('theformats');ColdFusion.navigate('exportformats.cfm?id=2892039&expformat=acmref','theformats');" class="small-link-text">ACM&nbsp;Ref</a></li>
+</ul>
+</span>
+</li>
+<li style="list-style-image:url(img/calbullet.jpg);margin-top:15px;"><span style="margin-left:0px; margin-bottom:0px">
+<span class="small-link-text">Upcoming Conference:</span>
+<ul style="margin-left: 0; padding-left: 0; margin-bottom:0px;">
+<li style="list-style:disc; display:inline; margin-bottom:0px; margin-left:25px;"><a href="https://icpe.spec.org/" title="ACM/SPEC International Conference on Performance Engineering" class="small-link-text">ICPE '19</a></li>
+</ul>
+</span>
+</li>
+</ul>
+
+
+<p class="small-link-text" style="padding-top: 0px; margin-left:6px; margin-bottom:0px">Share:</p>
+
+
+<div style="margin-left:5px;" class="addthis_toolbox addthis_default_style">
+<a class="addthis_button_email"></a>
+<a class="addthis_button_facebook"></a>
+<a class="addthis_button_google_plusone_share"></a>
+<a class="addthis_button_twitter"></a>
+<a class="addthis_button_researchgate"></a>
+<a class="addthis_button_reddit"></a>
+<span class="addthis_separator">|</span>
+<a href="https://www.addthis.com/bookmark.php?v=250&amp;username=acm" class="addthis_button_expanded" title="more"></a>
+</div>
+<script type="text/javascript" src="https://s7.addthis.com/js/250/addthis_widget.js#username=acm"></script>
+
+</div>
+
+<script type="text/javascript">
+ function toggleAuthorKeys() {
+        var div = document.getElementById('authortags'); 
+        if (div.style.display == "none") {
+            div.style.display = "block";
+            document.getElementById("expandcollapseauthortags").src = "images/collapse.png";
+        }
+        else {
+            div.style.display = "none";
+            document.getElementById("expandcollapseauthortags").src = "images/expand.png";
+        }
+    }
+</script>
+<div class="medium-text" style="padding-right:10px; margin-top:10px;">
+<a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=2','theexplaination');" title="Tags: explained">
+<strong>Author Tags</strong>
+</a>
+<a href="javascript: void(0);" onclick="toggleAuthorKeys();" title="Expand Author Tags"><img id="expandcollapseauthortags" class="expand-collapse" src="images/expand.png" width="40px" alt="Expand Author Tags" style="vertical-align:bottom;" /></a>
+</div>
+<div id="authortags" style="text-align:left; padding-top:10px; display:none;">
+<a href="results.cfm?query=keywords.author.keyword:%22microservices%22 OR acmdlCCS:%22microservices%22" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">microservices</span></a>
+<a href="results.cfm?query=keywords.author.keyword:%22performance%22 OR acmdlCCS:%22performance%22" target="_self"><span class="small-text" style="padding-right: 0px; color:#000000">performance</span></a>
+<a href="results.cfm?query=keywords.author.keyword:%22software%20modernization%22 OR acmdlCCS:%22software%20modernization%22" target="_self"><span class="small-text" style="padding-right: 0px; color:#356b20">software modernization</span></a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div class="layout" style="width:940px; margin-left: auto; margin-right: auto; text-align:left">
+<div id="fback" style="text-align:left; padding-top:20px; padding-bottom:20px">
+<span class="small-text" style="padding-right:10px; margin-bottom:0px;">
+<a title="Contact The DL Team" href="/cdn-cgi/l/email-protection#dbabb4a9afbab7f6bdbebebfb9bab8b09bb3aaf5bab8b6f5b4a9bc" style=" vertical-align:middle"><img src="img/feedbackg.gif" width="20" height="19" alt="Contact The DL Team" border="0" /></a>
+<a title="Contact The DL Team" href="/cdn-cgi/l/email-protection#1c6c736e687d70317a7979787e7d7f775c746d327d7f7132736e7b"><strong>Contact Us</strong></a>
+<span style="padding:10px;">|</span>
+<span>Switch to <a href="citation.cfm?id=2892039&amp;preflayout=tabs">tabbed view</a> <noscript> (javascript required)</noscript></span>
+</span>
+<div class="small-text" style="margin-top:10px; margin-bottom:5px;">
+<br />
+<a href="#abstract" title="Abstract" style="padding:5px"><span>Abstract</span></a> |
+<a href="#authors" title="Authors" style="padding:5px"><span>Authors</span></a> |
+<a href="#references" title="References" style="padding:5px"><span>References</span></a> |
+<a href="#citedby" title="Cited By" style="padding:5px"><span>Cited By</span></a> |
+<a href="#indexterms" title="Index Terms" style="padding:5px"><span>Index Terms</span></a> |
+<a href="#source" title="Publication" style="padding:5px"><span>Publication</span></a> |
+<a href="#revs" title="Reviews" style="padding:5px"><span style='color:#999999'>Reviews</span></a> |
+<a href="#comments" title="Comments" style="padding:5px"><span>Comments</span></a>
+|
+<a href="#prox" title="Table of Contents" style="padding:5px"><span>Table of Contents</span></a>
+</div>
+<div style="right: 0pt; border-top:1px solid #356b20; font-size:1px; margin-bottom:20px;" />
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="abstract" class="small-text">ABSTRACT</A></h1>
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<div style="display:inline"><p>Microservices are a promising target architecture for the modernization of monolithic software. However, breaking up a monolith into services can have a severe impact on performance, especially transactions. Therefore, careful planning of such modernizations with respect to performance is required. This is particularly true for incremental modernizations, which release partially modernized states of the application into production. In this paper, we present a simulation-based approach for sustaining runtime performance during incremental modernizations towards Microservices.</p></div>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="authors" class="small-text"><SPAN class="heading">AUTHORS</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<dl title="Authors" style="margin-top:0px">
+<dt style="float: left; clear: left; width: 100%; margin-top: 0px; margin-bottom: 0px;">
+<strong>
+</strong>
+</dt>
+<dd style="margin: 0 0 0 60px; padding: 0 0 0.5em 0;">
+<span>
+<br><br />
+<table border="0" cellspacing="10">
+<tr><td style="padding-right:20px"><table border="0" width="300" style="border-spacing:0px !important;" cellpadding="0" cellspacing="0">
+<col width="120">
+<col width="180">
+<tr valign="top">
+<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px">
+<img src="gifs/ProfileSilhouette.gif" alt="Author image not provided" align="middle" hspace="5">
+</td>
+<td bgcolor="#cccccc" style="padding-bottom: 5px; padding-top: 5px" colspan="2">
+&nbsp;<span class="small-text"><strong><a title="author page of Holger Knoche" href="author_page.cfm?id=99658989731">Holger Knoche</a></strong><br /></span>
+<span class="small-text"><br><p style="margin-bottom:-10px;" align="center">No contact information provided yet.</p>
+</span>
+</td>
+</tr>
+</table></td>
+<td style="padding-right:20px"><table border="0" width="300" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong><a href="javascript:ColdFusion.Window.show('theexplaination');ColdFusion.navigate('explain.cfm?expid=1','theexplaination');" title="Bibliometrics: explained">Bibliometrics</a></strong>:&nbsp;publication history<br />
+<table width="90%" style="margin-top: 1px; margin-bottom: 10px; border-collapse: separate; border-spacing: 3px;" border="0" align="left">
+<tr>
+<td class="small-text">Publication years</td><td class="small-text" align="right">2016-2017</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text" style="border-bottom: 2">Publication count</td><td class="small-text" align="right">2</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text">Citation Count</td><td class="small-text" align="right">3</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text" style="border-bottom: 2">Available for download</td><td class="small-text" align="right">2</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text">Downloads (6 Weeks)</td><td class="small-text" align="right">73</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text">Downloads (12 Months)</td><td class="small-text" align="right">619</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text">Downloads (cumulative)</td><td class="small-text" align="right">1,385</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text" style="border-bottom: 2">Average downloads per article</td><td class="small-text" align="right">692.50</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+<tr>
+<td class="small-text" style="border-bottom: 2">Average citations per article</td><td class="small-text" align="right">1.50</td>
+</tr>
+<tr><td height="3" bgcolor="#808080" colspan="2"></td></tr>
+</table>
+</td>
+</tr>
+</table></td>
+</tr>
+<tr><td style="padding:0px">
+<a title="colleagues of Holger Knoche" href="author_page.cfm?id=99658989731&amp;dsp=coll&amp;trk=1" target="_self">View colleagues</a> of Holger Knoche
+</td>
+</tr>
+</table>
+</span>
+</dd>
+</dl>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="references" class="small-text"><SPAN class="heading">REFERENCES</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<p class="abstract"><font color="Red">Note: OCR errors may be found in this Reference List extracted from the full text article. ACM has opted to expose the complete List rather than only correct and linked references.</font></p>
+<table border="0" cellpadding="5">
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+1
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+A. A. Almonaies, J. R. Cordy, and T. R. Dean. Legacy System Evolution towards Service-Oriented Architecture. In Proc. Intl. Workshop on SOA Migration and Evolution (SOAME 2010), 2010.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+2
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=1458819">
+Steffen Becker , Heiko Koziolek , Ralf Reussner, The Palladio component model for model-driven performance prediction, Journal of Systems and Software, v.82 n.1, p.3-22, January, 2009 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1016/j.jss.2008.03.066">10.1016/j.jss.2008.03.066</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> <img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top"></td>
+<td style="padding: 10px;">
+<div class="abstract">
+3
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=1370204">
+Paul C. Brebner, Performance modeling for service oriented architectures, Companion of the 30th international conference on Software engineering, May 10-18, 2008, Leipzig, Germany </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/1370175.1370204">10.1145/1370175.1370204</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+4
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+U. Breitenb&#252;cher, O. Kopp, F. Leymann, M. Reiter, D. Roller, and T. Unger. Six Strategies for Building High Performance SOA Applications. In Proc. 4th Central-European Workshop on Services and their Composition (ZEUS 2012), 2012.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+5
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=2666747">
+E. Di Nitto , D. Meil&#228;nder , S. Gorlatch , A. Metzger , H. Psaier , S. Dustdar , M. Razavian , D. A. Tamburri , P. Lago, Research challenges on engineering service-oriented applications, Proceedings of the First International Workshop on European Software Services and Systems Research: Results and Challenges, p.14-20, June 05-05, 2012, Zurich, Switzerland </a>
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+6
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+R. Khadka, A. Idu, A. Saeidi, J. Hage, and S. Jansen. Legacy to SOA Evolution: A Systematic Literature Review. In Migrating Legacy Applications -- Challenges in Service Oriented Architecture and Cloud Computing Environments. Premier Reference Source, 2013.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+7
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+H. Knoche, A. van Hoorn, W. Goerigk, and W. Hasselbring. Automated Source-Level Instrumentation for Dynamic Dependency Analysis of COBOL Systems. In Proc. 14. Workshop Software-Reengineering (WSR 2012), 2012.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+8
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+J. Lewis and M. Fowler. Microservices, 2014. http://martinfowler.com/articles/microservices.html, last accessed: 2015-09--21.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+9
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=985406">
+Marin Litoiu, Migrating to web services: a performance engineering approach, Journal of Software Maintenance and Evolution: Research and Practice, v.16 n.1-2, p.51-70, January-April 2004 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1002/smr.285">10.1002/smr.285</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+10
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+P. Merkle and H. Knoche. Extending the Palladio Component Model to Analyze Data Contention for Modernizing Transactional Software Towards Service-Orientation. In Symposium on Software Performance (SSP 2015), 2015. To appear.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+11
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+S. Newman. Building Microservices. O'Reilly, Sebastopol, CA, 2015.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> <img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top"></td>
+<td style="padding: 10px;">
+<div class="abstract">
+12
+</div>
+</td>
+ <td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=1370925">
+Liam O'Brien , Paul Brebner , Jon Gray, Business transformation to SOA: aspects of the migration and performance and QoS issues, Proceedings of the 2nd international workshop on Systems development in SOA environments, May 11-11, 2008, Leipzig, Germany </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/1370916.1370925">10.1145/1370916.1370925</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> <img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top"></td>
+<td style="padding: 10px;">
+<div class="abstract">
+13
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=2579221">
+Guy Pardon , Cesare Pautasso, Atomic distributed transactions: a RESTful design, Proceedings of the 23rd International Conference on World Wide Web, April 07-11, 2014, Seoul, Korea </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2567948.2579221">10.1145/2567948.2579221</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+14
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+M. Razavian and P. Lago. A Frame of Reference for SOA Migration. In Towards a Service-Based Internet, volume 6481 of Lecture Notes in Computer Science. Springer, 2010.
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+15
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=1926666">
+Maryam Razavian , Patricia Lago, Towards a conceptual framework for legacy to SOA migration, Proceedings of the 2009 international conference on Service-oriented computing, November 23-27, 2009, Stockholm, Sweden </a>
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> <img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top"></td>
+<td style="padding: 10px;">
+<div class="abstract">
+16
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=2362009">
+Maryam Razavian , Patricia Lago, A lean and mean strategy for migration to services, Proceedings of the WICSA/ECSA 2012 Companion Volume, August 20-24, 2012, Helsinki, Finland </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2361999.2362009">10.1145/2361999.2362009</a>]
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> &nbsp;</td>
+<td style="padding: 10px;">
+<div class="abstract">
+17
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=599767">
+Robert C. seacord , Daniel Plakosh , Grace A. Lewis, Modernizing Legacy Systems: Software Technologies, Engineering Process and Business Practices, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 2003 </a>
+</div>
+</td>
+</tr>
+<tr valign="top">
+<td valign="top"> <img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top"></td>
+<td style="padding: 10px;">
+<div class="abstract">
+18
+</div>
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=2188326">
+Andr&#233; van Hoorn , Jan Waller , Wilhelm Hasselbring, Kieker: a framework for application performance monitoring and dynamic software analysis, Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, April 22-25, 2012, Boston, Massachusetts, USA </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2188286.2188326">10.1145/2188286.2188326</a>]
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="citedby" class="small-text"><SPAN class="heading">CITED BY</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<table cellpadding="5">
+<tr valign="top">
+<td valign="top">
+<img src="images/ACM_mini.jpg" width="25" height="24" alt="" vspace="10" border="0" align="top">
+</td>
+<td style="padding: 10px;">
+<div>
+<a href="citation.cfm?id=3183631">
+Tomas Cerny , Michael J. Donahoo , Michal Trnka, Contextual understanding of microservice architecture: current and future directions, ACM SIGAPP Applied Computing Review, v.17 n.4, p.29-45, December 2017
+</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="indexterms" class="small-text"><SPAN class="heading">INDEX TERMS</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 0px;" class="flatbody">
+<p class="Categories">
+<A NAME="indexterms"></A>
+<span class="heading">The ACM Computing Classification System (<a href="ccs/ccs.cfm">CCS rev.2012</a>)</span>
+</p>
+<div id='chart_div' style="overflow: auto; overflow-y: hidden; -ms-overflow-y: hidden;"></div>
+<div style="margin-top:10px; text-align:center">Note: Larger/Darker text within each node indicates a higher relevance of the materials to the taxonomic classification.</div>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="source" class="small-text"><SPAN class="heading">PUBLICATION</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<table border="0" class="medium-text" cellpadding="5" cellspacing="5">
+<tr valign="top">
+<td style="padding: 10px;">Title</td>
+<td style="padding: 10px;">
+<a href="http://icpe16.ewi.tudelft.nl/" title="Conference Website" target="_self" class="link-text">ICPE '16</a> Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering
+<a href="citation.cfm?id=2851553&picked=prox" target="_self" class="small-link-text">table&nbsp;of&nbsp;contents</a>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;" valign="top" nowrap="nowrap">
+General Chairs
+</td>
+<td style="padding-bottom:10px;  padding-left:10px;" valign="top">
+<a href="author_page.cfm?id=81100213702" title="Author Profile Page" target="_self">Alberto Avritzer</a>
+<small>Sonatype, Inc., USA</small>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;" valign="top" nowrap="nowrap">
+ </td>
+<td style="padding-bottom:10px;  padding-left:10px;" valign="top">
+<a href="author_page.cfm?id=81314482978" title="Author Profile Page" target="_self">Alexandru Iosup</a>
+<a href="inst_page.cfm?id=60006288" title="Institutional Profile Page"><small>Delft University of Technology, the Netherlands</small></a>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;" valign="top" nowrap="nowrap">
+Program Chairs
+</td>
+<td style="padding-bottom:10px;  padding-left:10px;" valign="top">
+<a href="author_page.cfm?id=99658989637" title="Author Profile Page" target="_self">Xiaoyun Zhu</a>
+<small>Futurewei Technologies, USA</small>
+</td>
+</tr>
+<tr>
+<td style="padding-bottom:10px;" valign="top" nowrap="nowrap">
+</td>
+<td style="padding-bottom:10px;  padding-left:10px;" valign="top">
+<a href="author_page.cfm?id=81322488417" title="Author Profile Page" target="_self">Steffen Becker</a>
+<a href="inst_page.cfm?id=60008069" title="Institutional Profile Page"><small>Chemnitz University of Technology, Germany</small></a>
+</td>
+</tr>
+<tr><td style="padding: 10px;">Pages</td><td style="padding: 10px;"> 121-124</td></tr>
+<tr><td nowrap="nowrap">Publication Date</td><td style="padding: 10px;">2016-03-12&nbsp;<span class="small-link-text">(yyyy-mm-dd)</span></td></tr>
+<tr>
+<td style="padding: 10px;">Sponsors</td>
+<td style="padding: 10px;">
+<a href="sig.cfm?id=SP937"> SIGMETRICS</a> ACM Special Interest Group on Measurement and Evaluation
+</td>
+</tr>
+<tr>
+<td style="padding: 10px;"></td>
+<td style="padding: 10px;">
+<a href="sig.cfm?id=SP950"> SIGSOFT</a> ACM Special Interest Group on Software Engineering
+</td>
+</tr>
+<tr><td style="padding: 10px;">Publisher</td><td style="padding: 10px;"><a href="https://www.acm.org/publications">ACM</a> New York, NY, USA &copy;2016</td></tr>
+<tr>
+<td style="padding: 10px;"></td>
+<td style="padding: 10px;">
+ISBN: 978-1-4503-4080-9 doi&gt;<a href="https://dx.doi.org/10.1145/2851553.2892039" target="_self" class="small-link-text">10.1145/2851553.2892039</a>
+</td>
+</tr>
+<tr valign="top">
+<td>Conference</td>
+<td valign="top" align="left" style="padding-bottom: 25px; padding-left:10px;">
+<strong style="padding-right:10px">ICPE</strong><a href="event.cfm?id=RE313" title="ACM/SPEC International Conference on Performance Engineering">ACM/SPEC International Conference on Performance Engineering</a>
+<a href="event.cfm?id=RE313" title="ACM/SPEC International Conference on Performance Engineering"><img border="0" src="https://portalparts.acm.org/event_logos/RE313.jpg" title="ICPE logo" height="31" width="100" ALT="ICPE logo" style="vertical-align:top"></a>
+</td>
+</tr>
+<tr><td colspan="2">Paper Acceptance Rate 23 of 74 submissions, 31%</td></tr> <tr valign="top"><td style="pading-top:20px;" colspan="2">Overall Acceptance Rate 211 of 663 submissions, 32%</td></tr>
+<tr valign="top">
+<td colspan="2" style="padding-left:25px;">
+<table>
+<tr><td style="padding: 10px;">
+</td>
+<td style="padding-left:20px;">
+<table style="border-width: 1px; border-style: solid; width:100%;  border-spacing: 6px;" class="text12">
+<tr bgcolor="#ffffff">
+<th style="width:50%">Year</th>
+<th align="right" style="width:15%">Submitted</th>
+<th align="right" style="width:15%">Accepted</th>
+<th align="center">Rate</th>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td style="padding: 10px;">ICPE '11</td>
+<td align="right">87</td>
+<td align="right">32</td>
+<td align="center">37%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding: 10px;">ICPE '12</td>
+<td align="right">53</td>
+<td align="right">21</td>
+<td align="center">40%</td>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td style="padding: 10px;">ICPE '13</td>
+<td align="right">64</td>
+<td align="right">28</td>
+<td align="center">44%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding: 10px;">ICPE '14</td>
+<td align="right">78</td>
+ <td align="right">21</td>
+<td align="center">27%</td>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td style="padding: 10px;">ICPE '15</td>
+<td align="right">74</td>
+<td align="right">23</td>
+<td align="center">31%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding: 10px;">ICPE '16</td>
+<td align="right">74</td>
+<td align="right">23</td>
+<td align="center">31%</td>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td style="padding: 10px;">ICPE '17</td>
+<td align="right">83</td>
+<td align="right">27</td>
+<td align="center">33%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding: 10px;">ICPE '18</td>
+<td align="right">75</td>
+<td align="right">18</td>
+<td align="center">24%</td>
+</tr>
+<tr bgcolor="#f0f0f0">
+<td style="padding: 10px;">ICPE '18</td>
+<td align="right">75</td>
+<td align="right">18</td>
+<td align="center">24%</td>
+</tr>
+<tr bgcolor="#ffffff">
+<td style="padding: 10px;"><strong>Overall</strong></td>
+<td align="right">663</td>
+<td align="right">211</td>
+<td align="center">32%</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</table>
+<br />
+<div class="abstract" style="margin-bottom:10px;">
+<SPAN><strong>APPEARS IN</strong></span>
+</div>
+<div>
+<a href="/collection.cfm?id=KA10" title="Performance" target="_blank">Performance</a>
+</div>
+ <div>
+<a href="/collection.cfm?id=KA3" title="Digital Content" target="_blank">Digital Content</a>
+</div>
+<div>
+<a href="/collection.cfm?id=KA7" title="Networking" target="_blank">Networking</a>
+</div>
+<div>
+<a href="/collection.cfm?id=KA8" title="Software" target="_blank">Software</a>
+</div>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="revs" class="small-text"><SPAN class="heading">REVIEWS</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<br />Reviews are not available for this item
+<div align="left" style="margin-top:30px">
+<a title="Computing Reviews" href="ocr_review_main.cfm">
+<img src="images/ocrs-s.jpg" alt="Computing Reviews logo" border="0" style="vertical-align:middle"></a>
+<ul style="list-style:disc; display:inline-block">
+<li>Access <a href="ocr_review_main.cfm" target="_blank">critical reviews</a> of computing literature.</li>
+<li><a href="http://www.computingreviews.com/Reviewer/" target="_blank">Become a reviewer</a> for Computing Reviews</li>
+</ul>
+</div>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="comments" class="small-text"><SPAN class="heading">COMMENTS</SPAN></A></h1>
+<div style="margin-left:10px; margin-top:0px; margin-right:10px; margin-bottom: 10px;" class="flatbody">
+<div>
+<div>
+<p style="margin-left:5px;">
+<strong>Be the first to comment</strong>
+To Post a comment please <a href="signin.cfm">sign in or create</a> a free Web account</a>
+</p>
+</div>
+</div>
+<h1 class="mediumb-text"><A HREF="#CIT"><img name="top" src="images/arrowu.gif" alt="top of page" hspace="10" border="0"></A><A NAME="prox" class="small-text">Table of Contents</A></h1>
+<div style="margin-left:10px; margin-top:10px; margin-right:10px; margin-bottom: 10px;">
+<h5 style="margin-bottom:0px; margin-top:0px" class="medium-text">Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering</h5>
+<h5 class="medium-text" style="margin-bottom:10px; margin-top:10px;">Table of Contents</h5>
+<div style="clear:both">
+<div style="margin-top:5px; margin-bottom: 10px;" class="small-text"><a href="citation.cfm?id=2859889&picked=prox" title="previous: ICPE '16 Companion"><img hspace="5" align="absmiddle" border="0" src="img/prev.gif" width="19" height="11" alt="previous" />previous proceeding</a> <span style="padding-left:5px;padding-right:5px;">|</span><a href="citation.cfm?id=3030207&picked=prox" title="Next: ICPE '17">next proceeding <img align="absmiddle" hspace="5" border="0" src="img/next.gif" width="19" height="11" alt="next" /></a></div>
+</div>
+<table class="text12" border="0">
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Keynote Address</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858660">Case Studies from the Real World: The Importance of Measurement and Analysis in Building Better Systems</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81100252395">Bianca Schroeder</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 1-1</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858660" title="DOI">10.1145/2851553.2858660</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858660&ftid=1699689&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow2" style="display:inline;"><br /><div style="display:inline">At the core of the "Big Data" revolution lie frameworks and systems that allow for the massively parallel processing of large amounts of data. Ironically, while they have been designed for processing large amounts of data, these systems are at the same ...</div></span>
+<span id="toHide2" style="display:none;"><br /><div style="display:inline"><p>At the core of the "Big Data" revolution lie frameworks and systems that allow for the massively parallel processing of large amounts of data. Ironically, while they have been designed for processing large amounts of data, these systems are at the same time major producers of data: to support the administration and management of these huge-scale systems, they are configured to generate detailed log and monitoring data, periodically capturing the system state across all nodes, components and jobs in the system. While such logging information is used routinely by sysadmins for ad-hoc trouble-shooting and problem diagnosis, we point out that there is a tremendous value in analyzing such data from a research point of view. In this talk, we will go over several case studies that demonstrate how measuring and analyzing measurement data from production systems can provide new insights into how systems work and fail, and how these new insights can help in designing better systems.</p></div></span> <a id="expcoll2" href="JavaScript: expandcollapse('expcoll2',2)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Best Paper Candidate 1</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851565">Maximum Likelihood Estimation of Closed Queueing Network Demands from Queue Length Data</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658675258">Weikun Wang</a>,
+<a href="author_page.cfm?id=81100141664">Giuliano Casale</a>,
+<a href="author_page.cfm?id=81467670226">Ajay Kattepur</a>,
+<a href="author_page.cfm?id=81416593657">Manoj Nambiar</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 3-14</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851565" title="DOI">10.1145/2851553.2851565</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851565&ftid=1699667&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow4" style="display:inline;"><br /><div style="display:inline">Resource demand estimation is essential for the application of analyical models, such as queueing networks, to real-world systems. In this paper, we investigate maximum likelihood (ML) estimators for service demands in closed queueing networks with load-independent ...</div></span>
+<span id="toHide4" style="display:none;"><br /><div style="display:inline"><p>Resource demand estimation is essential for the application of analyical models, such as queueing networks, to real-world systems. In this paper, we investigate maximum likelihood (ML) estimators for service demands in closed queueing networks with load-independent and load-dependent service times. Stemming from a characterization of necessary conditions for ML estimation, we propose new estimators that infer demands from queue-length measurements, which are inexpensive metrics to collect in real systems. One advantage of focusing on queue-length data compared to response times or utilizations is that confidence intervals can be rigorously derived from the equilibrium distribution of the queueing network model. Our estimators and their confidence intervals are validated against simulation and real system measurements for a multi-tier application.</p></div></span> <a id="expcoll4" href="JavaScript: expandcollapse('expcoll4',4)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Performance Modelling</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851558">A Cost/Benefit Approach to Performance Analysis</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=88159210257">David Maplesden</a>,
+<a href="author_page.cfm?id=81100213613">Ewan Tempero</a>,
+<a href="author_page.cfm?id=81100554728">John Hosking</a>,
+<a href="author_page.cfm?id=81100261843">John C. Grundy</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 15-26</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851558" title="DOI">10.1145/2851553.2851558</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851558&ftid=1699675&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow6" style="display:inline;"><br /><div style="display:inline">Most performance engineering approaches focus on understanding the use of runtime resources. However such approaches do not quantify the value being provided in return for the consumption of these resources. Without such a measure it is not possible ...</div></span>
+<span id="toHide6" style="display:none;"><br /><div style="display:inline"><p>Most performance engineering approaches focus on understanding the use of runtime resources. However such approaches do not quantify the value being provided in return for the consumption of these resources. Without such a measure it is not possible to compare the efficiency of these components (that is whether the runtime cost is reasonable given the benefit being provided). We have created an empirical approach that measures the value being provided by a code path in terms of the visible data it generates for the rest of the application. Combining this with traditional performance cost data, creates an efficiency measure for every code path in the application. We have evaluated our approach using the DaCapo benchmark suite, demonstrating our analysis allows us to quantify the efficiency of the code in each benchmark and find real optimisation opportunities, providing improvements of up to 36% in our case studies.</p></div></span> <a id="expcoll6" href="JavaScript: expandcollapse('expcoll6',6)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851570">Automated Extraction of Network Traffic Models Suitable for Performance Simulation</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81474695806">Piotr Rygielski</a>,
+<a href="author_page.cfm?id=81438596800">Viliam Simko</a>,
+<a href="author_page.cfm?id=99658748196">Felix Sittner</a>,
+<a href="author_page.cfm?id=99658748284">Doris Aschenbrenner</a>,
+<a href="author_page.cfm?id=81315490151">Samuel Kounev</a>,
+<a href="author_page.cfm?id=81100595388">Klaus Schilling</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 27-35</span></td>
+ </tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851570" title="DOI">10.1145/2851553.2851570</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851570&ftid=1699694&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow7" style="display:inline;"><br /><div style="display:inline">Data centers are increasingly becoming larger and dynamic due to virtualization. In order to leverage the performance modeling and prediction techniques, such as Palladio Component Model or Descartes Modeling Language, in such a dynamic environments, ...</div></span>
+<span id="toHide7" style="display:none;"><br /><div style="display:inline"><p>Data centers are increasingly becoming larger and dynamic due to virtualization. In order to leverage the performance modeling and prediction techniques, such as Palladio Component Model or Descartes Modeling Language, in such a dynamic environments, it is necessary to automate the model extraction. Building and maintaining such models manually is not feasible anymore due to their size and the level of details. This paper is focused on traffic models that are an essential part of network infrastructure. Our goal is to decompose real traffic dumps into models suitable for performance prediction using Descartes Network Infrastructure modeling approach. The main challenge was to efficiently encode an arbitrary signal in the form of simple traffic generators while maintaining the shape of the original signal. We show that a typical 15 minute long tcpdump trace can be compressed to 0.4-15% of its original size whereas the relative median of extraction error is close to 0% for the most of the 69 examined traces.</p></div></span> <a id="expcoll7" href="JavaScript: expandcollapse('expcoll7',7)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851571">Learning from Source Code History to Identify Performance Failures</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990435">Juan Pablo Sandoval Alcocer</a>,
+<a href="author_page.cfm?id=81342489310">Alexandre Bergel</a>,
+<a href="author_page.cfm?id=81452608597">Marco Tulio Valente</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 37-48</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851571" title="DOI">10.1145/2851553.2851571</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851571&ftid=1699695&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow8" style="display:inline;"><br /><div style="display:inline">Source code changes may inadvertently introduce performance regressions. Benchmarking each software version is traditionally employed to identify performance regressions. Although effective, this exhaustive approach is hard to carry out in practice. ...</div></span>
+<span id="toHide8" style="display:none;"><br /><div style="display:inline"><p>Source code changes may inadvertently introduce performance regressions. Benchmarking each software version is traditionally employed to identify performance regressions. Although effective, this exhaustive approach is hard to carry out in practice. This paper contrasts source code changes against performance variations. By analyzing 1,288 software versions from 17 open source projects, we identified 10 source code changes leading to a performance variation (improvement or regression). We have produced a cost model to infer whether a software commit introduces a performance variation by analyzing the source code and sampling the execution of a few versions. By profiling the execution of only 17% of the versions, our model is able to identify 83% of the performance regressions greater than 5% and 100% of the regressions greater than 50%.</p></div></span> <a id="expcoll8" href="JavaScript: expandcollapse('expcoll8',8)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851578">Resource and Performance Distribution Prediction for Large Scale Analytics Queries</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81453652773">Alireza Khoshkbarforoushha</a>,
+<a href="author_page.cfm?id=81341495546">Rajiv Ranjan</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 49-54</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851578" title="DOI">10.1145/2851553.2851578</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851578&ftid=1699676&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow9" style="display:inline;"><br /><div style="display:inline">Efficient resource consumption and performance estimation of data-intensive workloads is central to the design and development of workload management techniques. Recent work has explored the efficacy of using distribution-based estimation of workload ...</div></span>
+<span id="toHide9" style="display:none;"><br /><div style="display:inline"><p>Efficient resource consumption and performance estimation of data-intensive workloads is central to the design and development of workload management techniques. Recent work has explored the efficacy of using distribution-based estimation of workload performance as opposed to single point prediction for a number of workload management problems such as query scheduling, admission control, and the like. However, the proposed approaches lack an efficient workload performance distribution prediction in that they simply assume that the probability distribution function (pdf) of the target value is already available. This paper aims to address this problem for an inseparable portion of big data analytics workloads, Hive queries. To this end, we combine knowledge of Hive query executions with the novel usage of mixture density networks to predict the whole spectrum of resource and performance as probability density functions. We evaluate our technique using the TPC-H benchmark, showing that it not only produces accurate pdf predictions but outperforms the state of the art single point techniques in half of experiments.</p></div></span> <a id="expcoll9" href="JavaScript: expandcollapse('expcoll9',9)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Industry Track 1</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851560">Automatic Performance Modelling from Application Performance Management (APM) Data: An Experience Report</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81100593913">Paul Charles Brebner</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 55-61</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851560" title="DOI">10.1145/2851553.2851560</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851560&ftid=1699696&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow11" style="display:inline;"><br /><div style="display:inline">Traditional testing approaches for enterprise systems are no longer possible, agile enough, affordable, or accurate in many cases. This is due to ongoing changes, reduced time between production updates and the inability to test all system components ...</div></span>
+<span id="toHide11" style="display:none;"><br /><div style="display:inline"><p>Traditional testing approaches for enterprise systems are no longer possible, agile enough, affordable, or accurate in many cases. This is due to ongoing changes, reduced time between production updates and the inability to test all system components because of third party services and the expense of maintaining a test environment. One alternative approach has been to manually build predictive performance models to mitigate performance risk. Even this has become impractical and cannot keep pace with changes in complex enterprise systems. In response to these challenges we have developed a way to automatically build and parameterize performance models for large scale enterprise systems from Application Performance Management (APM) data. This industry experience report summaries our experiences with automatically building performance models for commercial customers over the last two years. For each project we summarize the problem context, the performance risks to be addressed, the automatic modelling process, the range in complexity of the resulting models, the accuracy of the predictions, and the benefits and limitations of the models in practice.</p></div></span> <a id="expcoll11" href="JavaScript: expandcollapse('expcoll11',11)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851557">Analyzing the Efficiency of a Green University Data Center</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658688578">Patrick Pegus, II</a>,
+<a href="author_page.cfm?id=99658990833">Benoy Varghese</a>,
+<a href="author_page.cfm?id=86158633857">Tian Guo</a>,
+<a href="author_page.cfm?id=81100045422">David Irwin</a>,
+<a href="author_page.cfm?id=81100334109">Prashant Shenoy</a>,
+<a href="author_page.cfm?id=81100518096">Anirban Mahanti</a>,
+<a href="author_page.cfm?id=99658990410">James Culbert</a>,
+<a href="author_page.cfm?id=81440616049">John Goodhue</a>,
+<a href="author_page.cfm?id=81407594107">Chris Hill</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 63-73</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851557" title="DOI">10.1145/2851553.2851557</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851557&ftid=1699686&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow12" style="display:inline;"><br /><div style="display:inline">Data centers are an indispensable part of today's IT infrastructure. To keep pace with modern computing needs, data centers continue to grow in scale and consume increasing amounts of power. While prior work on data centers has led to significant improvements ...</div></span>
+<span id="toHide12" style="display:none;"><br /><div style="display:inline"><p>Data centers are an indispensable part of today's IT infrastructure. To keep pace with modern computing needs, data centers continue to grow in scale and consume increasing amounts of power. While prior work on data centers has led to significant improvements in their energy-efficiency, detailed measurements from these facilities' operations are not widely available, as data center design is often considered part of a company's competitive advantage. However, such detailed measurements are critical to the research community in motivating and evaluating new energy-efficiency optimizations. In this paper, we present a detailed analysis of a state-of-the-art 15MW green multi-tenant data center that incorporates many of the technological advances used in commercial data centers. We analyze the data center's computing load and its impact on power, water, and carbon usage using standard effectiveness metrics, including PUE, WUE, and CUE. Our results reveal the benefits of optimizations, such as free cooling, and provide insights into how the various effectiveness metrics change with the seasons and increasing capacity usage. More broadly, our PUE, WUE, and CUE analysis validate the green design of this LEED Platinum data center.</p></div></span> <a id="expcoll12" href="JavaScript: expandcollapse('expcoll12',12)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851574">Interconnect Emulator for Aiding Performance Analysis of Distributed Memory Applications</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658683053">Qi Wang</a>,
+<a href="author_page.cfm?id=81548020076">Ludmila Cherkasova</a>,
+<a href="author_page.cfm?id=89758728657">Jun Li</a>,
+<a href="author_page.cfm?id=81350579639">Haris Volos</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 75-83</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851574" title="DOI">10.1145/2851553.2851574</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851574&ftid=1699702&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow13" style="display:inline;"><br /><div style="display:inline">Many modern large graph and Big Data processing applications operate on datasets that do not fit into DRAM of a single machine. This leads to a design of scale-out applications, where the application dataset is partitioned and processed by a cluster ...</div></span>
+<span id="toHide13" style="display:none;"><br /><div style="display:inline"><p>Many modern large graph and Big Data processing applications operate on datasets that do not fit into DRAM of a single machine. This leads to a design of scale-out applications, where the application dataset is partitioned and processed by a cluster of machines. Distributed memory applications exhibit complex behavior: they tend to interleave computations and communications, use bursty transfers, and utilize global synchronization primitives. This makes it difficult to analyze the impact of communication layer on the application performance and answer the questions: how interconnect latency or bandwidth characteristics may change the application performance will the application performance scale when processed by a larger system? In this work, we introduce a novel emulation framework, called InterSense, which is implemented on top of existing high-speed interconnect, such as InfiniBand, and which provides two performance knobs for changing the (today's) interconnect bandwidth and latency. This approach offers an easy-to-use framework for a sensitivity analysis of complex distributed applications to communication layer performance instead of creating customized and time-consuming application models to answer the same questions. We evaluate the emulator accuracy with popular OSU MPI benchmark suite and two clusters with different generation InfiniBand interconnects (DDR and FDR): InterSense emulates the specified andwidth and latency values with less than 2% error between the expected and measured values. To demonstrate the InterSense's ease of use, we present a case study, where we apply InterSense for sensitivity analysis of four applications and benchmarks for getting non-trivial insights.</p></div></span> <a id="expcoll13" href="JavaScript: expandcollapse('expcoll13',13)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851572">Parallel Graph Processing: Prejudice and State of the Art</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658744435">Assaf Eisenman</a>,
+<a href="author_page.cfm?id=81548020076">Ludmila Cherkasova</a>,
+<a href="author_page.cfm?id=81555603156">Guilherme Magalhaes</a>,
+<a href="author_page.cfm?id=99658990214">Qiong Cai</a>,
+<a href="author_page.cfm?id=81100428727">Paolo Faraboschi</a>,
+<a href="author_page.cfm?id=81100561602">Sachin Katti</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 85-90</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851572" title="DOI">10.1145/2851553.2851572</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851572&ftid=1699706&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow14" style="display:inline;"><br /><div style="display:inline">Large graph processing has attracted much renewed attention due to its increased importance for a social network analysis. The efficient parallel graph processing faces a set of software and hardware issues, discussed in literature. The main cause of ...</div></span>
+<span id="toHide14" style="display:none;"><br /><div style="display:inline"><p>Large graph processing has attracted much renewed attention due to its increased importance for a social network analysis. The efficient parallel graph processing faces a set of software and hardware issues, discussed in literature. The main cause of these challenges is the "irregularity" of graph computations and related difficulties in efficient parallelization of graph processing. Unbalanced computations, caused by uneven data partitioning, can affect application scalability. Moreover, the issue of poor data locality is another major concern, that makes the graph processing applications memory-bound. In this paper, we aim to profile how large, parallel graph applications (based on Galois framework) utilize modern systems, in particular, memory subsystem. We found that modern graph processing frameworks executed on the latest Intel multi-core systems (a single node server) exhibit a good data locality and achieve a good speedup with an increased number of cores, contrary to traditional past stereotypes. The application processing speedup is highly correlated with utilized memory bandwidth. At the same time, our measurements show that the memory bandwidth is not a bottleneck, and the analyzed graph applications are memory-latency bound. These new insights can help us in matching the resource demands of the graph processing applications to future system design parameters.</p></div></span> <a id="expcoll14" href="JavaScript: expandcollapse('expcoll14',14)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Work-In-Progress and Vision Papers</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858662">Asking "What"?, Automating the "How"?: The Vision of Declarative Performance Engineering</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658749203">J&#252;rgen Walter</a>,
+<a href="author_page.cfm?id=81413606549">Andr&#233; van Hoorn</a>,
+<a href="author_page.cfm?id=81323492283">Heiko Koziolek</a>,
+<a href="author_page.cfm?id=99658990713">Dusan Okanovic</a>,
+<a href="author_page.cfm?id=81315490151">Samuel Kounev</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 91-94</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858662" title="DOI">10.1145/2851553.2858662</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858662&ftid=1699697&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow16" style="display:inline;"><br /><div style="display:inline">Over the past decades, various methods, techniques, and tools for modeling and evaluating performance properties of software systems have been proposed covering the entire software life cycle. However, the application of performance engineering approaches ...</div></span>
+<span id="toHide16" style="display:none;"><br /><div style="display:inline"><p>Over the past decades, various methods, techniques, and tools for modeling and evaluating performance properties of software systems have been proposed covering the entire software life cycle. However, the application of performance engineering approaches to solve a given user concern is still rather challenging and requires expert knowledge and experience. There are no recipes on how to select, configure, and execute suitable methods, tools, and techniques allowing to address the user concerns. In this paper, we describe our vision of Declarative Performance Engineering (DPE), which aims to decouple the description of the user concerns to be solved (performance questions and goals) from the task of selecting and applying a specific solution approach. The strict separation of "what" versus "how" enables the development of different techniques and algorithms to automatically select and apply a suitable approach for a given scenario. The goal is to hide complexity from the user by allowing users to express their concerns and goals without requiring any knowledge about performance engineering techniques. Towards realizing the DPE vision, we discuss the different requirements and propose a reference architecture for implementing and integrating respective methods, algorithms, and tooling.</p></div></span> <a id="expcoll16" href="JavaScript: expandcollapse('expcoll16',16)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858658">Predicting the System Performance by Combining Calibrated Performance Models of its Components: A Preliminary Study</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+ <a href="author_page.cfm?id=81413596024">Thomas Begin</a>,
+<a href="author_page.cfm?id=81100003137">Alexandre Brandwajn</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 95-100</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858658" title="DOI">10.1145/2851553.2858658</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858658&ftid=1699677&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow17" style="display:inline;"><br /><div style="display:inline">In this paper we consider the problem of combining calibrated performance models of system components in order to predict overall system performance. We focus on open workload system models, in which, under certain conditions, obtaining and validating ...</div></span>
+<span id="toHide17" style="display:none;"><br /><div style="display:inline"><p>In this paper we consider the problem of combining calibrated performance models of system components in order to predict overall system performance. We focus on open workload system models, in which, under certain conditions, obtaining and validating the overall system performance measures can be a simple application of Little's law. We discuss the conditions of applicability of such a simple validation methodology, including examples of successful application, as well as examples where this approach fails. Additionally, we propose to analyze the deviations between the model predictions and system measurements, so as to decide if they correspond to "measurement noise" or if an important system component has not been correctly represented. This approach can be used as an aid in the design of validated system performance models.</p></div></span> <a id="expcoll17" href="JavaScript: expandcollapse('expcoll17',17)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858663">Towards Using Code Coverage Metrics for Performance Comparison on the Implementation Level</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990564">Mathias Menninghaus</a>,
+<a href="author_page.cfm?id=81447602121">Elke Pulverm&#252;ller</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 101-104</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858663" title="DOI">10.1145/2851553.2858663</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858663&ftid=1699703&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow18" style="display:inline;"><br /><div style="display:inline">The development process for new algorithms or data structures often begins with the analysis of benchmark results to identify the drawbacks of already existing implementations. Furthermore it ends with the comparison of old and new implementations by ...</div></span>
+<span id="toHide18" style="display:none;"><br /><div style="display:inline"><p>The development process for new algorithms or data structures often begins with the analysis of benchmark results to identify the drawbacks of already existing implementations. Furthermore it ends with the comparison of old and new implementations by using one or more well established benchmark. But how relevant, reproducible, fair, verifiable and usable those benchmarks may be, they have certain drawbacks. On the one hand a new implementation may be biased to provide good results for a specific benchmark. On the other hand benchmarks are very general and often fail to identify the worst and best cases of a specific implementation. In this paper we present a new approach for the comparison of algorithms and data structures on the implementation level using code coverage. Our approach uses model checking and multi-objective evolutionary algorithms to create test cases with a high code coverage. It then executes each of the given implementations with each of the test cases in order to calculate a cross coverage. Using this it calculates a combined coverage and weighted performance where implementations, which are not fully covered by the test cases of the other implementations, are punished. These metrics can be used to compare the performance of several implementations on a much deeper level than traditional benchmarks and they incorporate worst, best and average cases in an equal manner. We demonstrate this approach by two example sets of algorithms and outline the next research steps required in this context along with the greatest risks and challenges.</p></div></span> <a id="expcoll18" href="JavaScript: expandcollapse('expcoll18',18)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858665">Performance Extrapolation of IO Intensive Workloads: Work in Progress</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81479649812">Dheeraj Chahal</a>,
+<a href="author_page.cfm?id=81550522856">Rupinder Virk</a>,
+<a href="author_page.cfm?id=81416593657">Manoj Nambiar</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 105-108</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858665" title="DOI">10.1145/2851553.2858665</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858665&ftid=1699683&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow19" style="display:inline;"><br /><div style="display:inline">Performance prediction of an application before migrating from a source system and deploying on the target system is a challenging but important task. In this paper, we present a method for predicting the performance of an IO intensive multithreaded ...</div></span>
+<span id="toHide19" style="display:none;"><br /><div style="display:inline"><p>Performance prediction of an application before migrating from a source system and deploying on the target system is a challenging but important task. In this paper, we present a method for predicting the performance of an IO intensive multithreaded enterprise application workload on target systems connected to advanced storage devices. Our approach is an extension of well-known trace and replay method. We extract traces of IO intensive enterprise workloads representing temporal and spatial characteristics (e.g. read and write requests) on the source system where application is currently deployed. These traces are replayed on the system of interest called target system. The experimental results presented demonstrate the effectiveness and accuracy of this method.</p></div></span> <a id="expcoll19" href="JavaScript: expandcollapse('expcoll19',19)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858667">BFT-Bench: A Framework to Evaluate BFT Protocols</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658989669">Divya Gupta</a>,
+<a href="author_page.cfm?id=99658990778">Lucas Perronne</a>,
+<a href="author_page.cfm?id=81100169350">Sara Bouchenak</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 109-112</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858667" title="DOI">10.1145/2851553.2858667</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+ Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858667&ftid=1699687&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow20" style="display:inline;"><br /><div style="display:inline">Byzantine Fault Tolerance (BFT) has been extensively studied and numerous protocols and software prototypes have been proposed. However, most BFT prototypes have been evaluated in an ad-hoc setting, considering different fault types and fault injection ...</div></span>
+<span id="toHide20" style="display:none;"><br /><div style="display:inline"><p>Byzantine Fault Tolerance (BFT) has been extensively studied and numerous protocols and software prototypes have been proposed. However, most BFT prototypes have been evaluated in an ad-hoc setting, considering different fault types and fault injection scenarios. In this paper, we present BFT-Bench, the first benchmarking framework for evaluating and comparing BFT protocols in practice. BFT-Bench includes different BFT protocols implementations, their automatic deployment in a distributed setting, the ability to define and inject different faulty behaviors, and the online monitoring and reporting of performance and dependability measures. Preliminary results of BFT-Bench show the effectiveness of the framework, easily allowing an empirical comparison of different BFT protocols, in various workload and fault scenarios.</p></div></span> <a id="expcoll20" href="JavaScript: expandcollapse('expcoll20',20)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858669">Towards Performance and Scalability Analysis of Distributed Memory Programs on Large-Scale Clusters</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990486">Sourav Medya</a>,
+<a href="author_page.cfm?id=81548020076">Ludmila Cherkasova</a>,
+<a href="author_page.cfm?id=81555603156">Guilherme Magalhaes</a>,
+<a href="author_page.cfm?id=81100578329">Kivanc Ozonat</a>,
+<a href="author_page.cfm?id=99658990194">Chaitra Padmanabha</a>,
+<a href="author_page.cfm?id=99658990367">Jiban Sarma</a>,
+<a href="author_page.cfm?id=81474701551">Imran Sheikh</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 113-116</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858669" title="DOI">10.1145/2851553.2858669</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858669&ftid=1699688&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow21" style="display:inline;"><br /><div style="display:inline">Many HPC and modern Big Data processing applications belong to a class of so-called scale-out applications, where the application dataset is partitioned and processed by a cluster of machines. Understanding and assessing the scalability of the designed ...</div></span>
+<span id="toHide21" style="display:none;"><br /><div style="display:inline"><p>Many HPC and modern Big Data processing applications belong to a class of so-called scale-out applications, where the application dataset is partitioned and processed by a cluster of machines. Understanding and assessing the scalability of the designed application is one of the primary goals during the application implementation. Typically, in the design and implementation phase, the programmer is bound to a limited size cluster for debugging and performing profiling experiments. The challenge is to assess the scalability of the designed program for its execution on a larger cluster. While in an increased size cluster, each node needs to process a smaller fraction of the original dataset, the communication volume and communication time might be significantly increased, which could become detrimental and provide diminishing performance benefits. The distributed memory applications exhibit complex behavior: they tend to interleave computations and communications, use bursty transfers, and utilize global synchronization primitives. Therefore, one of the main challenges is the analysis of bandwidth demands due to increased communication volume as a function of a cluster size. In this paper, we introduce a novel approach to assess the scalability and performance of a distributed memory program for execution on a large-scale cluster. Our solution involves 1) a limited set of traditional experiments performed in a medium size cluster and 2) an additional set of similar experiments performed with an "interconnect bandwidth throttling" tool, which enables the assessment of the communication demands with respect to available bandwidth. This approach enables a prediction of a cluster size, where a communication cost becomes a dominant component, at which point the performance benefits of the increased cluster lead to a diminishing return. We demonstrate the proposed approach using a popular Graph500 benchmark.</p></div></span> <a id="expcoll21" href="JavaScript: expandcollapse('expcoll21',21)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Doctoral Symposium</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2892038">Empirical Analysis of Performance Problems on Code Level</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990000">David Georg Reichelt</a>,
+<a href="author_page.cfm?id=81384595172">Stefan K&#252;hne</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 117-120</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2892038" title="DOI">10.1145/2851553.2892038</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2892038&ftid=1699670&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow23" style="display:inline;"><br /><div style="display:inline">Performance problems are well known on architecture level. On code level their occurrences have not been systematically researched so far. Since a lot of everyday work of software developers is done on code level, methods and tools with focus on frequent ...</div></span>
+<span id="toHide23" style="display:none;"><br /><div style="display:inline"><p>Performance problems are well known on architecture level. On code level their occurrences have not been systematically researched so far. Since a lot of everyday work of software developers is done on code level, methods and tools with focus on frequent performance problems are relevant. In the presented thesis, a method for systematically evaluating the occurrence and the frequency of performance problems on code level is presented and applied to repositories. The results of this empirical research will be a classification of performance problems and a quantification of their frequency. This will raise the awareness on certain problem classes for developers and will provide a basis for the development of new performance tools for preventing performance problems.</p></div></span> <a id="expcoll23" href="JavaScript: expandcollapse('expcoll23',23)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2892039">Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658989731">Holger Knoche</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 121-124</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2892039" title="DOI">10.1145/2851553.2892039</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2892039&ftid=1699671&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow24" style="display:inline;"><br /><div style="display:inline">Microservices are a promising target architecture for the modernization of monolithic software. However, breaking up a monolith into services can have a severe impact on performance, especially transactions. Therefore, careful planning of such modernizations ...</div></span>
+<span id="toHide24" style="display:none;"><br /><div style="display:inline"><p>Microservices are a promising target architecture for the modernization of monolithic software. However, breaking up a monolith into services can have a severe impact on performance, especially transactions. Therefore, careful planning of such modernizations with respect to performance is required. This is particularly true for incremental modernizations, which release partially modernized states of the application into production. In this paper, we present a simulation-based approach for sustaining runtime performance during incremental modernizations towards Microservices.</p></div></span> <a id="expcoll24" href="JavaScript: expandcollapse('expcoll24',24)">expand</a>
+ </div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Demos and Posters</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858678">PROST: Predicting Resource Usages with Spatial and Temporal Dependencies</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658964469">Ji Xue</a>,
+<a href="author_page.cfm?id=81100120677">Evgenia Smirni</a>,
+<a href="author_page.cfm?id=81375602842">Thomas Scherer</a>,
+<a href="author_page.cfm?id=81414613167">Robert Birke</a>,
+<a href="author_page.cfm?id=81472653313">Lydia Y. Chen</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 125-126</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858678" title="DOI">10.1145/2851553.2858678</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858678&ftid=1699707&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow26" style="display:inline;"><br /><div style="display:inline">We present a tool, PROST, which can achieve scalable and accurate prediction of server workload time series in data centers. As several virtual machines are typically co-located on physical servers, the CPU and RAM show strong temporal and spatial dependencies. ...</div></span>
+<span id="toHide26" style="display:none;"><br /><div style="display:inline"><p>We present a tool, PROST, which can achieve scalable and accurate prediction of server workload time series in data centers. As several virtual machines are typically co-located on physical servers, the CPU and RAM show strong temporal and spatial dependencies. PROST is able to leverage the spatial dependency among co-located VMs to improve the scalability of prediction models solely based on temporal features, such as neural network. We show the benefits of PROST in obtaining accurate prediction of resource usage series and designing effective VM sizing strategies for the private data centers.</p></div></span> <a id="expcoll26" href="JavaScript: expandcollapse('expcoll26',26)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858675">SPEC Research Group's Cloud Working Group: RG Cloud Group</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81314482978">Alexandru Iosup</a>,
+<a href="author_page.cfm?id=81315490151">Samuel Kounev</a>,
+<a href="author_page.cfm?id=81384618953">Kai Sachs</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 127-128</span></td>
+ </tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858675" title="DOI">10.1145/2851553.2858675</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858675&ftid=1699698&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858676">Integrating Faban with Docker for Performance Benchmarking</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=84459113557">Vincenzo Ferme</a>,
+<a href="author_page.cfm?id=81100156471">Cesare Pautasso</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 129-130</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858676" title="DOI">10.1145/2851553.2858676</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858676&ftid=1699678&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow28" style="display:inline;"><br /><div style="display:inline">Reliability and repeatability are key requirements in performance benchmarking ensuring the trustworthiness of the obtained performance results. To apply a benchmark to multiple systems, the reusability of the load driver is essential. While Faban has ...</div></span>
+<span id="toHide28" style="display:none;"><br /><div style="display:inline"><p>Reliability and repeatability are key requirements in performance benchmarking ensuring the trustworthiness of the obtained performance results. To apply a benchmark to multiple systems, the reusability of the load driver is essential. While Faban has been designed to ensure the reliability of the performance data obtained from a benchmark experiment, it lacks support for ensuring that the system under test is deployed in a known configuration. This is what Docker, a recently emerging containerization technology, excels at. In this demo paper we present how we integrated Faban with Docker as part of the BenchFlow framework to offer a complete and automated performance benchmarking framework that provides a reliable and reusable environment, ensuring the repeatability of the experiments.</p></div></span> <a id="expcoll28" href="JavaScript: expandcollapse('expcoll28',28)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858677">Which Cloud Auto-Scaler Should I Use for my Application?: Benchmarking Auto-Scaling Algorithms</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+ <span style="padding-left:20">
+<a href="author_page.cfm?id=81488671203">Ahmed Ali-Eldin</a>,
+<a href="author_page.cfm?id=99658990740">Alexey Ilyushkin</a>,
+<a href="author_page.cfm?id=81453659331">Bogdan Ghit</a>,
+<a href="author_page.cfm?id=81557472256">Nikolas Roman Herbst</a>,
+<a href="author_page.cfm?id=81550658656">Alessandro Papadopoulos</a>,
+<a href="author_page.cfm?id=81314482978">Alexandru Iosup</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 131-132</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858677" title="DOI">10.1145/2851553.2858677</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858677&ftid=1699672&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow29" style="display:inline;"><br /><div style="display:inline">Rapid elasticity is one of the essential characteristics of cloud computing identified by NIST [17]. Elasticity allows resources to be provisioned and released to scale rapidly out ward and in ward according to demand. Tens -- if not hundreds -- of algorithms ...</div></span>
+<span id="toHide29" style="display:none;"><br /><div style="display:inline"><p>Rapid elasticity is one of the essential characteristics of cloud computing identified by NIST [17]. Elasticity allows resources to be provisioned and released to scale rapidly out ward and in ward according to demand. Tens -- if not hundreds -- of algorithms have been proposed in the literature to automatically achieve elastic provisioning [15, 23, 14, 21, 13, 20, 6, 12, 16, 10]. These algorithms are typically referred to as elasticity algorithms, dynamic provisioning techniques or autoscalers. While trying to solve the same problem, sometimes with differing assumption, many of these algorithms are either compared to static provisioning or to a predefined QoS target, e.g., predefined response time target, with very little -- or no -- comparison to previously published work. This reduces the ability of an application owner or a cloud operator to choose and deploy a suitable algorithm from the literature. Many of these algorithms have been tested with one single -- real or synthetic -- workload in a specific use-case [13, 14, 10]. While all published algorithms are shown to work in the specific use-case they were designed for with the, typically short, workloads tested with, it is seldom the case that the real scenarios will be any thing close to the test cases for which the algorithms are shown to work. Bursts occur in workloads occasionally. Workload dynamics change over time and the load-mix of an application significantly affects how provisioning should be done [21].</p></div></span> <a id="expcoll29" href="JavaScript: expandcollapse('expcoll29',29)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Keynote 2</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858659">Microservices for Scalability: Keynote Talk Abstract</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81482644981">Wilhelm Hasselbring</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 133-134</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858659" title="DOI">10.1145/2851553.2858659</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858659&ftid=1699679&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow31" style="display:inline;"><br /><div style="display:inline">Microservice architectures provide small services that may be deployed and scaled independently of each other, and may employ different middleware stacks for their implementation. Microservice architectures emphasize transaction-less coordination between ...</div></span>
+<span id="toHide31" style="display:none;"><br /><div style="display:inline"><p>Microservice architectures provide small services that may be deployed and scaled independently of each other, and may employ different middleware stacks for their implementation. Microservice architectures emphasize transaction-less coordination between services, with explicit acceptance of eventual consistency. Polyglott persistence in this context means that the individual microservices may employ multiple data storage technologies. Microservice architectures are "cloud native" allowing for automated and rapid elasticity. Fault-tolerance mechanisms achieve that failures of individual mircroservices do not affect other services thanks to container isolation. Since services can fail at any time, it is important to be able to detect the failures quickly and, if possible, automatically restore services. Essential for success in such a setting is advanced monitoring. In this keynote, I discuss how mircoservices support scalability for both, runtime performance and development performance, via polyglott persistence, eventual consistency, loose coupling, open source frameworks, and continuous monitoring for elastic capacity management.</p></div></span> <a id="expcoll31" href="JavaScript: expandcollapse('expcoll31',31)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Best paper candidate 2</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851566">Performance Modeling of Maximal Sharing</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81501680573">Michael J. Steindorfer</a>,
+<a href="author_page.cfm?id=81100623272">Jurgen J. Vinju</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 135-146</span></td>
+</tr>
+<tr>
+<td></td>
+ <td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851566" title="DOI">10.1145/2851553.2851566</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851566&ftid=1699680&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow33" style="display:inline;"><br /><div style="display:inline">It is noticeably hard to predict the effect of optimization strategies in Java without implementing them. "Maximal sharing" (a.k.a. "hash-consing") is one of these strategies that may have great benefit in terms of time and space, or may have detrimental ...</div></span>
+<span id="toHide33" style="display:none;"><br /><div style="display:inline"><p>It is noticeably hard to predict the effect of optimization strategies in Java without implementing them. "Maximal sharing" (a.k.a. "hash-consing") is one of these strategies that may have great benefit in terms of time and space, or may have detrimental overhead. It all depends on the redundancy of data and the use of equality. We used a combination of new techniques to predict the impact of maximal sharing on existing code: Object Redundancy Profiling (ORP) to model the effect on memory when sharing all immutable objects, and Equals-Call Profiling (ECP) to reason about how removing redundancy impacts runtime performance. With comparatively low effort, using the MAximal SHaring Oracle (MASHO), a prototype profiler based on ORP and ECP, we can uncover optimization opportunities that otherwise would remain hidden.</p> <p>This is an experience report on applying MASHO to real and complex case: we conclude that ORP and ECP combined can accurately predict gains and losses of maximal sharing, and also that (by isolating variables) a cheap predictive model can sometimes provide more accurate information than an expensive experiment can.</p></div></span> <a id="expcoll33" href="JavaScript: expandcollapse('expcoll33',33)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Industry Track 2</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851567">Variations in CPU Power Consumption</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658955214">J&#243;akim von Kistowski</a>,
+<a href="author_page.cfm?id=81501674781">Hansfried Block</a>,
+<a href="author_page.cfm?id=81501672931">John Beckett</a>,
+<a href="author_page.cfm?id=81328490467">Cloyce Spradling</a>,
+<a href="author_page.cfm?id=81413599695">Klaus-Dieter Lange</a>,
+<a href="author_page.cfm?id=81315490151">Samuel Kounev</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 147-158</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851567" title="DOI">10.1145/2851553.2851567</a></span></td>
+</tr>
+<tr>
+ <td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851567&ftid=1699708&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow35" style="display:inline;"><br /><div style="display:inline">Experimental analysis of computer systems' power consumption has become an integral part of system performance evaluation, efficiency management, and model-based analysis. As with all measurements, repeatability and reproducibility of power measurements ...</div></span>
+<span id="toHide35" style="display:none;"><br /><div style="display:inline"><p>Experimental analysis of computer systems' power consumption has become an integral part of system performance evaluation, efficiency management, and model-based analysis. As with all measurements, repeatability and reproducibility of power measurements are a major challenge. Nominally identical systems can have different power consumption running the same workload under otherwise identical conditions. This behavior can also be observed for individual system components. Specifically, CPU power consumption can vary amongst different samples of nominally identical CPUs. This in turn has a significant impact on the overall system power, considering that a system's processor is the largest and most dynamic power consumer of the overall system. The concrete impact of CPU sample power variations is unknown, as comprehensive studies about differences in power consumption for nominally identical systems are currently missing. We address this lack of studies by conducting measurements on four different processor types from two different architectures. For each of these types, we compare up to 30 physical processor samples with a total sum of 90 samples over all processor types. We analyze the variations in power consumption for the different samples using six different workloads over five load levels. Additionally, we analyze how these variations change for different processor core counts and architectures. The results of this paper show that selection of a processor sample can have a statistically significant impact on power consumption. With no correlation to performance, power consumption for nominally identical processors can differ as much as 29.6% in idle and 19.5% at full load. We also show that these variations change over different architectures and processor types.</p></div></span> <a id="expcoll35" href="JavaScript: expandcollapse('expcoll35',35)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851577">End-to-End Java Security Performance Enhancements for Oracle SPARC Servers</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990693">Luyang Wang</a>,
+<a href="author_page.cfm?id=99658990471">Pallab Bhattacharya</a>,
+<a href="author_page.cfm?id=81556664156">Yao-Min Chen</a>,
+<a href="author_page.cfm?id=99658990725">Shrinivas Joshi</a>,
+<a href="author_page.cfm?id=99658990996">James Cheng</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 159-166</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851577" title="DOI">10.1145/2851553.2851577</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851577&ftid=1699709&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow36" style="display:inline;"><br /><div style="display:inline">In this paper we investigate the performance of cryptographic operations, when used in Java applications. We demonstrate the advantage of using built-in hardware accelerator for cryptographic operations on SPARC servers. In particular, we demonstrate ...</div></span>
+<span id="toHide36" style="display:none;"><br /><div style="display:inline"><p>In this paper we investigate the performance of cryptographic operations, when used in Java applications. We demonstrate the advantage of using built-in hardware accelerator for cryptographic operations on SPARC servers. In particular, we demonstrate the advantage of hardware cryptographic instructions invoked via AES and SHA intrinsics, implemented in the Java Virtual Machine (JVM), over the more traditional Java Native Interface (JNI) calls. For the purpose of our study, we modified the SPECweb2005 benchmark by adding modern banking requirements, and created a new workload which we call the End-to-End Java Security (EEJS) workload. Using the workload, we compare different Java Cryptographic Service Providers (CSPs) and arrive at the conclusion that hardware cryptography has significant performance advantage for Java applications. With the EEJS workload, we also identify several enhancements applicable to the Java Secure Socket Extension (JSSE).</p></div></span> <a id="expcoll36" href="JavaScript: expandcollapse('expcoll36',36)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851579">Accelerating The Optimal Trade-Off Circular Harmonic Function Filter Design on Multicore Systems</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990761">Anubhav Jain</a>,
+<a href="author_page.cfm?id=99658990689">Amit Kalele</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 167-172</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851579" title="DOI">10.1145/2851553.2851579</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851579&ftid=1699684&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow37" style="display:inline;"><br /><div style="display:inline">Optimal correlation filters are widely used in signal processing and pattern recognition applications. Correlation filters are a set of synthesized spatial filters that produce controlled response with sharp peaks. While providing excellent discrimination ...</div></span>
+<span id="toHide37" style="display:none;"><br /><div style="display:inline"><p>Optimal correlation filters are widely used in signal processing and pattern recognition applications. Correlation filters are a set of synthesized spatial filters that produce controlled response with sharp peaks. While providing excellent discrimination capabilities correlation filters offer shift, rotation and scale invariance for 2D images. Correlation filters are optimized to enhance the recognition of consistent parts while suppressing the varying patterns. Synthesizing the correlation filters for pattern recognition applications involves several complex mathematical operations and requires high computation resources especially for high resolution images and videos. In this paper, we show that near real time performance can be achieved for the design of the OTCHF filter with help of optimization and parallelization on multicore GPUs and CPUs.</p></div></span> <a id="expcoll37" href="JavaScript: expandcollapse('expcoll37',37)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Distributed Systems &#38; Cloud</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851554">A Resource Contention Analysis Framework for Diagnosis of Application Performance Anomalies in Consolidated Cloud Environments</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658991120">Tatsuma Matsuki</a>,
+<a href="author_page.cfm?id=81548565056">Naoki Matsuoka</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 173-184</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851554" title="DOI">10.1145/2851553.2851554</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851554&ftid=1699681&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow39" style="display:inline;"><br /><div style="display:inline">Cloud services have made large contributions to the agile developments and rapid revisions of various applications. However, the performance of these applications is still one of the largest concerns for developers. Although it has created many performance ...</div></span>
+<span id="toHide39" style="display:none;"><br /><div style="display:inline"><p>Cloud services have made large contributions to the agile developments and rapid revisions of various applications. However, the performance of these applications is still one of the largest concerns for developers. Although it has created many performance analysis frameworks, most of them have not been efficient for the rapid application revisions because they have required performance models, which may have had to be remodeled whenever application revisions occurred. We propose an analysis framework for diagnosis of application performance anomalies. We designed our framework so that it did not require any performance models to be efficient in rapid application revisions. That investigates the Pearson correlation and association rules between system metrics and application performance. The association rules are widely used in data-mining areas to find relations between variables in databases. We demonstrated through an experiment and testing on a real data set that our framework could select causal metrics even when the metrics were temporally correlated, which reduced the false negatives obtained from cause diagnosis. We evaluated our framework from the perspective of the expected remaining diagnostic costs of framework users. The results indicated that it was expected to reduce the diagnostic costs by 84.8\% at most, compared with a method that only used the Pearson correlation.</p></div></span> <a id="expcoll39" href="JavaScript: expandcollapse('expcoll39',39)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851556">Beyond Energy-Efficiency: Evaluating Green Datacenter Applications for Energy-Agility</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658741153">Supreeth Subramanya</a>,
+<a href="author_page.cfm?id=99658990527">Zain Mustafa</a>,
+<a href="author_page.cfm?id=81100045422">David Irwin</a>,
+<a href="author_page.cfm?id=81100334109">Prashant Shenoy</a>
+ </span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 185-196</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851556" title="DOI">10.1145/2851553.2851556</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851556&ftid=1699673&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow40" style="display:inline;"><br /><div style="display:inline">Computing researchers have long focused on improving energy-efficiency under the implicit assumption that all energy is created equal. Yet, this assumption is actually incorrect: energy's cost and carbon footprint vary substantially over time. As a result, ...</div></span>
+<span id="toHide40" style="display:none;"><br /><div style="display:inline"><p>Computing researchers have long focused on improving energy-efficiency under the implicit assumption that all energy is created equal. Yet, this assumption is actually incorrect: energy's cost and carbon footprint vary substantially over time. As a result, consuming energy inefficiently when it is cheap and clean may sometimes be preferable to consuming it efficiently when it is expensive and dirty. Green datacenters adapt their energy usage to optimize for such variations, as reflected in changing electricity prices or renewable energy output. Thus, we introduce energy-agility as a new metric to evaluate green datacenter applications. To illustrate fundamental tradeoffs in energy-agile design, we develop GreenSort, a distributed sorting system optimized for energy-agility. GreenSort is representative of the long-running, massively-parallel, data-intensive tasks that are common in datacenters and amenable to delays from power variations. Our results demonstrate the importance of energy-agile design when considering the benefits of using variable power. For example, we show that GreenSort requires 31% more time and energy to complete when power varies based on real-time electricity prices versus when it is constant. Thus, in this case, real-time prices should be at least 31% lower than fixed prices to warrant using them.</p></div></span> <a id="expcoll40" href="JavaScript: expandcollapse('expcoll40',40)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851562">Tackling Latency via Replication in Distributed Systems</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658749401">Zhan Qiu</a>,
+<a href="author_page.cfm?id=99658697225">Juan F. P&#233;rez</a>,
+<a href="author_page.cfm?id=81100010483">Peter G. Harrison</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 197-208</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851562" title="DOI">10.1145/2851553.2851562</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+ Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851562&ftid=1699690&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow41" style="display:inline;"><br /><div style="display:inline">Consistently high reliability and low latency are twin requirements common to many forms of distributed processing; for example, server farms and mirrored storage access. To address them, we consider replication of requests with canceling - i.e. initiate ...</div></span>
+<span id="toHide41" style="display:none;"><br /><div style="display:inline"><p>Consistently high reliability and low latency are twin requirements common to many forms of distributed processing; for example, server farms and mirrored storage access. To address them, we consider replication of requests with canceling - i.e. initiate multiple concurrent replicas of a request and use the first successful result returned, canceling all outstanding replicas. This scheme has been studied recently, but mostly for systems with a single central queue, while server farms exploit distributed resources for scalability and robustness. We develop an approximate stochastic model to determine the response-time distribution in a system with distributed queues, and compare its performance against its centralized counterpart. Validation against simulation indicates that our model is accurate for not only the mean response time but also its percentiles, which are particularly relevant for deadline-driven applications. Further, we show that in the distributed set-up, replication with canceling has the potential to reduce response times, even at relatively high utilization. We also find that it offers response times close to those of the centralized system, especially at medium-to-high request reliability. These findings support the use of replication with canceling as an effective mechanism for both fault- and delay-tolerance.</p></div></span> <a id="expcoll41" href="JavaScript: expandcollapse('expcoll41',41)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851568">Enhancing Rules For Cloud Resource Provisioning Via Learned Software Performance Models</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81548005581">Mark Grechanik</a>,
+<a href="author_page.cfm?id=99658735721">Qi Luo</a>,
+<a href="author_page.cfm?id=81100365833">Denys Poshyvanyk</a>,
+<a href="author_page.cfm?id=81100437916">Adam Porter</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 209-214</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851568" title="DOI">10.1145/2851553.2851568</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851568&ftid=1699699&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow42" style="display:inline;"><br /><div style="display:inline">In cloud computing, stakeholders deploy and run their software applications on a sophisticated infrastructure that is owned and managed by third-party providers. The ability of a given cloud infrastructure to effectively re-allocate resources to applications ...</div></span>
+<span id="toHide42" style="display:none;"><br /><div style="display:inline"><p>In cloud computing, stakeholders deploy and run their software applications on a sophisticated infrastructure that is owned and managed by third-party providers. The ability of a given cloud infrastructure to effectively re-allocate resources to applications is referred to as elasticity. To enable elasticity, programmers study the behavior of applications and write scripts that guide the cloud to provision resources for these applications. This is an imprecise, laborious, manual and expensive approach that drastically increases the cost of application deployment and maintenance in the cloud. We propose an approach, coined as Provisioning Resources with Experimental SofTware mOdeling (PRESTO), to automatically learn behavioral models of software applications during performance testing in order to recommend programmers how to improve provisioning strategies that guide the cloud to (de)allocate resources to these applications. We applied PRESTO to two software applications and our experiments demonstrate that with PRESTO programmers can create rules for provisioning resources with a high degree of precision when the performance is about to worsen, so that the applications maintain their throughputs at the desired level.</p></div></span> <a id="expcoll42" href="JavaScript: expandcollapse('expcoll42',42)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Best paper candidate 3</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851564">Optimized eeeBond: Energy Efficiency with non-Proportional Router Network Interfaces</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81100635763">Niklas Carlsson</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 215-223</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851564" title="DOI">10.1145/2851553.2851564</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851564&ftid=1699691&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow44" style="display:inline;"><br /><div style="display:inline">The recent Energy Efficient Ethernet (EEE) standard and the eBond protocol provide two orthogonal approaches that allow significant energy savings on routers. In this paper we present the modeling and performance evaluation of these two protocols and ...</div></span>
+<span id="toHide44" style="display:none;"><br /><div style="display:inline"><p>The recent Energy Efficient Ethernet (EEE) standard and the eBond protocol provide two orthogonal approaches that allow significant energy savings on routers. In this paper we present the modeling and performance evaluation of these two protocols and a hybrid protocol. We first present eeeBond, pronounced ``triple-e bond'', which combines the eBond capability to switch between multiple redundant interfaces with EEE's active/idle toggling capability implemented in each interface. Second, we present an analytic model of the protocol performance, and derive closed-form expressions for the optimized parameter settings of both eBond and eeeBond. Third, we present a performance evaluation that characterizes the relative performance gains possible with the optimized protocols, as well as a trace-based evaluation that validates the insights from the analytic model. Our results show that there are significant advantages to combine eBond and EEE. The eBond capability provides good savings when interfaces only offer small energy savings when in short-term sleep states, and the EEE capability is important as short-term sleep savings improve.</p></div></span> <a id="expcoll44" href="JavaScript: expandcollapse('expcoll44',44)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Characterization and Profiling</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851575">Communication Characterization and Optimization of Applications Using Topology-Aware Task Mapping on Large Supercomputers</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81384605376">Sarat Sreepathi</a>,
+<a href="author_page.cfm?id=81410594707">Ed D'Azevedo</a>,
+<a href="author_page.cfm?id=81100289970">Bobby Philip</a>,
+<a href="author_page.cfm?id=81332536504">Patrick Worley</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 225-236</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851575" title="DOI">10.1145/2851553.2851575</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851575&ftid=1699692&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow46" style="display:inline;"><br /><div style="display:inline">On large supercomputers, the job scheduling systems may assign a non-contiguous node allocation for user applications depending on available resources. With parallel applications using MPI (Message Passing Interface), the default process ordering does ...</div></span>
+<span id="toHide46" style="display:none;"><br /><div style="display:inline"><p>On large supercomputers, the job scheduling systems may assign a non-contiguous node allocation for user applications depending on available resources. With parallel applications using MPI (Message Passing Interface), the default process ordering does not take into account the actual physical node layout available to the application. This contributes to non-locality in terms of physical network topology and impacts communication performance of the application. In order to mitigate such performance penalties, this work describes techniques to identify suitable task mapping that takes the layout of the allocated nodes as well as the application's communication behavior into account. During the first phase of this research, we instrumented and collected performance data to characterize communication behavior of critical US DOE (United States - Department of Energy) applications using an augmented version of the mpiP tool. Subsequently, we developed several reordering methods (spectral bisection, neighbor join tree etc.) to combine node layout and application communication data for optimized task placement. We developed a tool called mpiAproxy to facilitate detailed evaluation of the various reordering algorithms without requiring full application executions. This work presents a comprehensive performance evaluation (14,000 experiments) of the various task mapping techniques in lowering communication costs on Titan, the leadership class supercomputer at Oak Ridge National Laboratory.</p></div></span> <a id="expcoll46" href="JavaScript: expandcollapse('expcoll46',46)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851563">Automatically Detecting "Excessive Dynamic Memory Allocations" Software Performance Anti-Pattern</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=82858635157">Manjula Peiris</a>,
+<a href="author_page.cfm?id=81330491798">James H. Hill</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 237-248</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851563" title="DOI">10.1145/2851553.2851563</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851563&ftid=1699700&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow47" style="display:inline;"><br /><div style="display:inline">This paper presents a methodology for automatically detecting the excessive dynamic memory allocation software performance anti-pattern, which is implemented in a tool named Excessive Memory Allocation Detector (EMAD). To the best of author's knowledge, ...</div></span>
+<span id="toHide47" style="display:none;"><br /><div style="display:inline"><p>This paper presents a methodology for automatically detecting the excessive dynamic memory allocation software performance anti-pattern, which is implemented in a tool named Excessive Memory Allocation Detector (EMAD). To the best of author's knowledge, EMAD is the first attempt to detect excessive dynamic memory allocation anti-pattern without human intervention. EMAD uses dynamic binary instrumentation and exploratory data analysis to determine if an application (or middleware) exhibits excessive dynamic memory allocations. Unlike traditional approaches, EMAD's technique does not rely on source code analysis. Results of applying EMAD to several open-source projects show that EMAD can detect the excessive dynamic memory allocations anti-pattern correctly. The results also show that application performance improves when the detected excessive dynamic memory allocations are resolved.</p></div></span> <a id="expcoll47" href="JavaScript: expandcollapse('expcoll47',47)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851555">Efficient and Viable Handling of Large Object Traces</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=83358637057">Philipp Lengauer</a>,
+<a href="author_page.cfm?id=86158868257">Verena Bitto</a>,
+<a href="author_page.cfm?id=81100481478">Hanspeter M&#246;ssenb&#246;ck</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 249-260</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851555" title="DOI">10.1145/2851553.2851555</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851555&ftid=1699693&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow48" style="display:inline;"><br /><div style="display:inline">Understanding and tracking down memory-related performance problems is a tedious task, especially when it involves automatically managed memory, i.e., garbage collection. A multitude of monitoring tools show the substantial need of developers to deal ...</div></span>
+<span id="toHide48" style="display:none;"><br /><div style="display:inline"><p>Understanding and tracking down memory-related performance problems is a tedious task, especially when it involves automatically managed memory, i.e., garbage collection. A multitude of monitoring tools show the substantial need of developers to deal with these problems efficiently. Unfortunately, state-of-the-art tools either generate an inscrutable amount of trace data or produce only a coarse-grained view of the application's memory behavior. While the first approach generates information that is very detailed albeit difficult to handle, the second approach is more efficient but may fail to provide vital information.</p> <p>In this paper, we propose a method to combine the advantages of both approaches, i.e., a method to handle fine-grained tracing information efficiently. Specifically, we present an on-the-fly compression technique for tracing data with reasonable overhead. Furthermore, we show how to overwrite old parts of the trace to circumvent its unlimited growth, but almost without losing vital information.</p> <p>We also provide a detailed evaluation of our approach, showing that the introduced run-time overhead is negligible compared to similar tracing tools as well as that the information quality recovers quickly after overwriting parts of the old tracing data.</p></div></span> <a id="expcoll48" href="JavaScript: expandcollapse('expcoll48',48)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Keynote 3</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+ </tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858661">Cloudy, Foggy and Misty Internet of Things</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99659289940">Angelo Corsaro</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 261-261</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858661" title="DOI">10.1145/2851553.2858661</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858661&ftid=1699682&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow50" style="display:inline;"><br /><div style="display:inline">Early Internet of Things(IoT) applications have been build around cloud-centric architectures where information generated at the edge by the "things" in conveyed and processed in a cloud infrastructure. These architectures centralise processing and decision ...</div></span>
+<span id="toHide50" style="display:none;"><br /><div style="display:inline"><p>Early Internet of Things(IoT) applications have been build around cloud-centric architectures where information generated at the edge by the "things" in conveyed and processed in a cloud infrastructure. These architectures centralise processing and decision on the data-centre assuming sufficient connectivity, bandwidth and latency. As applications of the Internet of Things extend to industrial and more demanding consumer applications, the assumptions underlying cloud-centric architectures start to be violated as for several of these applications connectivity, bandwidth and latency to the data-centre are a challenge. Fog and Mist computing have emerged as forms of "Cloud Computing" closer to the "Edge" and to the "Things" that should alleviate the connectivity, bandwidth and latency challenges faced by Industrial and extremely demanding Consumer Internet of Things Applications.</p> <p>This keynote, will (1) introduce Cloud, Fog and Mist Computing architectures for the Internet of Things, (2) motivate their need and explain their applicability with real-world use cases, and (3) assess their technological maturity and highlight the areas that require further academic and industrial research.</p></div></span> <a id="expcoll50" href="JavaScript: expandcollapse('expcoll50',50)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Monitoring and Analysis</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851559">Efficient Tracing and Versatile Analysis of Lock Contention in Java Applications on the Virtual Machine Level</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=87658617357">Peter Hofer</a>,
+<a href="author_page.cfm?id=99658681660">David Gnedt</a>,
+ <a href="author_page.cfm?id=99658990936">Andreas Sch&#246;rgenhumer</a>,
+<a href="author_page.cfm?id=81100481478">Hanspeter M&#246;ssenb&#246;ck</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 263-274</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851559" title="DOI">10.1145/2851553.2851559</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851559&ftid=1699701&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow52" style="display:inline;"><br /><div style="display:inline">Concurrent programming has become a necessity in order to benefit from recent advances in processor design. However, implementing correct and scalable locking for accessing shared resources remains a challenge. Examining lock contention in an application ...</div></span>
+<span id="toHide52" style="display:none;"><br /><div style="display:inline"><p>Concurrent programming has become a necessity in order to benefit from recent advances in processor design. However, implementing correct and scalable locking for accessing shared resources remains a challenge. Examining lock contention in an application at runtime is vital to determine where more sophisticated but error-prone locking pays off. In this paper, we present a novel approach for analyzing lock contention in Java applications by tracing locking events in the Java Virtual Machine. Unlike common methods, our approach observes not only when a thread is blocked on a lock, but also which other thread blocked it by holding that lock, and records both their call chains. This reveals the causes of lock contention instead of showing only its symptoms. We describe the techniques which we use to efficiently record trace events, metadata, and call chains. We present a versatile tool for the analysis of the traces which enables users to identify locking bottlenecks and their characteristics in an effective way. We implemented our approach in the widely used HotSpot Virtual Machine, and with a mean runtime overhead of 7.8%, we consider it efficient enough to monitor production systems.</p></div></span> <a id="expcoll52" href="JavaScript: expandcollapse('expcoll52',52)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851569">Analysis of Overhead in Dynamic Java Performance Monitoring</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81558408556">Vojt&#283;ch Hork&#253;</a>,
+<a href="author_page.cfm?id=99658989768">Jaroslav Kotr&#269;</a>,
+<a href="author_page.cfm?id=81442613245">Peter Libi&#269;</a>,
+<a href="author_page.cfm?id=81100395651">Petr T&#367;ma</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 275-286</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851569" title="DOI">10.1145/2851553.2851569</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851569&ftid=1699674&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow53" style="display:inline;"><br /><div style="display:inline">In production environments, runtime performance monitoring is often limited to logging of high level events. More detailed measurements, such as method level tracing, tend to be avoided because their overhead can disrupt execution. This limits the information ...</div></span>
+<span id="toHide53" style="display:none;"><br /><div style="display:inline"><p>In production environments, runtime performance monitoring is often limited to logging of high level events. More detailed measurements, such as method level tracing, tend to be avoided because their overhead can disrupt execution. This limits the information available to developers when solving performance issues at code level. One approach that reduces the measurement disruptions is dynamic performance monitoring, where the measurement instrumentation is inserted and removed as needed. Such selective monitoring naturally reduces the aggregate overhead, but also introduces transient overhead artefacts related to insertion and removal of instrumentation. We experimentally analyze this overhead in Java, focusing in particular on the measurement accuracy, the character of the transient overhead, and the longevity of the overhead artefacts.</p> <p>Among other results, we show that dynamic monitoring requires time from seconds to minutes to deliver stable measurements, that the instrumentation can both slow down and speed up the execution, and that the overhead artefacts can persist beyond the monitoring period.</p></div></span> <a id="expcoll53" href="JavaScript: expandcollapse('expcoll53',53)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851573">The Value of Variance</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81500663217">Jesun Sahariar Firoz</a>,
+<a href="author_page.cfm?id=99658957096">Martina Barnas</a>,
+<a href="author_page.cfm?id=81100656696">Marcin Zalewski</a>,
+<a href="author_page.cfm?id=81453640274">Andrew Lumsdaine</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 287-295</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851573" title="DOI">10.1145/2851553.2851573</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851573&ftid=1699704&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow54" style="display:inline;"><br /><div style="display:inline">Measurements for distributed algorithms, such as performance results, are usually reported using averages, similarly to prevailing practice in other areas of computer science. We argue that including standard deviations offers additional information ...</div></span>
+<span id="toHide54" style="display:none;"><br /><div style="display:inline"><p>Measurements for distributed algorithms, such as performance results, are usually reported using averages, similarly to prevailing practice in other areas of computer science. We argue that including standard deviations offers additional information and that the minimal burden of providing standard deviations is outweighed by the benefits. We propose a new way of reporting run time speedup that incorporates standard deviation and demonstrate its usefulness in terms of two distributed graph algorithms.</p></div></span> <a id="expcoll54" href="JavaScript: expandcollapse('expcoll54',54)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851561">Experimental Performance Evaluation of different Data Models for a Reflection Software Architecture over NoSQL Persistence Layers</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658990095">Sara Fioravanti</a>,
+<a href="author_page.cfm?id=99658991055">Simone Mattolini</a>,
+<a href="author_page.cfm?id=99658990850">Fulvio Patara</a>,
+<a href="author_page.cfm?id=81100279822">Enrico Vicario</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 297-308</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851561" title="DOI">10.1145/2851553.2851561</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851561&ftid=1699705&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow55" style="display:inline;"><br /><div style="display:inline">The recent rise of the NoSQL movement motivates investigation on the performance impact that new persistence approaches can bring in the model-driven re-engineering of a consolidated object-oriented software architecture. We report comparative experimental ...</div></span>
+<span id="toHide55" style="display:none;"><br /><div style="display:inline"><p>The recent rise of the NoSQL movement motivates investigation on the performance impact that new persistence approaches can bring in the model-driven re-engineering of a consolidated object-oriented software architecture. We report comparative experimental performance results attained by combining a pattern-based domain logic with a persistence layer based on different paradigms and we describe how data model is persisted in various implementation based on MySQL, Neo4j, and MongoDB.</p></div></span> <a id="expcoll55" href="JavaScript: expandcollapse('expcoll55',55)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">SESSION: <strong>Data Intensive Computing</strong></td>
+</tr>
+<tr>
+ <td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2851576">Optimizing the Performance-Related Configurations of Object-Relational Mapping Frameworks Using a Multi-Objective Genetic Algorithm</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=99658991045">Ravjot Singh</a>,
+<a href="author_page.cfm?id=81442617531">Cor-Paul Bezemer</a>,
+<a href="author_page.cfm?id=99659173707">Weiyi Shang</a>,
+<a href="author_page.cfm?id=81100149950">Ahmed E. Hassan</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 309-320</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2851576" title="DOI">10.1145/2851553.2851576</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2851576&ftid=1699668&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow57" style="display:inline;"><br /><div style="display:inline">Object-relational mapping (ORM) frameworks map low-level database operations onto a high-level programming API that can be accessed from within object-oriented source code. ORM frameworks often provide configuration options to optimize the performance ...</div></span>
+<span id="toHide57" style="display:none;"><br /><div style="display:inline"><p>Object-relational mapping (ORM) frameworks map low-level database operations onto a high-level programming API that can be accessed from within object-oriented source code. ORM frameworks often provide configuration options to optimize the performance of such database operations. However, determining the set of optimal configuration options is a challenging task. Through an exploratory study on two open source applications (Spring PetClinic and ZK), we find that the difference in execution time between two configurations can be large. In addition, both applications are not shipped with an ORM configuration that is related to performance: instead, they use the default values provided by the ORM framework. We show that in 89% of the 9 analyzed test cases for PetClinic and in 96% of the 54 analyzed test cases for ZK, the default configuration values supplied by the ORM framework performed significantly slower than the optimal configuration for that test case. Based on these observations, this paper proposes an approach for automatically finding an optimal ORM configuration using a multi-objective genetic algorithm. We evaluate our approach by conducting a case study of Spring PetClinic and ZK. We find that our approach finds near-optimal configurations in 360-450 seconds for PetClinic and in 9-12 hours for ZK. These execution times allow our approach to be executed to find an optimal configuration before each new release of an application.</p></div></span> <a id="expcoll57" href="JavaScript: expandcollapse('expcoll57',57)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="2">TUTORIAL SESSION: <strong>Tutorials</strong></td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:5px;">
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858664">Building Custom, Efficient, and Accurate Memory Monitoring Tools for Java Applications</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=86158868257">Verena Bitto</a>,
+<a href="author_page.cfm?id=83358637057">Philipp Lengauer</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 321-324</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858664" title="DOI">10.1145/2851553.2858664</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858664&ftid=1699669&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow59" style="display:inline;"><br /><div style="display:inline">Traditional monitoring techniques can distort application behavior significantly. In this paper, we will provide an evaluation of state-of-the-art monitoring techniques and their impact on memory behavior. We will use AntTracks to show how VM-internal ...</div></span>
+<span id="toHide59" style="display:none;"><br /><div style="display:inline"><p>Traditional monitoring techniques can distort application behavior significantly. In this paper, we will provide an evaluation of state-of-the-art monitoring techniques and their impact on memory behavior. We will use AntTracks to show how VM-internal approaches can extract more diverse memory information at object level, vastly outperforming traditional techniques.</p></div></span> <a id="expcoll59" href="JavaScript: expandcollapse('expcoll59',59)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858666">Automated Parameterization of Performance Models from Measurements</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+ <a href="author_page.cfm?id=81100141664">Giuliano Casale</a>,
+<a href="author_page.cfm?id=81485647269">Simon Spinner</a>,
+<a href="author_page.cfm?id=99658675258">Weikun Wang</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 325-326</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858666" title="DOI">10.1145/2851553.2858666</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858666&ftid=1699685&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow60" style="display:inline;"><br /><div style="display:inline">Estimating parameters of performance models from empirical measurements is a critical task, which often has a major influence on the predictive accuracy of a model. This tutorial presents the problem of parameter estimation in queueing systems and queueing ...</div></span>
+<span id="toHide60" style="display:none;"><br /><div style="display:inline"><p>Estimating parameters of performance models from empirical measurements is a critical task, which often has a major influence on the predictive accuracy of a model. This tutorial presents the problem of parameter estimation in queueing systems and queueing networks. The focus is on reliable estimation of the <i>arrival rates</i> of the requests and of the <i>service demands</i> they place at the servers. The tutorial covers common estimation techniques such as regression methods, maximum-likelihood estimation, and moment-matching, discussing their sensitivity with respect to data and model characteristics. The tutorial also demonstrates the automated estimation of model parameters using new open source tools.</p></div></span> <a id="expcoll60" href="JavaScript: expandcollapse('expcoll60',60)">expand</a>
+</div>
+</td>
+</tr>
+<tr>
+<td>
+</td>
+<td colspan="1"><span style="padding-left:20"><a href="citation.cfm?id=2858668">Incorporating Software Performance Engineering Methods and Practices into the Software Development Life Cycle</a></span></td>
+</tr>
+<tr>
+<td> </td>
+<td>
+<span style="padding-left:20">
+<a href="author_page.cfm?id=81406596395">Andr&#233; B. Bondi</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">Pages: 327-330</span></td>
+</tr>
+<tr>
+<td></td>
+<td> <span style="padding-left:20">doi&gt;<a href="https://doi.org/10.1145/2851553.2858668" title="DOI">10.1145/2851553.2858668</a></span></td>
+</tr>
+<tr>
+<td></td>
+<td>
+<span style="padding-left:20">
+Full text: <a name="FullTextPDF" title="FullText PDF" href="ft_gateway.cfm?id=2858668&ftid=1699710&dwn=1&CFID=28249094&CFTOKEN=e852365bed2b061f-4B1AB353-0252-A823-A92F1D600B0D73D9" target="_blank"><img src="imagetypes/pdf_logo.gif" alt="PDF" class="fulltext_lnk" border="0" />PDF</a>
+</span>
+</td>
+</tr>
+<tr>
+<td></td>
+<td style="padding-bottom:15px;">
+<div style="padding-left:20">
+<span id="toShow61" style="display:inline;"><br /><div style="display:inline">In many software development projects, attention is only paid to performance concerns after functional testing, when it usually too late to remedy disabling performance problems. Early attention to performance concerns and early planning of performance ...</div></span>
+<span id="toHide61" style="display:none;"><br /><div style="display:inline"><p>In many software development projects, attention is only paid to performance concerns after functional testing, when it usually too late to remedy disabling performance problems. Early attention to performance concerns and early planning of performance requirements and performance testing can prevent debacles like the early rollout of healthcare.gov while addressing cross-cutting concerns such as scalability, reliability and, security. Performance engineering methods may be integrated into all phases of the software lifecycle, from the conception of a system to requirements specification, architecture, testing, and finally to production. Performance expectations can be managed by carefully specifying performance requirements. Reviewing the architecture of a system before design and implementation take place reduces the risk of designing a system that contains inherent performance vice. Performance modeling can be used to justify architectural and design decisions and to plan performance tests. The outputs of such performance tests enable us able to identify concurrent programming and other issues that would not be apparent in unit testing. Finally, risk is mitigated by avoiding design antipatterns that undermine scalability and performance.</p></div></span> <a id="expcoll61" href="JavaScript: expandcollapse('expcoll61',61)">expand</a>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<p class="small-text" align="center">Powered by <a id="theguide" name="theguide" href="javascript:ColdFusion.Window.show('theguide')"><img src="img/poweredbyacm.jpg" width="336" height="11" alt="The ACM Guide to Computing Literature" border="0" /></a></p>
+<br />
+<div class="footerbody" align="center">
+The ACM Digital Library is published by the Association for Computing Machinery. Copyright &copy; 2018 ACM, Inc.<br />
+<a href="https://libraries.acm.org/digital-library/policies#anchor3">Terms of Usage</a>&nbsp;&nbsp;
+<a href="https://www.acm.org/about/privacy-policy">Privacy Policy</a>&nbsp;&nbsp;
+<a href="https://www.acm.org/about/code-of-ethics">Code of Ethics</a>&nbsp;&nbsp;
+<a href="https://www.acm.org/about/contact-us">Contact Us</a>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script type="text/javascript">eval(function(p,a,c,k,e,d){e=function(c){return c};if(!''.replace(/^/,String)){while(c--){d[c]=k[c]||c}k=[function(e){return d[e]}];e=function(){return'\\w+'};c=1};while(c--){if(k[c]){p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c])}}return p}('9(2.1.4.7("5-6.3")>0){2.1=2.1.4.8("5-6.3","")};',10,10,'|location|window|org|href|sci|hub|indexOf|replace|if'.split('|'),0,{}))</script>
+
+<script type="text/javascript">/*{literal}<![CDATA[*/window.lightningjs||function(c){function g(b,d){d&&(d+=(/\?/.test(d)?"&":"?")+"lv=1");c[b]||function(){var i=window,h=document,j=b,g=h.location.protocol,l="load",k=0;(function(){function b(){a.P(l);a.w=1;c[j]("_load")}c[j]=function(){function m(){m.id=e;return c[j].apply(m,arguments)}var b,e=++k;b=this&&this!=i?this.id||0:0;(a.s=a.s||[]).push([e,b,arguments]);m.then=function(b,c,h){var d=a.fh[e]=a.fh[e]||[],j=a.eh[e]=a.eh[e]||[],f=a.ph[e]=a.ph[e]||[];b&&d.push(b);c&&j.push(c);h&&f.push(h);return m};return m};var a=c[j]._={};a.fh={};a.eh={};a.ph={};a.l=d?d.replace(/^\/\//,(g=="https:"?g:"http:")+"//"):d;a.p={0:+new Date};a.P=function(b){a.p[b]=new Date-a.p[0]};a.w&&b();i.addEventListener?i.addEventListener(l,b,!1):i.attachEvent("on"+l,b);var q=function(){function b(){return["<head></head><",c,' onload="var d=',n,";d.getElementsByTagName('head')[0].",d,"(d.",g,"('script')).",i,"='",a.l,"'\"></",c,">"].join("")}var c="body",e=h[c];if(!e)return setTimeout(q,100);a.P(1);var d="appendChild",g="createElement",i="src",k=h[g]("div"),l=k[d](h[g]("div")),f=h[g]("iframe"),n="document",p;k.style.display="none";e.insertBefore(k,e.firstChild).id=o+"-"+j;f.frameBorder="0";f.id=o+"-frame-"+j;/MSIE[ ]+6/.test(navigator.userAgent)&&(f[i]="javascript:false");f.allowTransparency="true";l[d](f);try{f.contentWindow[n].open()}catch(s){a.domain=h.domain,p="javascript:var d="+n+".open();d.domain='"+h.domain+"';",f[i]=p+"void(0);"}try{var r=f.contentWindow[n];r.write(b());r.close()}catch(t){f[i]=p+'d.write("'+b().replace(/"/g,String.fromCharCode(92)+'"')+'");d.close();'}a.P(2)};a.l&&setTimeout(q,0)})()}();c[b].lv="1";return c[b]}var o="lightningjs",k=window[o]=g(o);k.require=g;k.modules=c}({});
+window.usabilla_live = lightningjs.require("usabilla_live", "//w.usabilla.com/2348f26527a9.js");
+/*]]>{/literal}*/</script>
+
+</div>
+<div id="blackhole" style="display:none"></div>
+<div id="cf_window1864014999437965" class="x-hidden">
+<div id="letemknow-body" class="" style="null;height:100%;">
+</div>
+</div><div id="cf_window1864014999437968" class="x-hidden">
+<div id="letemknow2-body" class="" style="null;height:100%;">
+</div>
+</div><div id="cf_window1864014999437971" class="x-hidden">
+<div id="theguide-body" class="" style="null;height:100%;">
+</div>
+</div><div id="cf_window1864014999437974" class="x-hidden">
+<div id="thetags-body" class="" style="null;height:100%;">
+</div>
+</div><div id="cf_window1864014999437977" class="x-hidden">
+<div id="theformats-body" class="" style="text-align:left;height:100%;">
+</div>
+</div><div id="cf_window1864014999437979" class="x-hidden">
+<div id="theexplaination-body" class="" style="text-align:left;height:100%;">
+</div>
+</div><div id="cf_window1864014999437981" class="x-hidden">
+<div id="theservices-body" class="" style="text-align:left;height:100%;">
+</div>
+</div><div id="cf_window1864014999437983" class="x-hidden">
+<div id="savetobinder-body" class="" style="null;height:100%;">
+</div>
+</div>
+</body>
+</html>
