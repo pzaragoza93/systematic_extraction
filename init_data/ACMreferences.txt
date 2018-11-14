@@ -1,0 +1,168 @@
+Buyya R (2010) Cloud computing: the next revolution in information technology. In: 2010 1st international conference on parallel distributed and grid computing (PDGC), pp 2---3
+Peter Vosshall, Web Scale Computing: The Power of Infrastructure as a Service, Proceedings of the 6th International Conference on Service-Oriented Computing, p.1-1, December 01-05, 2008, Sydney, Australia </a> &nbsp;[doi><a href="https://dx.doi.org/10.1007/978-3-540-89652-4_1">10.1007/978-3-540-89652-4_1</a>]
+Beimborn D, Miletzki T, Wenzel S (2011) Platform as a service (PaaS). Bus Inf Syst Eng 3(6):381---384
+Schtz S, Kude T, Popp K (2013) The impact of software-as-a-service on software ecosystems. In: Herzwurm G, Margaria T (eds) Software business. From physical products to software services and solutions. Lecture notes in business information processing, vol 150. Springer, Berlin, pp 130---140
+Lewis J, Fowler M (2014) Microservices. http://martinfowler.com/articles/microservices.html. Accessed 23 Apr 2017
+Amazon Web Services (2015) AWS Lambda. https://aws.amazon.com/lambda/. Accessed 23 Apr 2017
+McGovern J, Sims O, Jain A, Little M (2006) Understanding service-oriented architecture. In: Enterprise service oriented architectures. Springer Netherlands, pp 1---48.
+Hyun Jung La , Jeong Seop Bae , Soo Ho Chang , Soo Dong Kim, Practical methods for adapting services using enterprise service bus, Proceedings of the 7th international conference on Web engineering, July 16-20, 2007, Como, Italy </a>
+Michael P. Papazoglou , Paolo Traverso , Schahram Dustdar , Frank Leymann, Service-Oriented Computing: State of the Art and Research Challenges, Computer, v.40 n.11, p.38-45, November 2007 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/MC.2007.400">10.1109/MC.2007.400</a>]
+Hutchinson J, Kotonya G, Walkerdine J, Sawyer P, Dobson G, Onditi V (2007) Evolving existing systems to service-oriented architectures: perspective and challenges. In: IEEE international conference on web services 2007, ICWS 2007, pp 896---903
+GIGAOM (2011) The biggest thing Amazon got right: the platform. https://gigaom.com/2011/10/12/419-the-biggest-thing-amazon-got-right-the-platform/. Accessed 23 Apr 2017
+Nginx (2015) Adopting microservices at Netflix: lessons for architectural design. http://nginx.com/blog/microservices-at-netflix-architectural-best-practices/. Accessed 23 Apr 2017
+InfoQ (2014) Scaling Gilt: from monolithic ruby application to distributed scala micro-services architecture. http://www.infoq.com/presentations/scale-gilt. Accessed 23 Apr 2017
+InfoQ (2015) From a monolith to microservices + REST: the evolution of LinkedIn's service architecture. http://www.infoq.com/presentations/linkedin-microservices-urn. Accessed 23 Apr 2017
+SoundCloud (2014) Building products at SoundCloud--Part I: Dealing with the monolith. https://developers.soundcloud.com/blog/building-products-at-soundcloud-part-1-dealing-with-the-monolith. Accessed 23 Apr 2017
+Thones J (2015) Microservices. IEEE Softw 32:116
+InfoQ (2014) Microservices and SOA. http://www.infoq.com/news/2014/03/microservices-soa. Accessed 23 Apr 2017
+Oracle (2015) Microservices and SOA. http://www.oracle.com/technetwork/issue-archive/2015/15-mar/o25architect-2458702.html. Accessed 23 Apr 2017
+TechTarget (2015) How microservices bring agility to SOA. http://searchcloudapplications.techtarget.com/feature/How-microservices-bring-agility-to-SOA. Accessed 23 Apr 2017
+Microservices (2014) Pattern: microservices architecture. http://microservices.io/patterns/microservices.html. Accessed 23 Apr 2017
+Steve Vinoski, REST Eye for the SOA Guy, IEEE Internet Computing, v.11 n.1, p.82-84, January 2007 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/MIC.2007.22">10.1109/MIC.2007.22</a>]
+Nemeth F, Steinert R, Kreuger P, Skoldstrom P (2015) Roles of DevOps tools in an automated, dynamic service creation architecture. In: 2015 IFIP/IEEE international symposium on integrated network management (IM), pp 1153---1154
+Len Bass , Paul Clements , Rick Kazman, Software Architecture in Practice, Addison-Wesley Professional, 2012 </a>
+Hunt J (ed) (2014) Play framework. In: A beginner's guide to scala, object orientation and functional programming. Springer, Berlin, pp 413---428
+Juneau J (ed) (2013) Building RESTful web services. In: Introducing Java EE 7. Apress, New York, pp 113---130
+Vishwanath Venkatesan , Mohamad Chaarawi , Edgar Gabriel , Torsten Hoefler, Design and evaluation of nonblocking collective I/O operations, Proceedings of the 18th European MPI Users' Group conference on Recent advances in the message passing interface, p.90-98, September 18-21, 2011, Santorini, Greece </a>
+Doglio F (ed) (2015) Node.js and REST. In: Pro REST API development with Node.js. Apress, New York, pp 47---63
+Rahmel D (ed) (2013) Testing a site with ApacheBench, JMeter, and Selenium. In: Advanced Joomla!. Apress, New York, pp 211---247
+InfoWorld (2015) Jaws takes a bite out of AWS Lambda app deployment. http://www.infoworld.com/article/2990795/cloud-computing/jaws-takes-a-bite-out-of-aws-lambda-app-deployment.html. Accessed 23 Apr 2017
+Google (2016) Google Cloud Functions. https://cloud.google.com/functions/. Accessed 23 Apr 2017
+Microsoft (2016) Azure Functions. https://azure.microsoft.com/en-us/services/functions/. Accessed 23 Apr 2017
+IBM (2016) IBM Bluemix OpenWhisk. http://www.ibm.com/cloud-computing/bluemix/openwhisk. Accessed 23 Apr 2017
+Serverless (2016) Serverless Framework. https://serverless.com/. Accessed 23 Apr 2017
+<a href="https://dx.doi.org/10.1109/REW.2016.026">10.1109/REW.2016.026</a>]
+Saba Anees. 2016. How to Migrate to Microservices. https : / / blog.appdynamics.com/product/howtomigratetomicroservices. https: //blog.appdynamics.com/product/how-to-migrate-to-microservices Accessed 7. May 2018.
+Hendry Anwar. 2017. Refactoring Monolith to Microservices. http : / / us.arvato.com / blog / refactoring - monolith - to - microservices. http : / / us.arvato.com/blog/refactoring-monolith-to-microservices Accessed 7. May 2018.
+Armin Balalaie, Abbas Heydarnoori, and Pooyan Jamshidi. 2015. Microservices migration patterns. Technical report, Tech. Rep. TR-SUTCE-ASE-2015-01, Automated Software Engineering Group (2015).
+Armin Balalaie, Abbas Heydarnoori, and Pooyan Jamshidi. 2016. Microservices Architecture Enables DevOps: An Experience Report on Migration to a Cloud-Native Architecture. IEEE Software 33, 3 (2016), 42&#8211;52.
+Armin Balalaie, Abbas Heydarnoori, and Pooyan Jamshidi. 2016. Migrating to Cloud-Native Architectures Using Microservices: An Experience Report. In Advances in Service-Oriented and Cloud Computing, Antonio Celesti and Philipp Leitner (Eds.). Springer International Publishing, Cham, 201&#8211;215. https://link.springer.com/chapter/10.1007%2F978-3-319-33313-7_15
+Kyle Brown. 2016. Refactoring for microservices. https://www.ibm.com/ developerworks / cloud / library / cl - refactor - microservices - bluemix - trs - 1 / index.html. https://www.ibm.com/developerworks/cloud/library/cl-refactormicroservices-bluemix-trs-1/index.html Accessed 27. Apr. 2018.
+Kyle Brown and Bobby Woolf. 2016. Implementation Patterns for Microservices Architectures. In Proceedings of the 23rd Conference on Pattern Languages of Programs. The Hillside Group, 7.
+Antonio Bucchiarone, Nicola Dragoni, Schahram Dustdar, Stephan T Larsen, and Manuel Mazzara. 2017. From Monolithic to Microservices: An experience report. Technical Report. Technical University of Denmark, &#214;rebro University, TU Wien, Danske Bank, and Innopolis University.
+<a href="http://doi.acm.org/10.1145/3183628.3183631">10.1145/3183628.3183631</a>]
+Lianping Chen. 2018. Microservices: Architecting for Continuous Delivery and DevOps. In Proceedings of the IEEE International Conference on Software Architecture (ICSA 2018) (03 2018).
+<a href="https://dx.doi.org/10.1109/AIMS.2017.23">10.1109/AIMS.2017.23</a>]
+Matt Chotin. 2018. Top 3 Challenges of Adopting Microservices as Part of Your Cloud Migration. https://devops.com/top- 3challengesofadoptingmicroservices-as-part-of-your-cloud-migration. https://devops.com/top- 3challengesofadoptingmicroservicesaspartofyourcloudmigration Accessed 7. May 2018.
+Michael Churchman. 2017. Refactoring Your App with Microservices - Rancher Labs. https://rancher.com/refactoring-app-microservices. https://rancher.com/ refactoring-app-microservices Accessed 27. Apr. 2018.
+Melvin E Conway. 1968. How do committees invent. Datamation 14, 4 (1968), 28&#8211;31.
+Pedro Costa. 2018. Migrating to Microservices and Event-Sourcing: the Dos and Dont&#8217;s. https://hackernoon.com/migrating-to-microservices-and-eventsourcing-the-dos-and-donts-195153c7487d. https://hackernoon.com/migratingto-microservices-and-event-sourcing-the-dos-and-donts-195153c7487d Accessed 7. May 2018.
+Neil Crawford. 2016. Extracting a Microservice from a Monolith. https: //tech.findmypast.com/extracting-a-microservice-from-a-monolith. https: //tech.findmypast.com/extracting-a-microservice-from-a-monolith Accessed 7. May 2018.
+Nicola Dragoni, Schahram Dustdar, Stephan Thordal Larsen, and Manuel Mazzara. 2017. Microservices: Migration of a Mission Critical System. CoRR abs/1704.04173 (2017). arXiv: 1704.04173 http://arxiv.org/abs/1704.04173
+Nicola Dragoni, Saverio Giallorenzo, Alberto Lluch Lafuente, Manuel Mazzara, Fabrizio Montesi, Ruslan Mustafin, and Larisa Safina. 2017. Microservices: yesterday, today, and tomorrow. In Present and Ulterior Software Engineering. Springer, 195&#8211;216.
+Nicola Dragoni, Ivan Lanese, Stephan Thordal Larsen, Manuel Mazzara, Ruslan Mustafin, and Larisa Safina. 2018. Microservices: How To Make Your Application Scale. In Perspectives of System Informatics, Alexander K. Petrenko and Andrei Voronkov (Eds.). Springer International Publishing, Cham, 95&#8211;104.
+Martin Fowler. 2014. MicroservicePrerequisites. https://martinfowler.com/ bliki / MicroservicePrerequisites.html. https : / / martinfowler.com / bliki / MicroservicePrerequisites.html Accessed 16. May 2018.
+Martin Fowler. 2015. MonolithFirst. https : / / martinfowler.com / bliki / MonolithFirst.html. https://martinfowler.com/bliki/MonolithFirst.html Accessed 7. May 2018.
+Martin Fowler and James Lewis. 2014. Microservices, a definition of this new architectural term. http://martinfowler.com/articles/microservices.html. Accessed 05.04.2018.
+<a href="https://dx.doi.org/10.1109/MS.2017.440134612">10.1109/MS.2017.440134612</a>]
+Vahid Garousi, Michael Felderer, and Mika V M&#228;ntyl&#228;. 2016. The need for multivocal literature reviews in software engineering: complementing systematic literature reviews with grey literature. In Proceedings of the 20th International Conference on Evaluation and Assessment in Software Engineering. ACM, 26.
+Johannes Giani. 2018. 6 Things to Consider for Microservice Migration. https: //www.inovex.de/blog/microservice-migration. https://www.inovex.de/blog/ microservice-migration Accessed 7. May 2018.
+<a href="https://dx.doi.org/10.1109/ICSAW.2017.35">10.1109/ICSAW.2017.35</a>]
+<a href="https://dx.doi.org/10.1007/978-3-319-67425-4_13">10.1007/978-3-319-67425-4_13</a>]
+Arun Gupta. 2015. Microservice Design Patterns. http://blog.arungupta.me/ microservice-design-patterns/. http://blog.arungupta.me/microservice-designpatterns/ Accessed 7. May 2018.
+Arun Gupta. 2015. Monolithic to Microservices Refactoring for Java EE Applications. http://blog.arungupta.me/monolithic-microservices-refactoring-javaeeapplications. http://blog.arungupta.me/monolithic-microservices-refactoringjavaee-applications Accessed 7. May 2018.
+Arun Gupta. 2015. ZooKeeper for Microservice Registration and Discovery. http://blog.arungupta.me/zookeeper-microservice-registration-discovery. http: //blog.arungupta.me/zookeeper-microservice-registration-discovery/ Accessed 7. May 2018.
+Grzegorz Gwo&#378;d&#378;. 2018. How can you refactor a monolithic application into microservices? https : / / medium.com / @NeotericEU / how - can - you - refactor-a-monolithic-application-into-microservices-2eef8e323840. https:// medium.com/@NeotericEU/how-can-you-refactor-a-monolithic-applicationinto-microservices-2eef8e323840 Accessed 7. May 2018.
+<a href="https://dx.doi.org/10.1109/SCC.2016.113">10.1109/SCC.2016.113</a>]
+Munezero Immaculee Joselyne, Benjamin Kanagwa, and Joseph Balikuddembe. 2017. A framework to Modernize SME Application in Emerging Economies: Microservice Architecture Pattern Approach. In Microservices 2017.
+Vivek Juneja. 2016. From Monoliths to Microservices: An Architectural Strategy. https://thenewstack.io/frommonolithtomicroservices. https:// thenewstack.io/from-monolith-to-microservices Accessed 7. May 2018.
+Miika Kalske, Niko M&#228;kitalo, and Tommi Mikkonen. 2018. Challenges When Moving from Monolith to Microservice Architecture. In Current Trends in Web Engineering, Irene Garrig&#243;s and Manuel Wimmer (Eds.). Springer International Publishing, Cham, 32&#8211;47.
+Alessandra Levcovitz, Ricardo Terra, and Marco Tulio Valente. 2016. Towards a Technique for Extracting Microservices from Monolithic Enterprise Systems. CoRR abs/1605.03175 (2016). arXiv: 1605.03175 http://arxiv.org/abs/1605.03175
+David S. Linthicum. 2016. Practical Use of Microservices in Moving Workloads to the Cloud. IEEE Cloud Computing 3, 5 (Sept 2016), 6&#8211;9. MCC.2016.114 IwoR &#8217;18, September 4, 2018, Montpellier, France Andr&#233;s Carrasco, Brent van Bladel, and Serge Demeyer
+Abhijit Mandal. 2018. Migrating to Microservices. https://dzone.com/ articles/migrating-to-microservices. https://dzone.com/articles/migratingto-microservices Accessed 7. May 2018.
+Genc Mazlami, J&#252;rgen Cito, and Philipp Leitner. 2017. Extraction of Microservices from Monolithic Software Architectures. In Web Services (ICWS), 2017 IEEE International Conference on. IEEE, 524&#8211;531.
+Ben Morris. 2015. Refactoring large monoliths to microservices: strategies, risks and pragmatic reality. http://www.ben-morris.com/refactoring-large-monolithsto-microservices-strategies-risks-and-pragmatic-reality. http://www.benmorris.com/refactoringlargemonolithstomicroservicesstrategiesrisks- and-pragmatic-reality Accessed 7. May 2018.
+Ola Mustafa, Jorge Marx G&#243;mez, Mohamad Hamed, and Hergen Pargmann. 2018. GranMicro: A Black-Box Based Approach for Optimizing Microservices Based Applications. In From Science to Society, Beno&#238;t Otjacques, Patrik Hitzelberger, Stefan Naumann, and Volker Wohlgemuth (Eds.). Springer International Publishing, Cham, 283&#8211;294.
+Sam Newman. 2015. Building Microservices: Designing Fine-Grained Systems. O&#8217;Reilly Media.
+Pramod Nikam. 2017. How will you design, break and migrate database matching to microservices? http://techprehension.com/2017/12/31/howwillyoudesignbreak- andmigratedatabasematchingtomicroservices. http://techprehension.com/2017/12/31/howwillyoudesignbreak- andmigrate-database-matching-to-microservices Accessed 7. May 2018.
+Brice Nkengsa. 2016. Migrating from a Monolith to a Microservices Architecture. https://medium.com/@briceicle/migrating-from-a-monolith-to-amicroservices-architecture-99cecf8af366. https://medium.com/@briceicle/ migrating-from-a-monolith-to-a-microservices-architecture-99cecf8af366 Accessed 7. May 2018.
+Claus Pahl and Pooyan Jamshidi. 2016. Microservices: A Systematic Mapping Study. In Proceedings of the 6th International Conference on Cloud Computing and Services Science. 137&#8211;146.
+<a href="https://dx.doi.org/10.1109/ICSAW.2017.32">10.1109/ICSAW.2017.32</a>]
+Chris Richardson. 2016. Refactoring a Monolith into Microservices. https: //www.nginx.com/blog/refactoring-a-monolith-into-microservices. https: //www.nginx.com/blog/refactoring-a-monolith-into-microservices Accessed 27. Apr. 2018.
+Curtis Rissi. 2015. Thoughts on Migrating to a Microservices Architecture. http://www.boringgeek.com/thoughtsonmigratingtoamicroservicesarchitecture. http://www.boringgeek.com/thoughtsonmigratingtoamicroservices-architecture Accessed 7. May 2018.
+Rafael Rom&#227;o. 2017. Microservices Architecture As A Large-Scale Refactoring Tool. http://blog.avenuecode.com/microservices-architecture-as-a-large-scalerefactoring-tool. http://blog.avenuecode.com/microservices-architecture-as-alarge-scale-refactoring-tool Accessed 7. May 2018.
+<a href="https://dx.doi.org/10.1109/ICITST.2016.7856721">10.1109/ICITST.2016.7856721</a>]
+Ryan Scheuermann. 2017. 9 Tips for a Painless Microservices Migration. http: //engineering.invisionapp.com/post/painless-microservices-migration. http: //engineering.invisionapp.com/post/painless-microservices-migration Accessed 7. May 2018.
+Michael Stal. 2007. Software Architecture Refactoring. In Tutorial in The International Conference on Object Oriented Programming, Systems, Languages and Applications.
+Chris Stetson. 2017. How To &#8217;Refactor&#8217; Monolithic Applications into Microservices. http://www.datacenterknowledge.com/archives/2017/06/05/refactormonolithic-applications-microservices. http://www.datacenterknowledge.com/ archives/2017/06/05/refactor-monolithic-applications-microservices Accessed 7. May 2018.
+Davide Taibi and Valentina Lenarduzzi. 2018. On the Definition of Microservices Bad Smells. IEEE Software vol 35 (05 2018).
+<a href="https://dx.doi.org/10.1109/MCC.2017.4250931">10.1109/MCC.2017.4250931</a>]
+Davide Taibi, Valentina Lenarduzzi, and Claus Pahl. 2018. Architectural Patterns for Microservices: A Systematic Mapping Study. In 8th International Conference on Cloud.
+MVLN Venugopal. 2017. Containerized Microservices architecture. International Journal Of Engineering And Computer Science 6, 11 (2017), 23199&#8211;23208.
+Vaughn Vernon. 2013. Implementing domain-driven design. Addison-Wesley.
+James Ward. 2015. Refactoring to Microservices. https://www.jamesward.com/ 2015/05/26/refactoring-to-microservices. https://www.jamesward.com/2015/ 05/26/refactoring-to-microservices Accessed 7. May 2018.
+<a href="https://dx.doi.org/10.1007/s00450-016-0337-0">10.1007/s00450-016-0337-0</a>]
+Microservices. 2018. https://martinfowler.com/articles/microservices.html
+A. Balalaie, A. Heydarnoori, P. Jamshidi. 2016. Migrating to Cloud-Native Architectures Using Microservices: An Experience Report. Advances in Service-Oriented and Cloud Computing ESOCC 2015. Communications in Computer and Information Science, vol 567. Springer, 201--215.
+P. Jamshidi, A. Ahmad, and C. Pahl. 2013. Cloud migration research: A systematic review. IEEE Transactions on Cloud Computing, vol. 1, 142--157.
+P. Jamshidi, C. Pahl, S. Chinenyeze, and X. Liu. 2015. Cloud Migration Patterns: A Multi-cloud Service Architecture Perspective. ICSOC 2014, LNCS 8954, 6--19.
+D. Richter, M. Konrad, K. Utecht, and A. Polze. 2017. Highly Available Applications on Unreliable Infrastructure Microservices Architectures in Practice. International Conference on Software Quality, Reliability and Security (ICSQRS) 2017. 130--137.
+R. C. Martin. 2002. The single responsibility principle. The Principles, Patterns, and Practices of Agile Software Development, 149--154.
+G. Mazlami, J. Cito, P. Leitner. 2017. Extraction of Microservices from Monolithic Software Architectures. IEEE 24th International Conference on Web Services (ICWS). 2017. 524--531.
+A. Levcovitz, R. Terra, and M. T. Valente. 2016. Towards a technique for extracting microservices from monolithic enterprise systems. arXiv preprint arXiv: 1605. 03175(2016).
+S. Newman, 2015. Bilding Microservices. O'Reilly Media, Inc.
+A. Balalaie, A. Heydarnoori and P. Jamshidi. 2016. Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture. In IEEE Software, vol 33, no. 3, 42--52.
+A. Balalaie, A. Heydarnoori, and P. Jamshidi. 2015. Migrating to cloud-native architectures using microservices: An experience report. In European Conference on Service-Oriented and Cloud Computing 2015, Springer, 201--215.
+T. Salah, M. Jamal Zemerly, etc. al. 2016. The Evolution of Distributed Systems Towards Microservices Architecture. The 11th International Conference for Internet Technology and Secured Transactions (ICITST), 318--325.
+P. Jamshidi, A. Ahmad, C. Pahl. 2013. Cloud Migration Research: A Systematic Review. IEEE Transactions on Cloud Computing. Vol 1, No.2, 142--157.
+P. Jamshidi, C. Pahl, S. Chinenyeze, X. Liu. 2014. Cloud Migration Patterns: A Multi-cloud Service Architecture Perspective. The 12th International Conference on Service-Oriented Computing (ICSOC), 6--19.
+D. Escobar etc.al. 2016. Towards the understanding and evolution of monolithic applications as microservices. XLII Latin American Computing Conference (CLEI), 1--11.
+C. Pahl, P. Jamshidi. 2016. Microservices: A Systematic Mapping Study. Proceedings of the 6th International Conference on Cloud Computing and Services Science, 137--146.
+H. Knoche. 2016. Sustaining Runtime Performance while Incrementally Modernizing Transactional Monolithic Software towards Microservices. Proceedings of the 7th ACM/SPEC on International Conference on Performance Engineering (ICPE), 121--124.
+C. Fan and S. Ma. 2017. Migrating Monolithic Mobile Application to Microservices Architecture: An Experiment Report. IEEE International Conference on AI & Mobile Services (AIMS), 109--112.
+P. Jamshidi, A. Ahmad and C. Pahl. 2013. Cloud Migration Research: A Systematic Review. IEEE Transaction on Cloud Computing, Vol. 1, No. 2, 142--157.
+P. Jamshidi, C. Pahl, S. Chinenyeze, X. Liu. 2015. Cloud Migration Patterns: A Multi-cloud Service Architectural Perspective. ICSOC 2014 Workshops, 6--19.
+T. Salah, M. Jamal Zemerly, Chan Yeob Yeun, M. Al-Qutayri and Y. Al-Hammadi. 2016. The Evolution of Distributed Systems Towards Microservices Architecture. The 11th International Conference for Internet Technology and Secured Transactions (ICITST), 318--325.
+M. Razavian, P. Lago. 2010. A Frame of Reference for SOA Migration. Towards a Service-Based Internet. ServiceWave 2010, 150--162.
+L. O'Brien, P. Brebner, J. Gray. 2008. Business Transformation to SOA: Aspects of the Migration and Performance and QoS Issues. Proceedings of the 2nd international workshop on Systems development in SOA environments (SDSOA 2008), 35--40.
+S. Klock, J. M. E. M. V. D. Werf, J. P. Guelen and S. Jansen. 2017. Workload-Based Clustering of Coherent Feature Sets in Microservice Architectures. 2017 IEEE International Conference on Software Architecture (ICSA), 11--20.
+S. Hassan, N. Ali and R. Bahsoon. 2017. Microservice Ambients: An Architectural Meta-Modelling Approach for Microservice Granularity. 2017 IEEE International Conference on Software Architecture (ICSA), 1--10.
+R. Chen, S. Li, Z. Li. 2017. From Monolith to Microservices: A Dataflow-Driven Approach, 2017 24th Asia-Pacific Software Engineering Conference (APSEC), 466--475.
+S. Li. 2017. Understanding Quality Attributes in Microservice Architecture, 2017 24th Asia-Pacific Software Engineering Conference Workshops (APSECW), 9--10.
+N. Alshuqayran, N. Ali and R. Evans. 2018. Towards Micro Service Architecture Recovery: An Empirical Study. 2018 IEEE International Conference on Software Architecture (ICSA), 47--56.
+X. Zhou, X. Peng, T. Xie, J. Sun, C. Xu, C. Ji, D. Zhou, W. Zhao. 2018. Benchmarking Microservice Systems for Software Engineering Research. Proceedings of the 40th International Conference on Software Engineering: Companion Proceeedings (ICSE), 323--324.
+X. Zhou, X. Peng, T. Xie, J. Sun, W. Li, C. Ji, D. Ding. 2018. Delta Debugging Microservice Systems. Proceedings of the 33rd ACM/IEEE International Conference on Automated Software Engineering (ASE), 802--807.
+M. Gysel, L. Kolbener, W. Giersche, and O. Zimmermann. 2016. Service Cutter: A systematic approach to service decomposition, In Proc. ESOCC 2016. Springer, 2016, 185--200.
+Syed Ali. 2015. <i>Configuration Management with Puppet.</i> Apress, Berkeley, CA, 109--135.
+Armin Balalaie , Abbas Heydarnoori , Pooyan Jamshidi, Microservices Architecture Enables DevOps: Migration to a Cloud-Native Architecture, IEEE Software, v.33 n.3, p.42-52, May 2016 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/MS.2016.64">10.1109/MS.2016.64</a>]
+Xavier Blanc , Isabelle Mounier , Alix Mougenot , Tom Mens, Detecting model inconsistency through operation-based model construction, Proceedings of the 30th international conference on Software engineering, May 10-18, 2008, Leipzig, Germany </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/1368088.1368158">10.1145/1368088.1368158</a>]
+Carl Boettiger, An introduction to Docker for reproducible research, ACM SIGOPS Operating Systems Review, v.49 n.1, January 2015 </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2723872.2723882">10.1145/2723872.2723882</a>]
+William H. Brown , Raphael C. Malveau , Hays W. Skip McCormick , Thomas J. Mowbray, AntiPatterns: Refactoring Software, Architectures, and Projects in Crisis, John Wiley &amp; Sons, Inc., New York, NY, 1998 </a>
+CoreOS. 2017. RKT - A security-minded, standards-based container engine. https://coreos.com/rkt/. (2017).
+Gan Deng , Douglas C. Schmidt , Aniruddha Gokhale, CaDAnCE: A Criticality-Aware Deployment and Configuration Engine, Proceedings of the 2008 11th IEEE Symposium on Object Oriented Real-Time Distributed Computing, p.317-321, May 05-07, 2008 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/ISORC.2008.58">10.1109/ISORC.2008.58</a>]
+DevOps.com and ClusterHQ. 2016. Container market adoption - Survey 2016. https://clusterhq.com/assets/pdfs/state-of-container-usage-june-2016.pdf. (jun 2016).
+W. Felter, A. Ferreira, R. Rajamony, and J. Rubio. 2015. An updated performance comparison of virtual machines and Linux containers. In <i>Performance Analysis of Systems and Software (ISPASS), 2015 IEEE International Symposium on.</i> 171--172.
+Nicolas Ferry , Hui Song , Alessandro Rossini , Franck Chauvel , Arnor Solberg, Cloud MF: Applying MDE to Tame the Complexity of Managing Multi-cloud Applications, Proceedings of the 2014 IEEE/ACM 7th International Conference on Utility and Cloud Computing, p.269-277, December 08-11, 2014 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/UCC.2014.36">10.1109/UCC.2014.36</a>]
+Areski Flissi , J&#233;r&#233;my Dubus , Nicolas Dolet , Philippe Merle, Deploying on the Grid with DeployWare, Proceedings of the 2008 Eighth IEEE International Symposium on Cluster Computing and the Grid, p.177-184, May 19-22, 2008 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/CCGRID.2008.59">10.1109/CCGRID.2008.59</a>]
+Martin Fowler, Domain Specific Languages, Addison-Wesley Professional, 2010 </a>
+HashiCorp. 2017. Vagrant - DEVELOPMENT ENVIRONMENTS MADE EASY. https://www.vagrantup.com/. (2017).
+Oscar Henriksson. 2017. Static Vulnerability Analysis of Docker Images. http://www.diva-portal.se/smash/get/diva2:1118087/FULLTEXT02.pdf. (2017).
+Matthias Marschall, Chef Infrastructure Automation Cookbook, Packt Publishing, 2013 </a>
+Dirk Merkel, Docker: lightweight Linux containers for consistent development and deployment, Linux Journal, v.2014 n.239, p.2, March 2014 </a>
+Roberto Morabito , Jimmy Kj&#228;llman , Miika Komu, Hypervisors vs. Lightweight Virtualization: A Performance Comparison, Proceedings of the 2015 IEEE International Conference on Cloud Engineering, p.386-393, March 09-13, 2015 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/IC2E.2015.74">10.1109/IC2E.2015.74</a>]
+S&#233;bastien Mosser , Mireille Blay-Fornarino , Laurence Duchien, A commutative model composition operator to support software adaptation, Proceedings of the 8th European conference on Modelling Foundations and Applications, p.4-19, July 02-05, 2012, Kgs. Lyngby, Denmark </a> &nbsp;[doi><a href="https://dx.doi.org/10.1007/978-3-642-31491-9_3">10.1007/978-3-642-31491-9_3</a>]
+Irakli Nadareishvili , Ronnie Mitra , Matt McLarty , Mike Amundsen, Microservice Architecture: Aligning Principles, Practices, and Culture, O'Reilly Media, Inc., 2016 </a>
+Ren&#233; Peinl , Florian Holzschuher , Florian Pfitzer, Docker Cluster Management for the Cloud - Survey Results and Own Solution, Journal of Grid Computing, v.14 n.2, p.265-282, June 2016 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1007/s10723-016-9366-y">10.1007/s10723-016-9366-y</a>]
+Rami Rosen, Linux containers and the future cloud, Linux Journal, v.2014 n.240, p.3, April 2014 </a>
+Gareth Rushgrove. 2015. Over 30High Priority Security Vulnerabilities. https://banyanops.com/pdf/BanyanOps-AnalyzingDockerHub-WhitePaper.pdf. (jun 2015).
+Gareth Rushgrove. 2016. DockerCon16 - The Dockerfile Explosion and the Need for Higher Level Tools by Gareth Rushgrove. https://goo.gl/86XPrq. (jun 2016).
+Mark E. Stickel, A Unification Algorithm for Associative-Commutative Functions, Journal of the ACM (JACM), v.28 n.3, p.423-434, July 1981 </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/322261.322262">10.1145/322261.322262</a>]
+Miguel G. Xavier , Marcelo V. Neves , Fabio D. Rossi , Tiago C. Ferreto , Timoteo Lange , Cesar A. F. De Rose, Performance Evaluation of Container-Based Virtualization for High Performance Computing Environments, Proceedings of the 2013 21st Euromicro International Conference on Parallel, Distributed, and Network-Based Processing, p.233-240, February 27-March 01, 2013 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1109/PDP.2013.41">10.1109/PDP.2013.41</a>]
+A. A. Almonaies, J. R. Cordy, and T. R. Dean. Legacy System Evolution towards Service-Oriented Architecture. In Proc. Intl. Workshop on SOA Migration and Evolution (SOAME 2010), 2010.
+Steffen Becker , Heiko Koziolek , Ralf Reussner, The Palladio component model for model-driven performance prediction, Journal of Systems and Software, v.82 n.1, p.3-22, January, 2009 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1016/j.jss.2008.03.066">10.1016/j.jss.2008.03.066</a>]
+Paul C. Brebner, Performance modeling for service oriented architectures, Companion of the 30th international conference on Software engineering, May 10-18, 2008, Leipzig, Germany </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/1370175.1370204">10.1145/1370175.1370204</a>]
+U. Breitenb&#252;cher, O. Kopp, F. Leymann, M. Reiter, D. Roller, and T. Unger. Six Strategies for Building High Performance SOA Applications. In Proc. 4th Central-European Workshop on Services and their Composition (ZEUS 2012), 2012.
+E. Di Nitto , D. Meil&#228;nder , S. Gorlatch , A. Metzger , H. Psaier , S. Dustdar , M. Razavian , D. A. Tamburri , P. Lago, Research challenges on engineering service-oriented applications, Proceedings of the First International Workshop on European Software Services and Systems Research: Results and Challenges, p.14-20, June 05-05, 2012, Zurich, Switzerland </a>
+R. Khadka, A. Idu, A. Saeidi, J. Hage, and S. Jansen. Legacy to SOA Evolution: A Systematic Literature Review. In Migrating Legacy Applications -- Challenges in Service Oriented Architecture and Cloud Computing Environments. Premier Reference Source, 2013.
+H. Knoche, A. van Hoorn, W. Goerigk, and W. Hasselbring. Automated Source-Level Instrumentation for Dynamic Dependency Analysis of COBOL Systems. In Proc. 14. Workshop Software-Reengineering (WSR 2012), 2012.
+J. Lewis and M. Fowler. Microservices, 2014. http://martinfowler.com/articles/microservices.html, last accessed: 2015-09--21.
+Marin Litoiu, Migrating to web services: a performance engineering approach, Journal of Software Maintenance and Evolution: Research and Practice, v.16 n.1-2, p.51-70, January-April 2004 </a> &nbsp;[doi><a href="https://dx.doi.org/10.1002/smr.285">10.1002/smr.285</a>]
+P. Merkle and H. Knoche. Extending the Palladio Component Model to Analyze Data Contention for Modernizing Transactional Software Towards Service-Orientation. In Symposium on Software Performance (SSP 2015), 2015. To appear.
+S. Newman. Building Microservices. O'Reilly, Sebastopol, CA, 2015.
+Liam O'Brien , Paul Brebner , Jon Gray, Business transformation to SOA: aspects of the migration and performance and QoS issues, Proceedings of the 2nd international workshop on Systems development in SOA environments, May 11-11, 2008, Leipzig, Germany </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/1370916.1370925">10.1145/1370916.1370925</a>]
+Guy Pardon , Cesare Pautasso, Atomic distributed transactions: a RESTful design, Proceedings of the 23rd International Conference on World Wide Web, April 07-11, 2014, Seoul, Korea </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2567948.2579221">10.1145/2567948.2579221</a>]
+M. Razavian and P. Lago. A Frame of Reference for SOA Migration. In Towards a Service-Based Internet, volume 6481 of Lecture Notes in Computer Science. Springer, 2010.
+Maryam Razavian , Patricia Lago, Towards a conceptual framework for legacy to SOA migration, Proceedings of the 2009 international conference on Service-oriented computing, November 23-27, 2009, Stockholm, Sweden </a>
+Maryam Razavian , Patricia Lago, A lean and mean strategy for migration to services, Proceedings of the WICSA/ECSA 2012 Companion Volume, August 20-24, 2012, Helsinki, Finland </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2361999.2362009">10.1145/2361999.2362009</a>]
+Robert C. seacord , Daniel Plakosh , Grace A. Lewis, Modernizing Legacy Systems: Software Technologies, Engineering Process and Business Practices, Addison-Wesley Longman Publishing Co., Inc., Boston, MA, 2003 </a>
+Andr&#233; van Hoorn , Jan Waller , Wilhelm Hasselbring, Kieker: a framework for application performance monitoring and dynamic software analysis, Proceedings of the 3rd ACM/SPEC International Conference on Performance Engineering, April 22-25, 2012, Boston, Massachusetts, USA </a> &nbsp;[doi><a href="http://doi.acm.org/10.1145/2188286.2188326">10.1145/2188286.2188326</a>]

@@ -1,0 +1,176 @@
+Migrating to cloud-native architectures using microservices: an experience report
+Microservices Architecture Enables DevOps Migration to a Cloud-Native Architecture
+GROUNDED THEORY RESEARCH - PROCEDURES, CANONS AND EVALUATIVE CRITERIA
+Experience with Fagan's Inspection Method. Software-Practice Experience
+An open graph visualization system and its applications to software engineering
+Enhancing the OPEN Process Framework with service-oriented method fragments
+Comparison of method chunks and method fragments for situational method engineering
+Three approaches to qualitative content analysis
+Cloud migration patterns: a multi-cloud architectural perspective .
+Cloud Migration Research: A Systematic Review
+Pattern-based multi-cloud architecture migration
+Content analysis
+Understanding cloud-native applications after 10 years of cloud computing - A systematic mapping study
+SOFTWARE MODERNIZATION AND CLOUDIFICATION USING THE ARTIST MIGRATION METHODOLOGY AND FRAMEWORK
+Situational method engineering: combining assembly-based and roadmap-driven approaches
+Microservices: a systematic mapping study
+Microservices in Practice, Part 1 Reality Check and Service Design
+Goal formalisation and classification for requirements engineering
+Practice-driven research on enterprise transformation .
+Software release management for component-based software
+Software architecture recovery using conway's law
+A METRICS SUITE FOR OBJECT-ORIENTED DESIGN
+The making of cloud applications: An empirical study on software development for the cloud
+CVS release history data for detecting logical couplings
+Service Cutter: A Systematic Approach to Service Decomposition
+Supervised and Traditional Term Weighting Methods for Automatic Text Categorization
+Towards a technique for extracting microservices from monolithic enterprise systems
+Identification of high-level concept clones in source code
+The single responsibility principle
+Microservices: a systematic mapping study
+CRITERIA TO BE USED IN DECOMPOSING SYSTEMS INTO MODULES
+The conceptual coupling metrics for object-oriented systems
+Using tf-idf to determine word relevance in document queries
+All the services large and micro: Revisiting industrial practice in services computing
+Microservices
+A View of Cloud Computing
+Business strategic orientation, information systems strategic orientation, and strategic alignment
+A distributed architecture for multiplayer interactive applications on the Internet
+Strategic Alignment: Leveraging Information Technology for Tranforming Organization
+Detours in the path toward strategic information systems alignment
+On micro-services architecture
+Business transformation to SOA: aspects of the migration and performance and QoS issues
+The Enterprise Service Bus: Making service-oriented architecture real
+From Containers to Microservices: How to Modernize Legacy Applications
+Classification and comparison of architecture evolution reuse knowledge-a systematic review
+Microservices migration patterns
+Migrating to Cloud-Native Architectures Using Microservices: An Experience Report
+Performance-Oriented DevOps: A Research Agenda
+Cloud Migration Patterns: A Multi-cloud Architectural Perspective
+Cloud Migration Research: A Systematic Review
+Containerization and the PaaS Cloud
+Migrating Legacy Software to the Cloud with ARTIST
+Reconstructing archi-tectural views from legacy systems
+Modisco: A generic and extensible framework for model driven reverse engineering
+An Architecture-Driven Modernization Tool for Calculating Metrics
+Modernizing legacy software using a system grokking technology
+Analysing software repositories to understand software evolution
+Combined Visualization of Structural and Metric Information for Software Evolution Analysis
+Visualization and Evolution of Software Architectures
+Understanding software evolution using a combination of software visualization and software metrics
+Approaches to clustering for program comprehension and remodularization
+Visualizing software architecture evolution using change-sets
+Solutions for Reverse Engineering 4GL Applications, Recovering the Design of a Logistical Wholesale System
+SPLIT: An Automated Approach for Enterprise Product Line Adoption Through SOA
+Software modernization by recovering Web services from legacy databases
+Recovering business rules from legacy source code for system modernization
+Information Systems Transformation Architecture-Driven Modernization Case Studies Preface
+Mining software repositories with cvsgrab
+Legacy System Evolution Towards Service-Oriented Architecture
+The Palladio component model for model-driven performance prediction
+Six Strategies for Building High Performance SOA Applications
+Research Challenges on Engineering Service-oriented Applications
+Legacy to SOA evolution: a systematic literature review
+Automated Source-Level Instrumentation for Dynamic Dependency Analysis of COBOL Systems
+Migrating to Web Services: A Performance Engineering Approach
+Extending the Palladio Component Model to Analyze Data Contention for Modernizing Transactional Software Towards Service-Orientation
+Business Transformation to SOA: Aspects of the Migration and Performance and QoS Issues
+Atomic Distributed Transactions: A RESTful Design
+Towards a Conceptual Framework for Legacy to SOA Migration
+A Frame of Reference for SOA Migration
+A Lean and Mean Strategy for Migration to Services
+Kieker: A Framework for Application Performance Monitoring and Dynamic Software Analysis
+Dependency management in software component deployment
+Self-Reconfiguring Microservices
+The OS Faces a Brave New World
+On micro- services architecture
+Virtual appliances for deploying and maintaining software
+A New Virtualized Environment for Application Deployment Based on Docker and AWS
+An architecture for self-managing microservices
+MODAClouds: a model-driven approach for the design and execution of applications on multiple clouds
+Migrating Legacy Software to the Cloud with ARTIST
+Service Migration Patterns Decision Support and Best Practices for the Migration of Existing Service-based Applications to Cloud Environments
+Cloud Migration Patterns: A Multi-cloud Architectural Perspective
+Cloud Migration Research: A Systematic Review
+Architectural Options for Cloud Migration
+Microservices Architecture Enables DevOps Migration to a Cloud-Native Architecture
+Microservice Architectures for Scalability, Agility and Reliability in E-Commerce
+The dublo architecture pattern for smooth migration of business information systems: An experience report
+Microservices Architecture Enables DevOps Migration to a Cloud-Native Architecture
+A Context-Aware Framework for Dynamic Composition of Process Fragments in the Internet of Services
+HOW DO COMMITTEES INVENT
+Microservices: How to Make Your Application Scale
+Microservices: Yesterday, today, and tomorrow
+Microservices: A Language-Based Approach
+Understanding cloud-native applications after 10 years of cloud computing - A systematic mapping study
+Domain Objects and Microservices for Systems Development: A Roadmap
+Microservices: A Systematic Mapping Study
+CRITERIA TO BE USED IN DECOMPOSING SYSTEMS INTO MODULES
+Business process modeling: classifications and perspectives
+REENGINEERING DATA-CENTRIC INFORMATION SYSTEMS FOR THE CLOUD - A METHOD AND ARCHITECTURAL PATTERNS PROMOTING MULTITENANCY
+Cloud migration process-A survey, evaluation framework, and open challenges
+HYPERSCALABILITY - THE CHANGING FACE OF SOFTWARE ARCHITECTURE
+Dave Thomas on Innovating Legacy Systems
+Defining multi-tenancy: A systematic mapping study on the academic and the industrial perspective
+SQLVM: Performance Isolation in Multi-tenant Relational Database-as-a-Service
+Microservices in Practice, Part 1 Reality Check and Service Design
+STeP: Scalable Tenant Placement for Managing Database-as-a-Service Deployments
+Eventually Consistent
+Comparing PaaS offerings in light of SaaS development
+Architectural Decision Guidance across Projects-Problem Space Modeling, Decision Backlog Management and Cloud Computing Knowledge
+Microservices tenets Agile approach to service development and deployment
+THE PRAGMATIC ARCHITECT Architectural Refactoring A Task-Centric View on Software Evolution
+Requirements Reconciliation for Scalable and Secure Microservice (De) composition
+Software Architecture Decomposition Using Clustering Techniques
+A Systematic Mapping Study in Microservice Architecture
+Microservices Approach for the Internet of Things
+Challenges in Delivering Software in the Cloud as Microservices
+Gru: an Approach to Introduce Decentralized Autonomic Behavior in Microservices Architectures
+Microservices Architecture based Cloudware Deployment Platform for Service Computing
+Decision Guidance Models for Microservice Monitoring
+Microservices and Their Design Trade-offs: A Self-Adaptive Roadmap
+Microservice Architectures for Scalability, Agility and Reliability in E-Commerce
+Container and Microservice Driven Design for Cloud Infrastructure DevOps
+Validation of Software Component selection algorithms based on Clustering
+The ENTICE Approach to Decompose Monolithic Services into Microservices
+Microservices validation: Mjolnirr platform case study
+Efficiency Analysis of Provisioning Microservices
+Designing a Smart City Internet of Things Platform with Microservice Architecture
+Migrating to Cloud-Native Architectures Using Microservices: An Experience Report
+Microservices Architecture Enables DevOps Migration to a Cloud-Native Architecture
+Challenges in Delivering Software in the Cloud as Microservices
+The Hidden Dividends of Microservices
+Microservices: A Systematic Mapping Study
+The Economics of Microservices
+Microservices in Agile Software Development: A Workshop-Based Study into Issues, Advantages, and Disadvantages
+A semantic engine for portin applications to the cloud and among clouds
+An Updated Performance Comparison of Virtual Machines and Linux Containers
+Covrig: A framework for the analysis of code, test, and coverage evolution in real software
+Transforming attribute and cloneenabled feature models into constraint programs over finite domains
+Docker: Lightweight linux containers for consistent development and deployment
+Holistic Performance Monitoring of Hybrid Clouds: Complexities and Future Directions
+Evaluating the Monolithic and the Microservice Architecture Pattern to Deploy Web Applications in the Cloud
+A systematic mapping study in microservice architecture
+Towards recovering the software architecture of microservice-based system
+Overview of domain-driven design approach to build microservice-based applications
+An architecture for self-managing microservices
+Toward Service Oriented Design for Reservation-based Parking
+Performance Notification in a Reservation-based Parking System
+The art of scalability: Scalable web architecture, processes, and organizations for the modern enterprise
+AN ALGEBRA FOR DATA FLOW DIAGRAM PROCESS DECOMPOSITION
+A Systematic Mapping Study in Microservice Architecture
+Decomposition of data flow diagrams
+Service Cutter: A Systematic Approach to Service Decomposition
+Microservice Ambients: An Architectural Meta-modelling Approach for Microservice Granularity
+MICROSERVICES Lightweight Service Descriptions for REST Architectural Style
+Leveraging microservices architecture by using Docker technology
+The ENTICE Approach to Decompose Monolithic Services into Microservices
+Scalable Microservice Based Architecture For Enabling DMTF Profiles
+QoS decomposition for service composition using genetic algorithm
+Pattern: Microservice architecture
+Introduction to Microservices[EB/OL]
+Achieving cloud scalability with microservices and DevOps in the connected car domain
+A decomposition-based approach for service composition with global QoS guarantees
+Architecture of an Interoperable IoT Platform Based on Microservices
+Secret communications over semi-deterministic broadcast channels
+Microservices tenets Agile approach to service development and deployment
